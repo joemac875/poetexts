@@ -8,16 +8,20 @@ class XML2DataFrame:
     A super hacky parser for XML data to get it into a pandas dataframe
     '''
 
-    def __init__(self, analysis_tags={}, text_tag='l', namespace='', error_file='errors.txt'):
+    def __init__(self, analysis_tags={}, text_tag='l', namespace='',title_tag = 'title', error_file='errors.txt', author_tag='persName'):
         # A dictionary of analysis tags as keys and the list of acceptable inputs as values
         self.analysis_tags = analysis_tags
+
         # If a namespace if used in xml then '{namespace}' precedes each tag in the tagging
         self.namespace = '{' + namespace + '}'
+        self.text_tag = self.namespace + text_tag
+        self.author_tag = self.namespace + author_tag
+        self.title_tag = self.namespace + title_tag
         self.error_file = error_file
         with open(error_file, 'w+') as output:
             output.write("Error Log \n")
 
-        self.text_tag = self.namespace + text_tag
+
 
     def xmls_to_dataframe(self, directory):
         '''
@@ -29,6 +33,8 @@ class XML2DataFrame:
         # Create a list to hold the column names and append the keys of the analysis tags at first
         col_names = list(self.analysis_tags.keys())
         col_names.append('text')
+        col_names.append('author')
+        col_names.append('title')
         # Create empty dataframe
         dataframe = pd.DataFrame(columns=col_names)
 
@@ -53,7 +59,7 @@ class XML2DataFrame:
 
         tree = ET.parse(xml_file)
         # create the dictionary that will be returned
-        data = {'text': ''}
+        data = {'text': '', 'author':[], 'title': ''}
         # add all of the analysis labels
         [data.update({tag: None}) for tag in self.analysis_tags.keys()]
         # go through each element in the XML
@@ -61,7 +67,22 @@ class XML2DataFrame:
             # check to see if the tag corresponds to poem text
             if element.tag == self.text_tag:
                 # concatenate text to current text
-                data['text'] = data['text'] + element.text + '\n'
+                if element.text is not None:
+                    data['text'] = data['text'] + element.text + '\n'
+            elif element.tag == self.author_tag:
+                # append author
+                if element.text is not None:
+                    data['author'].append(element.text)
+                else:
+                    self.write_error(xml_file, 'Missing author in author tag')
+                    return None
+            elif element.tag == self.title_tag:
+                # append author
+                if element.text is not None:
+                    data['title'] = element.text
+                else:
+                    self.write_error(xml_file, 'Missing title in title tag')
+                    return None
             # check to see if the element is an analysis tag
             elif element.attrib.get('ana') is not None:
                 # remove the # from the tag
@@ -75,6 +96,7 @@ class XML2DataFrame:
                         self.write_error(xml_file, "analysis tag does not contain proper value")
                         return None
         if data['text'] != '':
+
             return data
         else:
             self.write_error(xml_file, "no text")
