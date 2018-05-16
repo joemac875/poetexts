@@ -13,7 +13,9 @@ application.config.update(dict(
     ERROR='errors.txt',
     # analysis tags are used to set bounds on the types of analysis that can be picked from and the
     # range of values for each tag that can be added
-    analysis_tags={'form': ['sonnet', 'free'], 'tone': ['happy', 'sad'], 'topic': ['love', 'war'], 'figurative': ['yes', 'no']}
+    analysis_tags={'form': ['sonnet', 'free','haiku'], 'tone': ['happy', 'sad','indifferent'], \
+                   'topic': ['love', 'war','environment','education','history',],\
+                   'figurative': ['yes', 'no']}
 ))
 
 
@@ -72,5 +74,5 @@ def get_dataframe():
 if __name__ == "__main__":
     # Setting debug to True enables debug output. This line should be
     # removed before deploying a production app.
-    application.debug = True
+    application.debug = False
     application.run()
