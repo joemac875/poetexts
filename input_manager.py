@@ -1,7 +1,6 @@
 import serial
 import time
 import threading
-ser = serial.Serial('/dev/cu.usbmodem1421',9600)
 
 #Potentiometer range
 POT_RANGE = 1024
@@ -14,8 +13,8 @@ class InputManager():
 
     def read_raw_inputs(self):
         # Read in all the info waiting in the serial connection
-        serial_content = ser.read(ser.inWaiting())
-
+        serial_content = self.ser.read(self.ser.inWaiting())
+        print(serial_content)
         try:
             serial_content = serial_content.decode()
             split_content = serial_content.split('\n')
