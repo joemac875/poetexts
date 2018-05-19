@@ -4,7 +4,7 @@ import requests
 import re
 
 # URL for Poem Server
-poem_server = 'http://127.0.0.1:5000'
+poem_server = 'http://poembox-dev.us-west-2.elasticbeanstalk.com'
 # Create an SNS client
 client = boto3.client(
     "sns",
@@ -13,7 +13,7 @@ client = boto3.client(
     region_name="us-east-1"
 )
 
-inputs = InputManager('/dev/cu.usbmodem1421', 9600)
+inputs = InputManager('/dev/ttyACM0', 9600)
 inputs.add_input('16', ['sonnet', 'free','haiku'], 'form',1024)
 inputs.add_input('15', ['happy', 'sad','indifferent'], 'tone', 1024)
 inputs.add_input('14', ['love', 'war', 'environment', 'education', 'history'], 'topic', 1024)
