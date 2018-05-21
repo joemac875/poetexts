@@ -58,9 +58,13 @@ This will set up a hidden `elasticbeanstalk` folder containing all of the inform
 `eb create`
 
 This creates an EB environment to house your application in and deploys the app (it will prompt you for a few things,
-but the default values should suffice).
+but the default values should suffice). Now you can use
 
-**From now on**, if you make changes to the server, like adding tags, changing tags, adding poems, or changing poems, just use
+`eb open`
+
+which will open your browser and take you to the service.
+
+**From now on, if you make changes to the server, like adding tags, changing tags, adding poems, or changing poems, just use**
 
 `eb deploy`
 
