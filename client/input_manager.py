@@ -2,8 +2,6 @@ import serial
 import time
 import threading
 
-#Potentiometer range
-POT_RANGE = 1024
 
 class InputManager():
     def __init__(self, connection, baud_rate):
@@ -14,7 +12,7 @@ class InputManager():
     def read_raw_inputs(self):
         # Read in all the info waiting in the serial connection
         serial_content = self.ser.read(self.ser.inWaiting())
-        #print(serial_content)
+        # print(serial_content)
         try:
             serial_content = serial_content.decode()
             split_content = serial_content.split('\n')
@@ -47,6 +45,7 @@ class InputManager():
             print(e)
             return None
 
+
 class Input():
     def __init__(self, features, label, reading_range):
         self.features = features
@@ -60,31 +59,25 @@ class Input():
         return self.label, self.features[index]
 
 
-class InputThread (threading.Thread):
-   def __init__(self, threadID, name, counter, inputs):
-      threading.Thread.__init__(self)
-      self.threadID = threadID
-      self.name = name
-      self.inputs = inputs
-      self.counter = counter
-      self.input_readings = {}
-   def run(self):
-      print ("Starting " + self.name)
-      self.continuous_read()
-      print ("Exiting " + self.name)
-   def continuous_read(self):
-      while True:
-          time.sleep(.1)
-          #print (self.inputs.get_inputs())
-          self.input_readings = self.inputs.get_inputs()
-   def get_readings(self):
-       return self.input_readings
+class InputThread(threading.Thread):
+    def __init__(self, threadID, name, counter, inputs):
+        threading.Thread.__init__(self)
+        self.threadID = threadID
+        self.name = name
+        self.inputs = inputs
+        self.counter = counter
+        self.input_readings = {}
 
+    def run(self):
+        print ("Starting " + self.name)
+        self.continuous_read()
+        print ("Exiting " + self.name)
 
+    def continuous_read(self):
+        while True:
+            time.sleep(.1)
+            # print (self.inputs.get_inputs())
+            self.input_readings = self.inputs.get_inputs()
 
-
-
-
-
-
-
+    def get_readings(self):
+        return self.input_readings
