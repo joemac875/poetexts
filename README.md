@@ -21,5 +21,22 @@ The Arduino is solely responsible for handling analog input. It is connected to 
 ![Arduino Pin Diagram](https://image.ibb.co/fzNxAo/Arduino_Sketch_bb.png)
 
 
+# Usage
+
+1. Upload the Arduino sketch to an Arduino
+2. Connect the Arduino to the Raspberry Pi with a USB cable
+3. Deploy the poem web service using the readme.md  in the server directory
+4. Make sure the correct URL of the web service is in `main.py` of the client ( see the readme in client directory)
+5. Make sure legal AWS credentials are in `main.py` ( see the readme in client directory)
+6. Run the client ( see readme in client directory)
+
+# Making Changes
+
+In order to add analysis tags or change them 
+
+1. Add inputs in the Arduino sketch (see the code for comments)
+2. Add inputs in the client `main.py` (see the readme)
+3. Edit the accepted tags and values on the web service (see the readme)
+
 
 
