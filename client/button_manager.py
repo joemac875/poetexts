@@ -1,7 +1,11 @@
 import RPi.GPIO as GPIO
 import time
 
+
 class ButtonManager():
+    '''
+    Handles the input of a two buttons and corresponding LEDS
+    '''
     def __init__(self, go_pin, reset_pin, go_ahead_light, stop_light, reset_time):
         GPIO.setmode(GPIO.BCM)
         GPIO.setwarnings(False)
@@ -15,17 +19,22 @@ class ButtonManager():
         self.time_since_trigger = time.time()
         GPIO.setup(self.reset_pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
         GPIO.setup(self.go_pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
-        GPIO.setup(self.go_ahead_light,GPIO.OUT)
-        GPIO.setup(self.stop_light,GPIO.OUT)
-        
+        GPIO.setup(self.go_ahead_light, GPIO.OUT)
+        GPIO.setup(self.stop_light, GPIO.OUT)
 
     def check(self):
+        '''
+        :return:
+            0 - The go pin hasn't been activated and hasn't been reset
+            1 - The go pin has just been activated
+            2 - The  reset pin has just been activated
+        '''
         go = GPIO.input(self.go_pin)
         reset = GPIO.input(self.reset_pin)
         if go == False:
             if self.pressed == False:
                 if time.time() - self.time_since_trigger > self.button_reset:
-                    #print('Button Pressed')
+                    # print('Button Pressed')
                     GPIO.output(self.go_ahead_light, GPIO.LOW)
                     GPIO.output(self.stop_light, GPIO.HIGH)
                     self.time_since_trigger = time.time()
@@ -36,16 +45,7 @@ class ButtonManager():
                 GPIO.output(self.go_ahead_light, GPIO.HIGH)
                 GPIO.output(self.stop_light, GPIO.LOW)
             if self.pressed == True:
-                #print('Button Reset')
+                # print('Button Reset')
                 self.pressed = False
                 return 2
         return 0
-
-
-
-
-
-
-
-        
-
