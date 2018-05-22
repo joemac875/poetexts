@@ -2,6 +2,7 @@ import termios, fcntl, sys, os
 import time
 import Adafruit_CharLCD as LCD
 import threading
+import pyxhook
 
 fd = sys.stdin.fileno()
 
@@ -34,34 +35,34 @@ class ScreenManager():
         # Create an empty message
         self.message = ''
         # All the following used for continually grabbing input
-        self.oldterm = termios.tcgetattr(fd)
-        self.newattr = termios.tcgetattr(fd)
-        self.newattr[3] = self.newattr[3] & ~termios.ICANON & ~termios.ECHO
-        termios.tcsetattr(fd, termios.TCSANOW, self.newattr)
-        self.oldflags = fcntl.fcntl(fd, fcntl.F_GETFL)
-        fcntl.fcntl(fd, fcntl.F_SETFL, self.oldflags | os.O_NONBLOCK)
+        self.new_hook = pyxhook.HookManager()
+        self.new_hook.KeyDown = self.OnKeyPress
+        #hook the keyboard
+        self.new_hook.HookKeyboard()
+        self.new_hook.start()
 
-    def wait_for_input(self):
+    def OnKeyPress(self, event):
         '''
         Checks to see if any key is being pressed and changes the message on the screen
         :return: None
         '''
-        try:
-            c = sys.stdin.read(1)
-            # The delete key has been pressed
-            if c == '\x7f':
-                # Delete a  character
-                self.message = self.message[:-1]
-                self.lcd.clear()
-                self.lcd.message(self.message)
+        
+        c = event.Key
+        #print(c)
+        if c == '\x7f':
+            # Delete a  character
+            self.message = self.message[:-1]
+            self.lcd.clear()
+            self.lcd.message(self.message)
             # Some other key has been pressed
-            elif c != '':
-                # Add the Character
-                self.message = self.message + c
-                self.lcd.clear()
-                self.lcd.message(self.message)
-        except IOError:
-            pass
+        elif c != '':
+            # Add the Character
+            self.message = self.message + c
+            self.lcd.clear()
+            self.lcd.message(self.message)
+        if event.Ascii==96: #96 is the ascii value of the grave key (`)
+            fob.close()
+            new_hook.cancel()
 
     def reset(self):
         '''
@@ -100,12 +101,8 @@ class ScreenThread(threading.Thread):
 
     def run(self):
         print ("Starting " + self.name)
-        self.continuous_read()
+        self.screen_manager.new_hook.start()
         print ("Exiting " + self.name)
-
-    def continuous_read(self):
-        while True:
-            self.manager.wait_for_input()
 
     def notify_sent(self, success):
         self.manager.notify_sent(success)
@@ -115,3 +112,6 @@ class ScreenThread(threading.Thread):
 
     def get_message(self):
         return self.manager.get_message()
+#print('start')
+#bob = ScreenManager()
+

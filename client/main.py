@@ -21,13 +21,14 @@ inputs.add_input('15', ['happy', 'sad', 'indifferent'], 'tone', 1024)
 inputs.add_input('14', ['love', 'war', 'environment', 'education', 'history'], 'topic', 1024)
 
 button = ButtonManager(go_pin=18, reset_pin=23, go_ahead_light=12, stop_light=17, reset_time=0)
-
+screen = ScreenManager()
 # Create new threads
 thread1 = InputThread(1, "Input Manager Thread", 1, inputs)
-thread2 = ScreenThread(2, "Screen Manager Thread", ScreenManager())
+#thread2 = ScreenThread(2, "Screen Manager Thread", ScreenManager())
+
 # Start new Threads
 thread1.start()
-thread2.start()
+#thread2.start()
 
 while (1):
     check = button.check()
@@ -36,11 +37,11 @@ while (1):
         pass
     # BUtton pressed!
     elif check == 1:
-        number = thread2.get_message()
+        number = screen.get_message()
         clean_number = '+1' + re.sub("[^0-9]", "", number)
         print(clean_number)
         if len(clean_number) != 12:
-            thread2.notify_sent(False)
+            screen.notify_sent(False)
         else:
             readings = thread1.get_readings()
             r = requests.get(poem_server + '/poem', params=readings)
@@ -64,9 +65,9 @@ while (1):
                 PhoneNumber=clean_number,
                 Message=message
             )
-            thread2.notify_sent(True)
+            screen.notify_sent(True)
 
     # Button reset!
     elif check == 2:
-        thread2.reset()
+        screen.reset()
 
