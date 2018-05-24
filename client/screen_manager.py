@@ -1,10 +1,10 @@
-import termios, fcntl, sys, os
 import time
 import Adafruit_CharLCD as LCD
 import threading
 import pyxhook
 
-fd = sys.stdin.fileno()
+key_mapping = {'P_End':1, 'P_Down':2, 'P_Next':3, 'P_Left':4, 'P_Begin':5, \
+	       'P_Right':6, 'P_Home':7, 'P_Up':8, 'P_Page_Up':9, 'P_Insert':0}
 
 # Raspberry Pi pin configuration:
 lcd_rs = 26  # Note this might need to be changed to 21 for older revision Pi's.
@@ -24,13 +24,12 @@ class ScreenManager():
     '''
     Manages an LCD screen. Responsible for Sending messages to the screen
     '''
-    def __init__(self):
+    def __init__(self, base):
 
         # Initialize the LCD using the pins above.
         self.lcd = LCD.Adafruit_CharLCD(lcd_rs, lcd_en, lcd_d4, lcd_d5, lcd_d6, lcd_d7,
                                         lcd_columns, lcd_rows, lcd_backlight)
-        # Print a two line message
-        base = 'Enter Phone #\nto Get a Poem'
+        
         self.lcd.message(base)
         # Create an empty message
         self.message = ''
@@ -40,6 +39,7 @@ class ScreenManager():
         #hook the keyboard
         self.new_hook.HookKeyboard()
         self.new_hook.start()
+        
 
     def OnKeyPress(self, event):
         '''
@@ -48,42 +48,35 @@ class ScreenManager():
         '''
         
         c = event.Key
-        #print(c)
-        if c == '\x7f':
+        print(c)
+        if c == 'BackSpace':
             # Delete a  character
             self.message = self.message[:-1]
             self.lcd.clear()
             self.lcd.message(self.message)
             # Some other key has been pressed
-        elif c != '':
-            # Add the Character
-            self.message = self.message + c
-            self.lcd.clear()
-            self.lcd.message(self.message)
+        else:
+            try:
+                # Add the Character
+                c = str(key_mapping[c])
+                self.message = self.message + c
+                self.lcd.clear()
+                self.lcd.message(self.message)
+            except:
+                print("Non Number Entered")
         if event.Ascii==96: #96 is the ascii value of the grave key (`)
             fob.close()
             new_hook.cancel()
-
-    def reset(self):
+            
+    def clear_and_write(self, message):
         '''
-        Clears the screen and prints a default message to the screen
+        Clears the screen and prints a message to the screen
         :return: None
         '''
         self.lcd.clear()
+        # Reset the user inputted message
         self.message = ''
-        self.lcd.message('Enter Phone #\nto Get a Poem')
-
-    def notify_sent(self, success):
-        '''
-        Prints one of two messages (success or failure) to the screen
-        :param success: boolean value
-        :return: None
-        '''
-        self.lcd.clear()
-        if success:
-            self.lcd.message('Message Sent!')
-        else:
-            self.lcd.message('Unusable Phone #')
+        self.lcd.message(message)
 
     def get_message(self):
         '''
@@ -104,11 +97,8 @@ class ScreenThread(threading.Thread):
         self.screen_manager.new_hook.start()
         print ("Exiting " + self.name)
 
-    def notify_sent(self, success):
-        self.manager.notify_sent(success)
-
-    def reset(self):
-        self.manager.reset()
+    def clear_and_write(self, message):
+        self.manager.clear_and_write(message)
 
     def get_message(self):
         return self.manager.get_message()
