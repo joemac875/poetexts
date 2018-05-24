@@ -12,7 +12,7 @@ class InputManager():
     def read_raw_inputs(self):
         # Read in all the info waiting in the serial connection
         serial_content = self.ser.read(self.ser.inWaiting())
-        # print(serial_content)
+        #print(serial_content)
         try:
             serial_content = serial_content.decode()
             split_content = serial_content.split('\n')
@@ -76,8 +76,7 @@ class InputThread(threading.Thread):
     def continuous_read(self):
         while True:
             time.sleep(.1)
-            # print (self.inputs.get_inputs())
             self.input_readings = self.inputs.get_inputs()
-
+            #print (self.input_readings)
     def get_readings(self):
         return self.input_readings

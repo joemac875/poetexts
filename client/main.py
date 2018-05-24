@@ -48,10 +48,19 @@ while (1):
             try:
                 r = requests.get(poem_server + '/poem', params=readings)
             except:
-                screen.clear_and_write("Failure to\nFetch Poem")
+                screen.clear_and_write("Couldn't Connect\nTo Poem Server")
+                button.flash_leds(button.stop_light, 5, .05)
                 continue
             if r.status_code != 200:
-               screen.clear_and_write("Bad Request Made") 
+               screen.clear_and_write("Bad Request Made")
+               button.flash_leds(button.stop_light, 5, .05)
+               continue
+            if r.headers['Content-Type'] != 'application/json':
+                print(r.text)
+                screen.clear_and_write("Failure to\nFetch Poem")
+                button.flash_leds(button.stop_light, 5, .05)
+                continue
+                
             poem_json = r.json()
             matches = set(readings.items()) & set(poem_json.items())
 
