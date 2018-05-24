@@ -20,8 +20,8 @@ inputs.add_input('16', ['sonnet', 'free', 'haiku'], 'form', 1024)
 inputs.add_input('15', ['happy', 'sad', 'indifferent'], 'tone', 1024)
 inputs.add_input('14', ['love', 'war', 'environment', 'education', 'history'], 'topic', 1024)
 
-button = ButtonManager(go_pin=18, reset_pin=23, go_ahead_light=12, stop_light=17, reset_time=0)
-screen = ScreenManager()
+button = ButtonManager(go_pin=18, reset_pin=23, go_ahead_light=12, stop_light=17, reset_time=0, go_sound='/home/pi/pox/client/go.wav', reset_sound='/home/pi/pox/client/go.wav')
+screen = ScreenManager("Enter Phone #\nand Pull Lever")
 # Create new threads
 thread1 = InputThread(1, "Input Manager Thread", 1, inputs)
 #thread2 = ScreenThread(2, "Screen Manager Thread", ScreenManager())
@@ -41,10 +41,17 @@ while (1):
         clean_number = '+1' + re.sub("[^0-9]", "", number)
         print(clean_number)
         if len(clean_number) != 12:
-            screen.notify_sent(False)
+            screen.clear_and_write("Unusable Phone #")
+            button.flash_leds(button.stop_light, 5, .05)
         else:
             readings = thread1.get_readings()
-            r = requests.get(poem_server + '/poem', params=readings)
+            try:
+                r = requests.get(poem_server + '/poem', params=readings)
+            except:
+                screen.clear_and_write("Failure to\nFetch Poem")
+                continue
+            if r.status_code != 200:
+               screen.clear_and_write("Bad Request Made") 
             poem_json = r.json()
             matches = set(readings.items()) & set(poem_json.items())
 
@@ -65,9 +72,13 @@ while (1):
                 PhoneNumber=clean_number,
                 Message=message
             )
-            screen.notify_sent(True)
+            screen.clear_and_write("Message Sent")
+            button.flash_leds(button.go_ahead_light, 5, .05)
+            
 
     # Button reset!
     elif check == 2:
-        screen.reset()
+        
+        screen.clear_and_write("Enter Phone #\nand Pull Lever")
+        
 
