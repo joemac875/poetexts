@@ -20,7 +20,7 @@ inputs.add_input('16', ['sonnet', 'free', 'haiku'], 'form', 1024)
 inputs.add_input('15', ['happy', 'sad', 'indifferent'], 'tone', 1024)
 inputs.add_input('14', ['love', 'war', 'environment', 'education', 'history'], 'topic', 1024)
 
-button = ButtonManager(go_pin=18, reset_pin=23, go_ahead_light=12, stop_light=17, reset_time=0, go_sound='/home/pi/pox/client/go.wav', reset_sound='/home/pi/pox/client/go.wav')
+button = ButtonManager(go_pin=18, reset_pin=23, go_ahead_light=12, stop_light=17, reset_time=0, go_sound='/home/pi/pox/client/go.wav', reset_sound='/home/pi/pox/client/reset.wav')
 screen = ScreenManager("Enter Phone #\nand Pull Lever")
 # Create new threads
 thread1 = InputThread(1, "Input Manager Thread", 1, inputs)
