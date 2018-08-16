@@ -6,12 +6,12 @@ import requests
 import re
 
 # URL for Poem Server
-poem_server = 'http://poembox-dev.us-west-2.elasticbeanstalk.com'
+poem_server = 'http://pox-deploy.us-east-2.elasticbeanstalk.com'
 # Create an SNS client
 client = boto3.client(
     "sns",
-    aws_access_key_id="AKIAIFNKKMPWNMOPPMUQ",
-    aws_secret_access_key="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",
+    aws_access_key_id="AKIAIAFRQL7SJUH5TFJQ",
+    aws_secret_access_key="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",
     region_name="us-east-1"
 )
 

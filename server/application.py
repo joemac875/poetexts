@@ -17,7 +17,7 @@ application.config.update(dict(
     # range of values for each tag that can be added
     analysis_tags={'form': ['sonnet', 'free','haiku'], 'tone': ['happy', 'sad','indifferent'], \
                    'topic': ['love', 'war','environment','education','history'],\
-                   'figurative': ['yes', 'no']}
+                   }
 ))
 
 
