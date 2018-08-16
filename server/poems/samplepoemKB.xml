@@ -27,11 +27,10 @@
         
      
       <div xml:id="SonnetX"><!-- xml:id is a unique identifier - I think it will work better here than in the interpretations below. Plus, each sonnet will have a unique identifier and then the program can parse the interpretive analyses. If they want to add annotations, you can add those as notes and href links, no? -->
-              <interpGrp type="sonnet">
+              <interpGrp type="poembox">
                 <interp ana="#form" type="sonnet"></interp>
                 <interp ana="#tone" type="sad"></interp>
                 <interp ana="#topic" type="love"></interp>
-                <interp ana="figurative" type="no"></interp>
               </interpGrp>
              <lg> 
               <l>Those petty wrongs that liberty commits,</l>
