@@ -92,7 +92,15 @@ The `analysis_tags` here is a Python dictionary containing key value pairs. The 
 attached are lists of accepted strings for these tags. Just change this dictionary to make changes to the analysis tags
 the server looks for while parsing and will serve to clients.
 
+# Adding Poems
 
+To add a poem using git:
+
+* Place the poem's XML file in the `poems` directory
+* On the command line, navigate to the `poems` directory and type `git add filename.xml`
+* Do this for all poems that need to be added (`git add *.xml') will add all poems
+* On command line, then run `git commit -m "Added poems"
+* Finally run `git push`
 
 
 
