@@ -24,7 +24,7 @@ application.config.update(dict(
 @application.before_first_request
 def create_csv():
     '''
-    Create a pandas dataframe from  a bunch of XML files and store it as a CSV
+    Create a pandas dataframe from  a bunch of XML files and store it as a CSV. This is done before returning the first request, but still requires a first request to trigger. Thus, the first request will experience a long (several second with ~1000 poem) delay.
     :return: None
     '''
     parser = XML2DataFrame(application.config['analysis_tags'], namespace=application.config['XML_NAMESPACE'], \
@@ -90,7 +90,7 @@ def find_issues():
 
 def get_dataframe():
     '''
-    Returns a pandas dataframe or creates a new one if it doesn't yet exist
+    Returns a global pandas dataframe or creates a new one if it doesn't yet exist
     :return: pandas dataframe
     '''
     df = getattr(g, '_dataframe', None)
