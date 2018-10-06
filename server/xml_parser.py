@@ -5,7 +5,8 @@ import os
 
 class XML2DataFrame:
     '''
-    A super hacky parser for XML data to get it into a pandas dataframe
+    A class to handle the conversion of a group of XMLs into a Dataframe.
+    Each row in the resulting dataframe represents a single XML file, where the columns correpsond to the extracted information.
     '''
 
     def __init__(self, analysis_tags={}, text_tag='l', namespace='',title_tag = 'title', error_file='errors.txt', author_tag='persName'):
