@@ -28,8 +28,11 @@ dials = configuration.get_dial_values(user_config)
 dialPins = configuration.get_pins(user_config)
 
 counter = 0
+print(dialPins)
+print(dials)
 for dial in dials.items():
-    inputs.add_input(dialPins[counter], dials[dial], dial, 1024)
+    print(dial[0])
+    inputs.add_input(dialPins[counter], list(dials[dial[0]]), dial[0], 1024)
     counter += 1
 
 button = ButtonManager(go_pin=18, reset_pin=23, go_ahead_light=12, stop_light=17, reset_time=0, go_sound='/home/pi/pox/client/go.wav', reset_sound='/home/pi/pox/client/reset.wav')
@@ -44,6 +47,7 @@ thread1.start()
 
 while (1):
     check = button.check()
+    print(thread1.get_readings())
     # Button hasn't been pressed and hasn't been reset
     if check == 0:
         pass
