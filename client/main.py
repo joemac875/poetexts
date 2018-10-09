@@ -10,10 +10,10 @@ import configuration
 
 # read in user configurations
 user_config = configparser.ConfigParser()
-user_config.read(os.path.join(os.getcwd(), '..') + '/config/pox.ini')
+user_config.read(os.path.join(os.getcwd(), '..') + '/server/pox.ini')
 
 # URL for Poem Server
-poem_server = 'http://pox-deploy.us-east-2.elasticbeanstalk.com'
+poem_server = configuration.get_server(user_config) 
 # Create an SNS client
 client = boto3.client(
     "sns",
