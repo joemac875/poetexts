@@ -9,6 +9,8 @@ def get_dial_values(parser):
     for key in parser['dials']:
         build_dict[key] = parser['dials'][key].split()
     return build_dict
+def get_server(parser):
+    return parser['client']['server']
 
 
 def get_namespace(parser):
