@@ -10,7 +10,7 @@ import configuration
 application = Flask(__name__)
 # read in user configurations
 user_config = configparser.ConfigParser()
-user_config.read(os.path.join(os.getcwd(), '..') + '/config/pox.ini')
+user_config.read(os.path.join('pox.ini')
 
 
 application.config.update(dict(
