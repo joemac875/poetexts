@@ -1,4 +1,4 @@
-#! /usr/bin/env oython3
+#! /usr/bin/env python3
 from input_manager import InputManager, InputThread
 from screen_manager import ScreenManager, ScreenThread
 from button_manager import ButtonManager
