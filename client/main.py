@@ -3,22 +3,34 @@ from screen_manager import ScreenManager, ScreenThread
 from button_manager import ButtonManager
 import boto3
 import requests
+import configparser
 import re
+import os
+import configuration
+
+# read in user configurations
+user_config = configparser.ConfigParser()
+user_config.read(os.path.join(os.getcwd(), '..') + '/config/pox.ini')
 
 # URL for Poem Server
 poem_server = 'http://pox-deploy.us-east-2.elasticbeanstalk.com'
 # Create an SNS client
 client = boto3.client(
     "sns",
-    aws_access_key_id="AKIAIAFRQL7SJUH5TFJQ",
-    aws_secret_access_key="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",
+    aws_access_key_id=configuration.get_key_id(user_config),
+    aws_secret_access_key=configuration.get_access_key(user_config),
     region_name="us-east-1"
 )
 
 inputs = InputManager('/dev/ttyACM0', 9600)
-inputs.add_input('16', ['sonnet', 'free', 'haiku'], 'form', 1024)
-inputs.add_input('15', ['happy', 'sad', 'indifferent'], 'tone', 1024)
-inputs.add_input('14', ['love', 'war', 'environment', 'education', 'history'], 'topic', 1024)
+
+dials = configuration.get_dial_values(user_config)
+dialPins = configuration.get_pins(user_config)
+
+counter = 0
+for dial in dials.items():
+    inputs.add_input(dialPins[counter], dials[dial], dial, 1024)
+    counter += 1
 
 button = ButtonManager(go_pin=18, reset_pin=23, go_ahead_light=12, stop_light=17, reset_time=0, go_sound='/home/pi/pox/client/go.wav', reset_sound='/home/pi/pox/client/reset.wav')
 screen = ScreenManager("Enter Phone #\nand Pull Lever")
