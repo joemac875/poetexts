@@ -1,3 +1,4 @@
+#! /usr/bin/env oython3
 from input_manager import InputManager, InputThread
 from screen_manager import ScreenManager, ScreenThread
 from button_manager import ButtonManager
@@ -44,6 +45,9 @@ thread1 = InputThread(1, "Input Manager Thread", 1, inputs)
 # Start new Threads
 thread1.start()
 #thread2.start()
+if len(sys.argv) == 2 and sys.argv[1] == 'debug':
+    while(1):
+        print(thread1.get_readings())
 
 while (1):
     check = button.check()
