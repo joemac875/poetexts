@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+                    <?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+                    <TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+                         xmlns="http://www.tei-c.org/ns/1.0" >
+                      <teiHeader>
+                        <fileDesc >
+                          <titleStmt>
+                            <title>Sonnet 66</title>
+                            <author>
+                              <persName>Genghis Khan</persName>
+                            </author>
+                          </titleStmt>
+                          <publicationStmt>
+                              <ab><!-- copyright or copyleft information here --></ab>
+                          </publicationStmt>
+                          <sourceDesc>
+                            <bibl>
+                              <!-- URL audio file -->
+                              <ref corresp="http://site.file"/>
+                            </bibl>
+                          </sourceDesc>
+                        </fileDesc>
+                      </teiHeader>
+                      <text>
+                          <body>
+                            
+                         
+                          <div xml:id="SonnetX"><!-- xml:id is a unique identifier - I think it will work better here than in the interpretations below. Plus, each sonnet will have a unique identifier and then the program can parse the interpretive analyses. If they want to add annotations, you can add those as notes and href links, no? -->
+                                  <interpGrp type="poembox">
+                                    <interp ana="#form" type="haiku"></interp>
+                                    <interp ana="#tone" type="sad"></interp>
+                                    <interp ana="#topic" type="environment"></interp>
+                                  </interpGrp>
+                                 <lg> 
+                                  <l>monkey jumps merrily. clueless</l>
+                              
+                                   <note><ref target="#SonnetX"></ref></note>
+                                   <!-- I just made this up here -->
+                                 </lg>
+                                </div>
+                            
+                          </body>
+                      </text>
+                      
+                    </TEI>
