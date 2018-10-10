@@ -8,13 +8,14 @@ import configparser
 import re
 import os
 import configuration
-
+import sys
 # read in user configurations
 user_config = configparser.ConfigParser()
 user_config.read(os.path.join(os.getcwd(), '..') + '/server/pox.ini')
 
 # URL for Poem Server
 poem_server = configuration.get_server(user_config) 
+print(poem_server)
 # Create an SNS client
 client = boto3.client(
     "sns",
@@ -51,7 +52,6 @@ if len(sys.argv) == 2 and sys.argv[1] == 'debug':
 
 while (1):
     check = button.check()
-    print(thread1.get_readings())
     # Button hasn't been pressed and hasn't been reset
     if check == 0:
         pass
