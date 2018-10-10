@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Uploading pox (maybe)"
+git add pox.ini && git commit -m "Maybe change .ini - Ian" && git push
+eb terminate
+eb create
+
