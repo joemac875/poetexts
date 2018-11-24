@@ -32,7 +32,8 @@ dialPins = configuration.get_pins(user_config)
 counter = 0
 print(dialPins)
 print(dials)
-for dial in dials.items():
+
+for dial in sorted(dials.items()):
     print(dial[0])
     inputs.add_input(dialPins[counter], list(dials[dial[0]]), dial[0], 1024)
     counter += 1
