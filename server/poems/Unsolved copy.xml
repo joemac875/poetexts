@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Unsolved</title>
+        <author>
+          <persName>John McCrae</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/user-597751783/unsolved?in=user-597751783/sets/english-151-poetry-assignment"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Unsolved"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+               <l>Amid my books I lived the hurrying years,</l>
+               <l>Disdaining kinship with my fellow man;</l>
+               <l>Alike to me were human smiles and tears,</l>
+               <l>I cared not whither Earth’s great life-stream ran,</l>
+               <l>Till as I knelt before my mouldered shrine,</l>
+               <l>God made me look into a woman’s eyes;</l>
+               <l>And I, who thought all earthly wisdom mine,</l>
+               <l>Knew in a moment that the eternal skies</l>
+               <l>Were measured but in inches, to the quest</l>
+               <l>That lay before me in that mystic gaze.</l>
+               <l>“Surely I have been errant; it is best</l>
+               <l>That I should tread, with men their human ways.”</l>
+               <l>God took the teacher, ere the task was learned,</l>
+               <l>And to my lonely books again I turned.</l>
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>To My Daughter in a Red Coat</title>
+        <author>
+          <persName>Anne Stevenson</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Sonnet41"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+               <l>Late October. It is afternoon.</l>
+               <l>My daughter and I walk through the leaf-strewn</l> 
+               <l>Corridors of the park</l>
+               <l>In the light and the dark</l>
+               <l>Of the elms' thin arches.</l>
+               <l>Around us brown leaves fall and spread.</l>
+               <l>Small winds stir the minor dead.</l>
+               <l>Dust powders the air.</l>
+               <l>Those shrivelled women stare.</l>
+               <l>At us from their cold benches.</l>
+               <l>Child, your mittens tug your sleeves.</l>
+               <l>They lick your drumming feet, the leaves.</l>
+               <l>You come so fast, so fast.</l>
+               <l>You come so fast, so fast.</l>
+               <l>My daughter, as your coat dances.</l>
+                
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

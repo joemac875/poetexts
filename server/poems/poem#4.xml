@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Vespers</title>
+                <author>
+                    <persName>A.A. Milne</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Vespers"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="vespers"></interp>
+                    <interp ana="#tone" type="boy"></interp>
+                    <interp ana="#topic" type="little"></interp>
+                </interpGrp>
+                <lg> 
+               
+                    <l>Little Boy kneels at the foot of the bed,</l>
+                    <l>  Droops on the little hands little gold head.</l>
+                    <l> Hush! Hush! Whisper who dares!
+                        <l> Christopher Robin is saying his prayers.</l>
+               
+                        <l>God bless Mummy. I know that's right.</l>
+                        <l> Wasn't it fun in the bath to-night?</l>
+                        <l> The cold's so cold, and the hot's so hot.</l>
+                        <l> Oh! God bless Daddy - I quite forgot.</l>
+               
+                        <l> If I open my fingers a little bit more,</l>
+                        <l> I can see Nanny's dressing-gown on the door.</l>
+                        <l> It's a beautiful blue, but it hasn't a hood.</l>
+                        <l> Oh! God bless Nanny and make her good.</l>
+               
+                        <l> Mine has a hood, and I lie in bed,</l>
+                        <l> And pull the hood right over my head,</l>
+                        <l> And I shut my eyes, and I curl up small,</l>
+                        <l>And nobody knows that I'm there at all.</l>
+               
+                        <l>Oh! Thank you, God, for a lovely day.</l>
+                        <l>And what was the other I had to say?</l>
+                        <l>I said "Bless Daddy," so what can it be?</l>
+                        <l>Oh! Now I remember it. God bless Me.</l>
+               
+                        <l>Little Boy kneels at the foot of the bed,</l>
+                        <l> Droops on the little hands little gold head.</l>
+                        <l> Hush! Hush! Whisper who dares!</l>
+                        <l> Christopher Robin is saying his prayers.</l>
+               
+                        <l> Source: https://www.familyfriendpoems.com/poem/vespers-by-a-a-milne</l>
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

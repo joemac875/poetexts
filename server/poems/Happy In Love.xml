@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Sonnet 41</title>
+                <author>
+                    <persName>Shelagh Bullman</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="HappyInLove"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="Free"></interp>
+                    <interp ana="#tone" type="Happy"></interp>
+                    <interp ana="#topic" type="love"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>How happy I am to be in love with you.</l>
+                    <l>I want to scream from my lungs till I'm breathless and blue. </l> 
+                    <l>I want the world to know how excited I am</l>
+                    <l>To be in love with this gorgeous, perfect man.</l>
+                    <l>How lucky I am; I feel crazy inside.</l>
+                    <l>I'm riding the big roller coaster of pride.</l>
+                    <l>My mind bombarded with thoughts of you.</l>
+                    <l>Is this the beginning of something new?</l>
+                    <l>How creative I am when it comes to romance,</l>
+                    <l>But you are my music, and I want to dance.</l>
+                    <l>I arouse to your passion; you spice up my desires.</l>
+                    <l>Each pulse in my body burns through me like fires.</l>
+                    <l>How smitten I am with those eyes of green</l>
+                    <l>That run through my heart like the deepest ravine.</l>
+                    <l>And what of your smile, makes me weak at the knees,</l> 
+                    <l>Sweeps me off my feet like a powerful breeze.</l>
+                    <l>How excited I am as I anxiously wait</l>
+                    <l>For you to arrive for our special date.</l>
+                    <l>You bring roses and wine, a candle or two.</l>
+                    <l>Lucky stars shine brighter for me and for you.</l>
+                    <l>How ecstatic I am; my heart races and thumps</l>
+                    <l>Thinking of you, I get little goose bumps.</l>
+                    <l>Youre afectionate, alluring, funny, and smart,</l>
+                    <l>Definitely molded to a very fine art.</l>
+                    <l>How my emotions have taken over me,</l>
+                    <l>And suddenly life's better completely, you see.</l>
+                    <l>You are one in a million; I have to be true.</l>
+                    <l>I am now understanding the magic of you.</l>
+                    <l>Angel, your heart I will keep warm and protect,</l>
+                    <l>For I value your love with the utmost respewct.</l>
+                    <l>I hope this beginning will remain magical and new,</l>
+                    <l>Because nowhere I'll find another lover like you.</l>
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

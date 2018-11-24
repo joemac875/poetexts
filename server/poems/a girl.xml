@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+  xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Sonnet 41</title>
+        <author>
+          <persName>Ezra Pound</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+      
+      <div xml:id="Agirl"> 
+        <interpGrp type="poembox">
+          <interp ana="#form" type="free"></interp>
+          <interp ana="#tone" type="other"></interp>
+          <interp ana="#topic" type="nature"></interp>
+        </interpGrp>
+        <lg> 
+          <l>The tree has entered my hands,</l>
+          <l>The sap has ascended my arms, </l> 
+          <l>The tree has grown in my breast- </l>
+          <l>Downward, </l>
+          <l>The branches grow out of me, like arms. </l>
+          <l>Tree you are</l>
+          <l>Moss you are, </l>
+          <l>You are violets with wind above them. </l>
+          <l>A child - so high - you are, </l>
+          <l>And all this is folly to the world.</l>
+         
+     
+          <!-- You can put comments or notes to yourself in like this -->
+        </lg>
+      </div>
+      
+    </body>
+  </text>
+  
+</TEI>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>The Rain</title>
+                <author>
+                    <persName>William Henry Davies</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="https://soundcloud.com/user-509931528-773448690/the-rain"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="TheRain"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="free"></interp>
+                    <interp ana="#tone" type="happy"></interp>
+                    <interp ana="#topic" type="nature"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>I hear leaves drinking rain; ,</l>
+                    <l>I hear rich leaves on top </l> 
+                    <l>Giving the poor beneath</l>
+                    <l>Drop after drop;</l>
+                    <l>'Tis a sweet noise to hear</l>
+                    <l>These green leaves drinking near.</l>
+                    <l></l>
+                    <l>And when the Sun comes out,</l>
+                    <l>After this Rain shall stop,</l>
+                    <l>A wondrous Light will fill</l>
+                    <l>Each dark, round drop;</l>
+                    <l>I hope the Sun shines bright;</l>
+                    <l>'Twill be a lovely sight.</l>
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+

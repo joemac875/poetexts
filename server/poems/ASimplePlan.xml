@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>A Simple Plan</title>
+        <author>
+          <persName>Irwin Mercer</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab><!-- https://soundcloud.com/user-985298152/a-simple-plan --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="ASimplePlan"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="haiku"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+              <l>Simple Sam was a simple man.</l>
+          <l>He lived each day by a simple plan.</l> 
+          <l>Enjoy your life and live while you can.</l>
+          <l>Make each day count and take a stand.</l>
+          <l>Stand on the left or stand on the right,</l>
+          <l>Whichever one you think is right.</l>
+          <l>Live each day as if your last.</l>
+          <l>Life's too short and gone too fast.</l>
+         
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

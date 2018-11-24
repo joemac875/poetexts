@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Resin</title>
+        <author>
+          <persName>Mary Ruefle</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab><!-- Copyright © 2018 Mary Ruefle. This poem originally appeared in Kenyon Review, September/October 2018. Used with permission of the author. --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Resin"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" Free verse"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="death"></interp>
+              </interpGrp>
+             <lg> 
+              <l>I am going to die.</l>
+          <l>No such thought has ever occured to me</l> 
+          <l>since the beginning of my exclusive time</l>
+          <l>in air, when God, having made my mind,</l>
+          <l>first began to wrap it, sllowly and continuously,</l>
+          <l>in strips of linen soaked in a special admixture</l>
+          <l>or rosewater, chicken fat, and pinecones</l>
+          <l>studded with cloves to stop them from dripping.</l>
+          <l>Nor is it likely I would ever have had such a thought</l>
+          <l>in the time required by Him to finish the job,</l>
+          <l>if someone else had not first introduced the thought</l>
+          <l>into the process, thereby interrupting it,</l>
+          <l>however briefly. But who?</l>
+                 
+               <!-- Death, religion, creation -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

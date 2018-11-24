@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Linguini</title>
+        <author>
+          <persName>Diane Lockward</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>Copyright © 2006 by Diane Lockward</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Linguini"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+               <l>It was always linguini between us.</l> 
+               <l>Linguini with white sauce, or</l>
+               <l>red sauce, sauce with basil snatched from</l> 
+               <l>the garden, oregano rubbed between</l>
+               <l>our palms, a single bay leaf adrift amidst</l>
+               <l>plum tomatoes. Linguini with meatballs,</l> 
+               <l>sausage, a side of brascioli. Like lovers</l> 
+               <l>trying positions, we enjoyed it every way</l>
+               <l>we could - artichokes, mushrooms, little</l> 
+               <l>neck clams, mussels, and calamari - linguini</l> 
+               <l>twinning and braiding us each to each.</l> 
+               <l>linguini knew of the kisses, the smooches,</l> 
+               <l>the molti baci. It was never spaghetti</l> 
+               <l>between us, not cappellini, nor farfalle,</l> 
+               <l>vermicelli, pappardelle, fettucini, parciatelli,</l> 
+               <l>or even tagliarini. Linguini we stabbed, pitched,</l> 
+               <l>and twirled on forks, spun round and round</l> 
+               <l>on silver spoons. Long, smooth, and always</l> 
+               <l>al dente. In dark trattorias, we broke crusty panera,</l> 
+               <l>tasted each other - la dolce vita! - and sipped</l> 
+               <l>Amarone, wrapped ourselves in linguini,</l> 
+               <l>briskly boiled, lightly oiled, salted, and lavished</l>
+               <l>with sauce. Bellissimo, paradisio, belle gente!</l>
+               <l>Linguini witnessed our slurping, pulling, and</l> 
+               <l>sucking, our unravelling and raveling, chins</l> 
+               <l>glistening, napkins tucked like bibs in collars,</l> 
+               <l>linguini stuck to lips, hips, and bellies, cheeks</l> 
+               <l>flecked with formaggio - parmesan, romano,</l> 
+               <l>and shaved pecorino - strands of linguini flung</l> 
+               <l>around our necks like two fine silk scarves.</l> 
+                 
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

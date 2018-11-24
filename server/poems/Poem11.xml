@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Clay</title>
+        <author>
+          <persName>James Joyce</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- Public Domain --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- https://soundcloud.com/user-38522460/clay -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Clay"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="FreeVerse"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+              <l>I dreamt that I dwelt in marble halls</l>
+          <l>With vassals and serfs at my side</l> 
+          <l>And of all who assembled within those walls</l>
+          <l>That I was the hope and the pride.</l>
+          <l>I had riches too great to count, could boast</l>
+          <l>Of a high ancestral name,</l>
+          <l>But I also dreamt, which pleased me most,</l>
+          <l>That you loved me still the same.</l>
+          
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>To the Rain</title>
+        <author>
+          <persName>Ursula K. Le Guin</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>"To the Rain" copyright © 2018 by Ursula K. Le Guin.</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Rain"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+               <l>Mother rain, manifold, measureless,</l>
+               <l>falling on fallow, on field and forest,</l> 
+               <l>on house-roof, low hovel, high tower,</l>
+               <l>downwelling waters all-washing, wider</l>
+               <l>than cities, softer than sisterhood, vaster</l>
+               <l>than countrysides, calming, recalling:</l>
+               <l>return to us, teaching our troubled</l>
+               <l>souls in your ceaseless descent</l>
+               <l>to fall, to be fellow, to feel to the root,</l>
+               <l>to sink in, to heal, to sweeten the sea.</l>
+        <l>           Ursula K. Le Guin</l> 
+               <note><ref target="#2Rain"></ref></note>
+               <!-- I just made this up here -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

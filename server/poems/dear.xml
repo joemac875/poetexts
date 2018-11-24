@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Dear —</title>
+        <author>
+          <persName>Donika Kelly</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>Poetry (September 2018)</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/paola-amaya-349175383/dear/s-hC3jO"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Dear"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+               <l>I am not land or timber</l>
+               <l>nor are you</l> 
+               <l>ocean or celestial body,</l>
+               <l>                       </l>
+               <l>but rather we are</l>
+               <l>the small animals</l>
+               <l>we have always been.</l>
+               <l>                 </l>
+               <l>The land and the sea</l>
+               <l>know each other</l>
+               <l>at the threshold</l>
+               <l>                 </l>
+               <l>where they meet,</l>
+               <l>as we know something</l>
+               <l>of one another,</l>
+               <l>                 </l>
+               <l>having shown,</l>
+               <l>at different times,</l>
+               <l>some bit of flesh,</l>
+               <l>                 </l>
+               <l>some feeling.</l>
+               <l>                  </l>
+               <l>We call the showing</l>
+               <l>knowing instead of practice.</l>
+               <l>We seem to say,</l>
+               <l>                  </l>
+               <l>at different times,</l>
+               <l>A feeling comes.</l>
+               <l>                  </l>
+               <l>What is the metaphor</l>
+               <l>for two animals</l>
+               <l>sharing the same space?</l>
+               <l>                  </l>
+               <l>Marriage?</l>
+               <l>                  </l>
+               <l>We share a practice,</l>
+               <l>you and I,</l>
+               <l>a series of postures.</l>
+               <l>                  </l>
+               <l>Here is how I</l>
+               <l>become a tree</l>
+               <l>[                            ]</l>
+               <l>                  </l>
+               <l>and you</l>
+               <l>[                            ]</l>
+               <l>a body in space.</l>
+        <l>           Donika Kelly</l> 
+               <note><ref target="#Dear"></ref></note>
+               <!-- I just made this up here -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

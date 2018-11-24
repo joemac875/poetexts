@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Crepuscule</title>
+        <author>
+          <persName>E.E. Cummings</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/user-597751783/crepuscule?in=user-597751783/sets/english-151-poetry-assignment"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+        <div xml:id="Crepuscule"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+               <l>I will wade out</l>
+               <l>till my thighs are steeped in burn-</l>
+               <l>ing flowers</l>
+               <l>I will take the sun in my mouth</l>
+               <l>and leap into the ripe air</l>
+               <l>Alive</l>
+               <l>with closed eyes</l>
+               <l>to dash against darkness</l>
+               <l>in the sleeping curves of my</l>
+               <l>body</l>
+               <l>Shall enter fingers of smooth mastery</l>
+               <l>with chasteness of sea-girls</l>
+               <l>Will I complete the mystery</l>
+               <l>of my flesh</l>
+               <l>I will rise</l>
+               <l>After a thousand years</l>
+               <l>lipping</l>
+               <l>flowers</l>
+               <l>And set my teeth in the silver of the moon</l>
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>On World-Making</title>
+        <author>
+          <persName>Nomi Stone</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>Poetry (September 2018)</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/paola-amaya-349175383/on-world-making/s-knM2S"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="World-Making"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+               <l>To love is to tell the story of the world.     There was</l>
+               <l>an ocean with a boat     mountains     a meadow     too painful to stare</l> 
+               <l>at directly. Haven’t I been here before? Yes.     No:     not quite here.</l>
+               <l>                                    </l>
+               <l>“It is not as if,” the philosopher writes, “an I exists</l>
+               <l>independently over here and then simply loses a you over there.”</l>
+               <l>In the mist, a man rigs the Suzelle, little red boat.</l>
+               <l>Loved labored for months, learning to tie the right knot. The exact</l>
+               <l>                                    </l>
+               <l>and only knot that will keep the vessel tethered. She rehearsed</l>
+               <l>for the worst possible thing. “The attachment to you,” it is written,</l>
+               <l>“is part of what composes who I am.” I know/knew</l>
+               <l>those hands, hers. I watched her dust the sourdough with flour</l>
+               <l>                                    </l>
+               <l>at midnight a moon between her fingers.     Gone</l>
+               <l>went Loved. But the half-world of her in me</l>
+               <l>was me.     It was lit by the moon.</l>
+        <l>           Nomi Stone</l> 
+               <note><ref target="#World-Making"></ref></note>
+               <!-- I just made this up here -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

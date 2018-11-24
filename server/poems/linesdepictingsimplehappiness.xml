@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Lines Depicting Simple Happiness </title>
+        <author>
+          <persName>Peter Gizzy</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Lines depicting simple happiness"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#type" type="love"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+               <l>The shine on her buckle took precedence in sun</l>
+               <l>Her shine, I should say, could take me anywhere</l>
+               <l>It feels right to be up this close in tight wind</l>
+               <l>It feels right to notice all the shiny things about you</l>
+               <l>About you there is nothing I wouldn’t want to know</l>
+               <l>With you nothing is simple yet nothing is simpler</l>
+               <l>About you many good things come into relation</l>
+               <l>I think of proofs and grammar, vowel sounds, like</l>
+               <l>A is for knee socks, E for panties</l>
+               <l>I is for buttondown, O the blouse you wear</l>
+               <l>U is for hair clip, and Y your tight skirt</l>
+               <l>The music picks up again, I am the man I hope to be</l> 
+               <l>The bright air hangs freely near your newly cut hair</l> 
+               <l>It is so easy now to see gravity at work in your face</l>
+               <l>Easy to understand time, that dark process</l>
+               <l>To accept it as a beautiful process, your face</l>
+               
+          
+          
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

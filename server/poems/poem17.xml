@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Nothing Gold Can Stay</title>
+        <author>
+          <persName>Robert Frost</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab><!-- From The Poertry of Robert Frost edited by Edward Connery Lathem. Copyright © 1923, 1947, 1969 by Henry Holt and Company , copyright © 1942, 1951 by Robert Frost, copyright ©  1970, 1975 by Lesley frost ballantine. Reprinted by permission of Henry Hold and Company, LLC. --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Poem17"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="FreeVerse"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+              <l>Nature's first green is gold,</l>
+          <l>Her hardest hue to hold.</l> 
+          <l>Her early leaf's a flower;</l>
+          <l>But only so an hour.</l>
+          <l>Then leaf subsides to leaf.</l>
+          <l>So Eden sank to grief,</l>
+          <l>So dawn goes down to day.</l>
+          <l>Nothing gold can stay.</l>
+          
+                 
+               <!-- nothing good will last, nothing is permanent -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

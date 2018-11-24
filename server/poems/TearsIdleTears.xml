@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Tears, Idle Tears</title>
+        <author>
+          <persName>Alfred Lord Tennyson</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/user-597751783/tears-idle-tears?in=user-597751783/sets/english-151-poetry-assignment"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="TearsIdleTears"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="death"></interp>
+              </interpGrp>
+             <lg> 
+               <l>Tears, idle tears, I know not what they mean,</l>
+               <l>Tears from the depth of some divine despair</l>
+               <l>Rise in the heart, and gather to the eyes,</l>
+               <l>In looking on the happy autumn-fields,</l>
+               <l>And thinking of the days that are no more.</l>
+                 
+               <l>Fresh as the first beam glittering on a sail,</l>
+               <l>That brings our friends up from the underworld,</l>
+               <l>Sad as the last which reddens over one</l>
+               <l>That sinks with all we love below the verge;</l>
+               <l>So sad, so fresh, the days that are no more.</l> 
+               
+               <l>Ah, sad and strange as in dark summer dawns</l>
+               <l>The earliest pipe of half-awakened birds</l>
+               <l>To dying ears, when unto dying eyes</l>
+               <l>The casement slowly grows a glimmering square;</l>
+               <l>So sad, so strange, the days that are no more.</l>
+               
+               <l>Dear as remembered kisses after death,</l>
+               <l>And sweet as those by hopeless fancy feigned</l>
+               <l>On lips that are for others; deep as love,</l>
+               <l>Deep as first love, and wild with all regret;</l>
+               <l>O Death in Life, the days that are no more!</l>
+               
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

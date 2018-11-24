@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Acquainted with the Night</title>
+                <author>
+                    <persName>Robert Frost</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- https://www.poets.org/poetsorg/poem/acquainted-night --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="https://soundcloud.com/nickolas-kinachtchouk/acquainted-with-the-night-1"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Short6"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="sonnet"></interp>
+                    <interp ana="#tone" type="sad"></interp>
+                    <interp ana="#topic" type="society"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>I have been one acquainted with the night.</l>
+                    <l>I have walked out in the rain - and back in rain.</l>
+                    <l>I have outwalked the furthest city light.</l>
+                    <l></l>
+                    <l>I have looked down the saddest city lane.</l>
+                    <l>I have passed by the watchmen on his beat</l>
+                    <l>And dropped my eyes, unwilling to explain.</l>
+                    <l></l>
+                    <l>I have stood still and stopped the sound of feet</l>
+                    <l>When far away an interrupted cry</l>
+                    <l>Came over houses from another street,</l>
+                    <l></l>
+                    <l>But not to call me back or say good-by;</l>
+                    <l>And further still at an unearthly height</l>
+                    <l>One luminary clock against the sky</l>
+                    <l></l>
+                    <l>Proclaimed the time was neither wrong nor right.</l>
+                    <l>I have been one acquainted with the night.</l>
+                    
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+
+

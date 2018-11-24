@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>The Cow in Apple Time</title>
+        <author>
+          <persName>Robert Frost</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/user-765943576/cow-in-apple-time/s-niTef"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Poem30"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+               <l>Something inspires the only cow of late</l>
+               <l>To make no more of a wall than an open gate,</l> 
+               <l>And think no more of wall-builders than fools.</l>
+               <l>Her face is flecked with pomace and she drools</l>
+               <l>A cider syrup. Having tasted fruit,</l>
+               <l>She scorns a pasture withering to the root.</l>
+               <l>She runs from tree to tree where lie and sweeten</l>
+               <l>The windfalls spiked with stubble and worm-eaten.</l>
+               <l>She leaves them bitten when she has to fly.</l>
+               <l>She bellows on a knoll against the sky.</l>
+               <l>Her udder shrivels and the milk goes dry.</l>
+         
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

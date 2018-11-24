@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Little Bird</title>
+                <author>
+                    <persName>Qazawat Zirak</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="https://soundcloud.com/user-509931528-773448690/the-little-bird"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+
+
+            <div xml:id="LittleBird">
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="free"/>
+                    <interp ana="#tone" type="sad"/>
+                    <interp ana="#topic" type="nature"/>
+                </interpGrp>
+                <lg>
+                    <l>The Tiny Bird flies in the Blue Sky</l>
+                    <l>The Ocean mirrors the Blue of the Sky</l>
+                    <l>The Deep Azure is Heaven's Ocean</l>
+                    <l>In the Blue of the Sky, Heaven's Tears lie</l>
+                    <l>In the Tears of Heaven, the little Bird flies</l>
+
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+
+        </body>
+    </text>
+
+</TEI>

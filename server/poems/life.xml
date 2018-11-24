@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title> Life 41</title>
+        <author>
+          <persName> Tom Davis. </persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Sonnet41"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+               <l>These are days of tumultuous struggle and painstaking agony</l>
+               <l>These are mornings where heartbeats are rhythmic daggers stabbing me</l> 
+               <l>These are nights of tears, wondering, doubt, heartbreak and regret.</l>
+               <l>This is life, and I relish in the fact that is hasn’t ended yet.</l>
+               <l>Though pages in my personal existence volume are still being written</l>
+               <l>Though I ponder the epistemological nature of my metaphysics</l>
+               <l>Though I know now that I really know not a thing and never did,</l>
+               <l>I believe life must continue, whether or not I want to live it.</l>
+               <l>And it goes on for us all, whether we choose to live or die</l>
+               <l>And there’s only today to live, that we all should recognize</l>
+               <l>And life itself is precious; seize the day, forget regret;</l>
+               <l>And relish in the fact that life still hasn’t ended yet.</l>
+               <l>These are days of life; they last but for so short a time</l>
+               <l>So let’s relish in the fact you and I are still alive.</l>
+<!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>              
+                
+               
+                 
+                 
+              
+                
+                 
+                
+               
+                 
+                 
+                 
+                 
+               
+                 
+          
+        
+                 
+                 
+               
+                 
+                 
+             
+                 
+                 
+                 
+                 
+                
+                 
+              
+                 
+                 
+                
+  
+               
+               
+

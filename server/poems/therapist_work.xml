@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>My Therapist Wants to Know About my Relationship to Work</title>
+        <author>
+          <persName>Tiana Clark</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>Poetry (November 2018)</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/paola-amaya-349175383/my-therapist-wants-to-know-about-my-relationship-to-work/s-kcLem"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Therapist"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+               <l>I hustle</l>
+               <l>  upstream.</l> 
+               <l>I grasp.</l>
+               <l>  I grind.</l>
+               <l>I control and panic. Poke</l>
+               <l>balloons in my chest,</l>
+               <l>always popping there,</l>
+               <l>always my thoughts thump,</l>
+               <l>thump. I snooze — wake and go</l>
+               <l>boom. All day, like this I short</l>
+               <l>my breath. I scroll and scroll.</l>
+               <l>I see what you wrote — I like.</l>
+               <l>I heart. My thumb, so tired.</l>
+               <l>My head bent down, but not</l>
+               <l>in prayer, heavy from the looking.</l>
+               <l>I see your face, your phone-lit</l>
+               <l>faces. I tap your food, two times</l>
+               <l>for more hearts. I retweet.</l>
+               <l>I email: yes and yes and yes.</l>
+               <l>Then I cry and need to say: no-no-no.</l>
+               <l>Why does it take so long to reply?</l>
+               <l>I FOMO and shout. I read. I never</l>
+               <l>enough. New book. New post.</l>
+               <l>New ping. A new tab, then another.</l>
+               <l>Papers on the floor, scattered and stacked.</l>
+               <l>So many journals, unbroken white spines,</l>
+               <l>waiting. Did you hear that new new?</l>
+               <l>I start to text back. Ellipsis, then I forget.</l>
+               <l>I balk. I lazy the bed. I wallow when I write.</l>
+               <l>I truth when I lie. I throw a book</l>
+               <l>when a poem undoes me. I underline</l>
+               <l>Clifton: today we are possible. I start</l>
+               <l>from image. I begin with Phillis Wheatley.</l>
+               <l>I begin with Phillis Wheatley. I begin</l>
+               <l>with Phillis Wheatley reaching for coal.</l>
+               <l>I start with a napkin, receipt, or my hand.</l>
+               <l>I muscle memory. I stutter the page. I fail.</l>
+               <l>Hit delete — scratch out one more line. I sonnet,</l>
+               <l>then break form. I make tea, use two bags.</l>
+               <l>Rooibos again. I bathe now. Epsom salt.</l>
+               <l>No books or phone. Just water and the sound</l>
+               <l>of water filling, glory — be my buoyant body,</l>
+               <l>bowl of me. Yes, lavender, more bubbles</l>
+               <l>and bath bomb, of course some candles too.</l>
+               <l>All alone with Coltrane. My favorite, “Naima,”</l>
+               <l>for his wife, now for me, inside my own womb.</l>
+               <l>Again, I child back. I float. I sing. I simple</l>
+               <l>and humble. Eyes close. I low my voice,</l>
+               <l>was it a psalm? Don’t know. But I stopped.</l>
+        <l>           Tiana Clark</l> 
+               <note><ref target="#Therapist"></ref></note>
+               <!-- I just made this up here -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

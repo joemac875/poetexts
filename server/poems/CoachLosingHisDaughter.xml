@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Coach Losing His Daughter</title>
+        <author>
+          <persName>Jack Ridl</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>Copyright © by Jack Ridl</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="CoachLosingHisDaughter"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="narrative"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+               <l>He stares at his players</l>
+               <l>who turn him into aging wood,</l>
+               <l>make him sexless as his little finger.</l>
+               <l>When he tries to talk to her,</l>
+               <l>his sentences dissolve, the nouns</l>
+               <l>and verbs all floating mute</l>
+               <l>into the sky’s blue ear.</l> 
+               <l>He knows why his players</l> 
+               <l>lift and curl. He sees them</l> 
+               <l>tightening their belts. Bodies</l> 
+               <l>that well built should build</l> 
+               <l>a house, knock a bully</l> 
+               <l>on his can.  But after practice,</l> 
+               <l>Coach can only see his daughter</l> 
+               <l>getting in their cars, feel</l> 
+               <l>their muscles sweating on her skin.</l>
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

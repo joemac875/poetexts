@@ -1,0 +1,87 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Waiting At The Window </title>
+                <author>
+                    <persName>A.A. Milne</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Waiting At The Window"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="window"></interp>
+                    <interp ana="#tone" type="john"></interp>
+                    <interp ana="#topic" type="waiting"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>These are my two drops of rain</l>
+                    <l> Waiting on the window-pane.</l>
+                    
+                    <l>I am waiting here to see</l>
+                    <l>Which the winning one will be.</l> 
+                    
+                    <l>Both of them have different names.</l>
+                    <l>One is John and one is James.</l>
+                    
+                    <l>All the best and all the worst</l>
+                    <l>Comes from which of them is first.</l>
+                    
+                    <l>James has just begun to ooze.</l>
+                    <l>He's the one I want to lose.</l>
+                    
+                    <l>John is waiting to begin.</l>
+                    <l>He's the one I want to win.</l>
+                    
+                    <l>James is going slowly on.</l>
+                    Something sort of sticks to John.</l>
+                    
+                    <l>John is moving off at last.</l>
+                    <l>James is going pretty fast.</l>
+                    
+                    <l>John is rushing down the pane.</l>
+                    <l>James is going slow again.</l>
+                    
+                    <l>James has met a sort of smear.</l>
+                    John is getting very near.</l>
+                    
+                    <l>Is he going fast enough?</l>
+                    <l>(James has found a piece of fluff.)</l>
+                    
+                    <l>John has quickly hurried by.</l>
+                    <l>(James was talking to a fly.)</l>
+                    
+                    <l>John is there, and John has won!</l>
+                    <l>Look! I told you! Here's the sun!</l>
+                    
+                    <l>Source: https://www.familyfriendpoems.com/poem/waiting-at-the-window-by-a-a-milne</l>
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

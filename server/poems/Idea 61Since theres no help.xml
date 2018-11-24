@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Sonnet 41</title>
+                <author>
+                    <persName>Michael Drayton</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:"idea61"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="Free"></interp>
+                    <interp ana="#tone" type="sad"></interp>
+                    <interp ana="#topic" type="love"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>Since there’s no help, come let us kiss and part.</l>
+                    <l>Nay, I have done, you get no more of me; </l> 
+                    <l>And I am glad, yea glad with all my heart, </l>
+                    <l>That thus so cleanly I myself can free. </l>
+                    <l>Shake hands for ever, cancel all our vows, </l>
+                    <l>And when we meet at any time again,</l>
+                    <l>Be it not seen in either of our brows </l>
+                    <l>That we one jot of former love retain. </l>
+                    <l>Now at the last gasp of Love’s latest breath, </l>
+                    <l>When, his pulse failing, Passion speechless lies; </l>
+                    <l>When Faith is kneeling by his bed of death, </l>
+                    <l>And Innocence is closing up his eyes— </l>
+                    <l>Now, if thou wouldst, when all have given him over, </l>
+                    <l>From death to life thou might’st him yet recover!</l>
+                    
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+

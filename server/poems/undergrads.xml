@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Undergrads</title>
+        <author>
+          <persName>Matthew Buckley Smith</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>Poem copyright ©2017 by Matthew Buckley Smith, "Undergrads," from Rattle, (No. 57, Fall, 2017).</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/paola-amaya-349175383/undergrads/s-f5fUh"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Undergrads"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+               <l>The place we lived was only an idea,</l>
+               <l>Nothing to do with the failed cotton mill town</l> 
+               <l>Where a record shop, some bars, and a pizzeria</l>
+               <l>Were all we ever cared to call our own.</l>
+               <l>                                          </l>
+               <l>From nightmares of a happy life with kids</l>
+               <l>We'd wake in boozy sweat to find the floor</l>
+               <l>Still cobbled with bottle caps and take-out lids,</l>
+               <l>Our twenties crumpled safely in a drawer,</l>
+               <l>                                           </l>
+               <l>Unspent like all the hours ahead that night</l>
+               <l>We met each other in the common room</l>
+               <l>And found somehow without the help of light</l>
+               <l>Our way across the river by the time</l>
+               <l>                                           </l>
+               <l>Dawn spilled down from the campus to the banks</l>
+               <l>We'd come to, single, sobered-up again,</l>
+               <l>To see the morning glories give their thanks</l>
+               <l>For things we had, and hardly noticed, then.</l>
+        <l>           Matthew Buckley Smith</l> 
+               <note><ref target="#Undergrads"></ref></note>
+               <!-- I just made this up here -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>
