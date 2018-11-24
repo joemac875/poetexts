@@ -43,7 +43,11 @@ class XML2DataFrame:
         for filename in os.listdir(directory):
             filename = directory + filename
             if filename.endswith(".xml"):
-                poem = self.parse_xml_file(filename)
+                try:
+                    poem = self.parse_xml_file(filename)
+                except Exception as e:
+                    self.write_error("FATAL" + filename, str(e))
+
                 if poem is not None:
                     dataframe = dataframe.append(poem, ignore_index=True)
 
@@ -76,14 +80,16 @@ class XML2DataFrame:
                     data['author'].append(element.text)
                 else:
                     self.write_error(xml_file, 'Missing author in author tag')
-                    return None
+                    data['author'].append("NONE")
+                    #return None
             elif element.tag == self.title_tag:
                 # append author
                 if element.text is not None:
                     data['title'] = element.text
                 else:
                     self.write_error(xml_file, 'Missing title in title tag')
-                    return None
+                    data['title'] = "NONE"
+                    #return None
             # check to see if the element is an analysis tag
             elif element.attrib.get('ana') is not None:
                 # remove the # from the tag
@@ -91,11 +97,12 @@ class XML2DataFrame:
                 # check to see if it is in our list of analysis tags
                 if ana in self.analysis_tags.keys():
                     # check to see if it matches the corresponding values the tag can take
-                    if element.attrib['type'] in self.analysis_tags[ana]:
-                        data[ana] = element.attrib['type']
+                    if element.attrib['type'].lower() in self.analysis_tags[ana]:
+                        data[ana] = element.attrib['type'].lower()
                     else:
-                        self.write_error(xml_file, "analysis tag does not contain proper value")
-                        return None
+                        self.write_error(xml_file, "analysis tag {} does not contain proper value".format(ana))
+                        data[ana] = "NONE"
+                        #return None
         if data['text'] != '':
 
             return data
