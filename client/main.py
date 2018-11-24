@@ -87,7 +87,6 @@ while (1):
 
     # Button reset!
     elif check == 2:
-        
         screen.clear_and_write("Enter Phone #\nand Pull Lever")
         
 
