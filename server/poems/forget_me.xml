@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>If You Forget Me</title>
+        <author>
+          <persName>Pablo Neruda</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="ForgetMe"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+               <l>I want you to know</l>
+               <l>one thing. </l> 
+               <l>                        </l>
+               <l>You know how this is: </l>
+               <l>if I look </l>
+               <l>at the crystal moon, at the red branch </l>
+               <l>of the slow autumn at my window, </l>
+               <l>if I touch </l>
+               <l>near the fire </l>
+               <l>the impalpable ash </l>
+               <l>or the wrinkled body of the log, </l>
+               <l>everything carries me to you, </l>
+               <l>as if everything that exists, </l>
+               <l>aromas, light, metals, </l>
+               <l>were little boats </l>
+               <l>that sail </l>
+               <l>toward those isles of yours that wait for me. </l>
+               <l>                        </l>
+               <l>Well, now, </l>
+               <l>if little by little you stop loving me </l>
+               <l>I shall stop loving you little by little. </l>
+               <l>                        </l>
+               <l>If suddenly </l>
+               <l>you forget me </l>
+               <l>do not look for me, </l>
+               <l>for I shall already have forgotten you. </l>
+               <l>                        </l>
+               <l>If you think it long and mad, </l>
+               <l>the wind of banners </l>
+               <l>that passes through my life, </l>
+               <l>and you decide </l>
+               <l>to leave me at the shore </l>
+               <l>of the heart where I have roots, </l>
+               <l>remember </l>
+               <l>that on that day, </l>
+               <l>at that hour, </l>
+               <l>I shall lift my arms </l>
+               <l>and my roots will set off </l>
+               <l>to seek another land. </l>
+               <l>                          </l>
+               <l>But </l>
+               <l>if each day, </l>
+               <l>each hour, </l>
+               <l>you feel that you are destined for me </l>
+               <l>with implacable sweetness, </l>
+               <l>if each day a flower </l>
+               <l>climbs up to your lips to seek me, </l>
+               <l>ah my love, ah my own, </l>
+               <l>in me all that fire is repeated, </l>
+               <l>in me nothing is extinguished or forgotten, </l>
+               <l>my love feeds on your love, beloved, </l>
+               <l>and as long as you live it will be in your arms </l>
+               <l>without leaving mine.</l>
+        <l>           Pablo Neruda</l> 
+               <note><ref target="#ForgetMe"></ref></note>
+               <!-- I just made this up here -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

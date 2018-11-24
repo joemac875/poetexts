@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title> Halloween Poem 41</title>
+        <author>
+          <persName> unknown </persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Sonnet41"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+               <l>If you dare, feast your eyes and ears upon  </l>
+               <l>this selection of poems, articles, and audio </l> 
+               <l>clips designed to give goose</l>
+               <l>bumps and curdle the blood.</l>
+               <l> Thomas Moore, Edgar Allan Poe, and Christina  </l>
+               <l>Rossetti tell rhyming tales perfect</l>
+               <l>for chilling spines around the campfire.</l>
+               <l>Shakespeare’s singing charmers from Macbeth </l>
+               <l>and Sexton’s “lonely thing,</l>
+               <l>twelve-fingered, out of mind” are some of poetry’s</l>
+               <l>most infamous witches. We’ll never look at tree branches with </l>
+               <l>an innocent eye again, thanks to Paul Laurence Dunbar </l>
+               <l>and Louise Glück; Adelaide Crapsey and Mary Karr</l>
+               <l>ensure the same for darkened windows. </l>
+               <l>Michael Collier and Michael Waters mischievously depict the gender play </l>
+               <l>and genial debauchery of costumes, while W.S. Di Piero </l>
+               <l>and Carl Sandburg warn us that Halloween is a day when </l>
+               <l>real danger might look fake, and vice versa. </l>
+               <l>We get a peek into the demons and spirits of other cultures via Annie </l>
+               <l>Finch and Rae Armantrout: whether you say ghost,</l>
+               <l>genie, or djinn, the tingle in the spine is universal.</l>
+<!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>              
+                
+               
+                 
+                 
+              
+                
+                 
+                
+               
+                 
+                 
+                 
+                 
+               
+                 
+          
+        
+                 
+                 
+               
+                 
+                 
+             
+                 
+                 
+                 
+                 
+                
+                 
+              
+                 
+                 
+                
+  
+               
+               
+

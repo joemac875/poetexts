@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Sonnet 41</title>
+                <author>
+                    <persName>Krina Shah</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="TheMeaningofLove"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="free"></interp>
+                    <interp ana="#tone" type="romantic"></interp>
+                    <interp ana="#topic" type="love"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>To love is to share life together,</l>
+                    <l>to build special plans just for two,</l> 
+                    <l>to work side by side,</l>
+                    <l>and then smile with pride,</l>
+                    <l>as one by one, dreams all come true.</l>
+                    <l>To love is to help and encourage</l>
+                    <l>with smiles and sincere words of praise,</l>
+                    <l>to take time to share,</l>
+                    <l>to listen and care</l>
+                    <l>in tender, affectionate ways.-</l>
+                    <l>To love is to have someone special,</l>
+                    <l>one on whom you can always depend</l>
+                    <l>to be there through the years,</l>
+                    <l>sharing laughter and tears,</l>
+                    <l>as a partner, a lover, a friend.</l>
+                    <l>To love is to make special memories</l>
+                    <l>of moments you love to recall,</l>
+                    <l>of all the good things</l>
+                    <l>that sharing life brings.</l>
+                    <l>Love is the greatest of all.</l>
+                    <l>I've learned the full meaning</l>
+                    <l>of sharing and caring</l>
+                    <l>and having my dreams all come true;</l>
+                    <l>I've learned the full meaning</l>
+                    <l>of being in love</l>
+                    <l>by being and loving with you.</l>
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

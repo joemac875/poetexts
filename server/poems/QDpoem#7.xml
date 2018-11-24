@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Halfway Down</title>
+                <author>
+                    <persName>A.A. Milne</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Halfway Down"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="stairs"></interp>
+                    <interp ana="#tone" type="bottom"></interp>
+                    <interp ana="#topic" type="halfway"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>Halfway down the stairs</l>
+                    <l>Is a stair</l>
+                    <l> Where I sit.</l>
+                    <l> There isn't any</l>
+                    <l> Other stair</l>
+                    <l> Quite like</l>
+                    <l>It.</l>
+                    <l>I'm not at the bottom,</l>
+                    <l>I'm not at the top;</l>
+                    <l>So this is the stair</l>
+                    <l> Where</l>
+                    <l> I always</l>
+                    <l> Stop.</l>
+                    
+                    <l>Halfway up the stairs</l>
+                    <l> Isn't up</l>
+                    <l> And it isn't down.</l>
+                    <l> It isn't in the nursery,</l>
+                    <l> It isn't in town.</l>
+                    <l> And all sorts of funny thoughts</l>
+                    <l>Run round my head.</l>
+                    <l> It isn't really</l>
+                    <l> Anywhere!</l>
+                    <l> It's somewhere else</l>
+                    <l>Instead!</l>
+                    
+                    <l>Source: https://www.familyfriendpoems.com/poem/halfway-down-by-a-a-milne</l>
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

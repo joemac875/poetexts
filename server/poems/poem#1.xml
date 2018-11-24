@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Sick</title>
+                <author>
+                    <persName>Shel Silverstein</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="sick"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="sick"></interp>
+                    <interp ana="#tone" type="peggy"></interp>
+                    <interp ana="#topic" type="school"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>“I cannot go to school today,"</l>
+                       <l> Said little Peggy Ann McKay.</l>
+                    <l>  “I have the measles and the mumps,</l>
+                    <l> A gash, a rash and purple bumps.</l>
+                           <l>  My mouth is wet, my throat is dry,</l>
+                    <l>I’m going blind in my right eye.</l>
+                    <l> My tonsils are as big as rocks,</l>
+                    <l> I’ve counted sixteen chicken pox</l>
+                    <l> And there’s one more--that’s seventeen,</l>
+                    <l> And don’t you think my face looks green?</l>
+                    <l>My leg is cut--my eyes are blue--</l>
+                    <l> It might be instamatic flu.</l>
+                    <l> I cough and sneeze and gasp and choke,</l>
+                    <l> I’m sure that my left leg is broke--</l>
+                    <l> My hip hurts when I move my chin,</l>
+                    <l> My belly button’s caving in,</l>
+                    <l> My back is wrenched, my ankle’s sprained,</l>
+                    <l> My ‘pendix pains each time it rains.</l>
+                    <l>  My nose is cold, my toes are numb.</l>
+                    <l>I have a sliver in my thumb.</l>
+                    <l> My neck is stiff, my voice is weak,</l>
+                    <l> I hardly whisper when I speak.</l>
+                    <l> My tongue is filling up my mouth,</l>
+                    <l>   I think my hair is falling out.</l>
+                    <l>My elbow’s bent, my spine ain’t straight,</l>
+                    <l> My temperature is one-o-eight.</l>
+                    <l> My brain is shrunk, I cannot hear,</l>
+                    <l>  There is a hole inside my ear.</l>
+                        <l>   I have a hangnail, and my heart is--what?</l>
+                        <l>  What’s that? What’s that you say?</l>
+                        <l> You say today is. . .Saturday?</l>
+                        <l> G’bye, I’m going out to play!”</l>
+                        
+                        <l>Source: https://www.familyfriendpoems.com/poem/sick-by-shel-silverstein</l>
+                   
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

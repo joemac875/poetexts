@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>The Fire People</title>
+        <author>
+          <persName>Mildred Barya</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab><!-- https://www.poets.org/poetsorg/poem/fire-people --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Firepeople"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+              <l>We've turned our wals into finding things</l>
+          <l>That catch fire easily, like us</l> 
+          <l>our fascination with bush craft-</l>
+          <l>how to survive in a forest</l>
+          <l>without the conveniences</l>
+          <l>we have at home</l>
+          <l>the first human to discover fire</l>
+          <l>rubbed two stones together</l>
+          <l>friction is a good thing.</l>
+          <l>we have fun starting fires</l>
+          <l>scratching the Mora knife aganist the small iron rod</l>
+          <l>sending sparks into the nest of dried grass and fibrous barks</l>
+          <l>you put out the flame with the sole of your hiking boot</l>
+          <l>so we can begin, again</l>      
+          <l>by the time we leave the forest,</l>    
+          <l>we've discovered deer poo combusts easily</l>  
+          <l>human hair doesn't</l>   
+          <l>I've given a lock and you've won the best</l>  
+          <l>By the time we leave</l>   
+          <l>we've lost count of the fires we've started</l>   
+             
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

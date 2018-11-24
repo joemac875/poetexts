@@ -1,0 +1,67 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>A Reverse Poem</title>
+                <author>
+                    <persName>Ariana Bagley</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="https://soundcloud.com/user-509931528-773448690/reverse-poem"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="ReversePoem"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="free"></interp>
+                    <interp ana="#tone" type="other"></interp>
+                    <interp ana="#topic" type="love"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>I love him</l>
+                    <l>I tell myself</l> 
+                    <l>I know that</l>
+                    <l>We will be together forever</l>
+                    <l>I don't believe that</l>
+                    <l>We could be seperated</l>
+                    <l>My thoughts tell me that</l>
+                    <l>He's the love of my life</l>
+                    <l>Sometimes my heart lies and says</l>
+                    <l>I could love an eternity</l>
+                    <l>Without him</l>
+                    <l>Like my friends say</l>
+                    <l>"We're perfect for each other"</l>
+                    <l>And you can't tell me</l>
+                    <l>He's not the one.</l>
+                    <l></l>
+                    <l>Now read from bottom to top.</l>
+                   
+                    
+                    
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+
+
+
+

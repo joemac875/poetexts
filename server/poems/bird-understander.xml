@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>The Language </title>
+        <author>
+          <persName>Robert Creely</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="The Language "> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free verse"></interp>
+                <interp ana="#type" type="sad"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+               <l>Of many reasons I love you here is one</l>
+                 
+                 <l>the way you write me from the gate at the airport</l>
+                 <l>so I can tell you everything will be alright</l>
+                
+                 <l>so you can tell me there is a bird</l>
+                   <l>trapped in the terminal      all the people</l>
+               <l>ignoring it       because they do not know</l>
+               <l>what to do with it       except to leave it alone</l>
+               <l>until it scares itself to death</l>
+                 
+               <l>it makes you terribly terribly sad</l>
+                 
+               <l>You wish you could take the bird outside</l>
+               <l>and set it free or       (failing that)</l>
+               <l>call a bird-understander</l>
+               <l>to come help the bird</l>
+                 
+               <l>All you can do is notice the bird</l>
+               <l>and feel for the bird       and write</l>
+               <l>to tell me how language feels</l>
+               <l>impossibly useless</l>
+                 
+               <l>but you are wrong</l>
+                 
+               <l>You are a bird-understander</l>
+               <l>better than I could ever be</l>
+               <l>who make so many noises</l>
+               <l>and call them song</l>
+                 
+               <l>These are your own words</l>
+               <l>your way of noticing</l>
+               <l>and saying plainly</l>
+               <l>of not turning away</l>
+               <l>from hurt</l>
+                 
+               <l>you have offered them</l>
+               <l>to me       I am only</l>
+               <l>giving them back</l>
+                 
+               <l>if only I could show you</l>
+               <l>how very useless</l>
+               <l>they are not,</l>
+         
+          
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

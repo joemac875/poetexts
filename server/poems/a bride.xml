@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Sonnet 41</title>
+        <author>
+          <persName>James Whitcomb Riley</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Abride"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+               <l>'O I am weary!' she sighed, as her billowy</l>
+               <l>Hair she unloosed in a torrent of gold</l> 
+               <l>That rippled and fell o'er a figure as willowy,</l>
+               <l>Graceful and fair as a goddess of old:</l>
+               <l>Over her jewels she flung herself drearily,</l>
+               <l>Crumpled the laces that snowed on her breast,</l>
+               <l>Crushed with her fingers the lily that wearily</l>
+               <l>Clung in her hair like a dove in its nest--.</l>
+               <l>And naught but her shadowy form in the mirror</l>
+               <l>To kneel in dumb agony down and weep near her!</l>
+               <l>'Weary--?' Of what? Could we fathom the mystery--?</l>
+               <l>Lift up the lashes weighed down by her tears</l>
+               <l>And wash with their dews one white face from her history,</l>
+               <l>Set like a gem in the red rust of years?</l>
+               <l>Nothing will rest her-- unless he who died of her</l>
+               <l>Strayed from his grave, and in place of the groom,</l>  
+               <l>Tipping her face, kneeling there by the side of her,</l>  
+               <l>Drained the old kiss to the dregs of his doom--.</l>  
+               <l>And naught but that shadowy form in the mirror</l>  
+               <l>To heel in dumb agony down and weep near her!</l>  
+              
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>The Tropics in New York</title>
+                <author>
+                    <persName>Claude Mckay</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="https://soundcloud.com/user-509931528-773448690/the-tropics-in-new-york"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="TropicsNY"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="free"></interp>
+                    <interp ana="#tone" type="sad"></interp>
+                    <interp ana="#topic" type="society"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>Bananas ripe and green, and ginger-root,</l>
+                        <l>Cocoa in pods and alligator pears,</l> 
+                    <l>And tangerines and mangoes and grape fruit,</l>
+                        <l>Fit for the highest prize at parish fairs,</l>
+                    <l></l>
+                    <l>Set in the window, bringing memories</l>
+                        <l>Of fruit-trees laden by low-singing rills,</l>
+                    <l>And dewy dawns, and mystical blue skies</l>
+                        <l>In benediction over nun-like hills.</l>
+                    <l></l>
+                    <l>My eyes grew dim, and I could no more graze;</l>
+                        <l>A wave of longing through my body swept,</l>
+                    <l>And, hungry for the old, familiar ways,</l>
+                        <l>I turned aside and bowed my head and wept.</l>
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+
+

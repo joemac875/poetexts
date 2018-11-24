@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Lost Dog</title>
+        <author>
+          <persName>Ellen Bass</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>Copyright © 2007 by Ellen Bass</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="LostDog"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="narrative"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+               <l>It’s just getting dark, fog drifting in,</l>
+               <l>damp grasses fragrant with anise and mint,</l>
+               <l>and though I call his name</l>
+               <l>until my voice cracks,</l>
+               <l>there’s no faint tinkling</l>
+               <l>of tag against collar, no sleek</l>
+               <l>black silhouette with tall ears rushing</l>
+               <l>toward me through the wild radish.</l>
+               
+               <l>As it turns out, he’s trotted home,</l>
+               <l>tracing the route of his trusty urine.</l>
+               <l>Now he sprawls on the deep red rug, not dead,</l>
+               <l>not stolen by a car on West Cliff Drive.</l>
+               
+               <l>Every time I look at him, the wide head</l>
+               <l>resting on outstretched paws,</l>
+               <l>joy does another lap around the racetrack</l>
+               <l>of my heart. Even in sleep</l>
+               <l>when I turn over to ease my bad hip,</l>
+               <l>I’m suffused with contentment.</l>
+               
+               <l>If I could lose him like this every day</l>
+               <l>I’d be the happiest woman alive.</l>
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Wisconsin</title>
+        <author>
+          <persName>Nate Klug</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          https://soundcloud.com/nathan-lawrence-906498502/poem9
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Sonnet41"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+              <l>By new names</l>
+          <l>and then no names</l> 
+          <l>at all, their laws</l>
+          <l>will reach your land,</l>
+          <l>Lorine, to feed</l>
+          <l>on your much loved</l>
+          <l>marshy spaces</l>
+          <l>whose occasional faces</l>
+          <l>discern a stranger</l>
+          <l>from far off</l>
+          <l>but like to take</l>
+          <l>a break from well</l>
+          <l>or welding just</l>
+          <l>to talk. We can-</l> 
+          <l>not extricate</l>
+          <l>a place form those</l>
+          <l>it's made of, the sounds</l>
+          <l>it makes. But now</l>
+          <l>from Blackhawk</l>
+          <l>Island to Madison</l>
+          <l>to Washington,</l>
+          <l>geologies</l>
+          <l>thin; more things</l>
+          <l>sound or work</l>
+          <l>the same. Their laws</l>
+          <l>will reach your land,</l>
+          <l>Lorine, by new names</l> 
+          <l>then no names at all.</l>
+         
+        
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Do Not Stand by My Grave and Weep</title>
+        <author>
+          <persName>Mary Elizabeth Frye</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ref/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="DoNotStandbyMyGraveandWeep"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="death"></interp>
+              </interpGrp>
+             <lg> 
+               <l>Do not stand at my grave and weep</l>
+               <l>I am not there; I do not sleep.</l>
+               <l>I am a thousand winds that blow,</l>
+               <l>I am the diamond glints in the snow,</l>
+               <l>I am the sun on ripened grain,</l>
+               <l>I am the gentle autumn rain.</l>
+               <l>When you awaken in the morning's hush</l>
+               <l>I am the swift uplifting rush</l>
+               <l>Of quiet birds in circled flight.</l>
+               <l>I am the soft stars that shine at night.</l>
+               <l>Do not stand at my grave and cry,</l>
+               <l>I am not there; I did not die.</l>
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

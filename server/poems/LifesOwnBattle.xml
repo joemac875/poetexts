@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Life's Own Battle</title>
+        <author>
+          <persName>Emma Jackson</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- https://soundcloud.com/user-985298152/lifes-own-battle -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="LifesOwnBattle"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="haiku"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="courage"></interp>
+              </interpGrp>
+             <lg> 
+              <l>Didn't want a battle,</l>
+          <l>Yet you declared war,</l> 
+          <l>Each knock you gave me made me stronger than before,</l>
+          <l>I will not give up,</l>
+          <l>I will not give in,</l>
+          <l>You won't make me fall,</l>
+          <l>I won't let you win.</l>
+         
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>I love you </title>
+        <author>
+          <persName>Ella Wheeler Wilcox</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="I Love you "> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#type" type="love"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+          <l>I love your lips when they’re wet with wine</l>
+          <l>And red with a wild desire;</l>
+          <l>I love your eyes when the lovelight lies</l>
+          <l>Lit with a passionate fire.</l>
+          <l>I love your arms when the warm white flesh</l> 
+          <l>Touches mine in a fond embrace;</l>
+          <l>I love your hair when the strands enmesh</l>
+          <l>Your kisses against my face.</l>
+          
+          <l>Not for me the cold, calm kiss </l>
+          <l>Of a virgin’s bloodless love;</l>  
+          <l>Not for me the saint’s white bliss,</l>
+          <l>Nor the heart of a spotless dove.</l>
+          <l>But give me the love that so freely gives </l>
+          <l>And laughs at the whole world’s blame,</l> 
+          <l>With your body so young and warm in my arms, </l>
+          <l>It sets my poor heart aflame.</l>
+               
+          <l>So kiss me sweet with your warm wet mouth,</l>
+          <l>Still fragrant with ruby wine,</l>  
+          <l>And say with a fervor born of the South</l> 
+          <l>That your body and soul are mine.</l> 
+          <l>Clasp me close in your warm young arms,</l>
+          <l>While the pale stars shine above,</l>
+          <l>And we’ll live our whole young lives away</l>
+          <l>In the joys of a living love.</l>
+          
+          
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

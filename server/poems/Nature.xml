@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Sonnet 41</title>
+                <author>
+                    <persName>Bianca Stone</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Nature"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="Free"></interp>
+                    <interp ana="#tone" type="happy"></interp>
+                    <interp ana="#topic" type="nature"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>Maybe humans are the failed A.I. of Nature.</l>
+                    <l>Maybe Nature made something it thought would tend the garden.</l> 
+                    <l>Maybe Nature made something sexy, to watch</l>
+                    <l>clean the pools with long butterfly nets</l>
+                    <l>and a sunburn—the retainers of Nature.</l>
+                    <l>Now, mirror of mercury and Hell, that hot-red bomb</l>
+                    <l>in your mouth, that sweet battleground on your tongue—</l>
+                    <l>it is the catastrophe of your mission.</l>
+                    <l>The wealthy, with their outstanding educations</l>
+                    <l>and custom shoes, and empty apartments</l>
+                    <l>floating above like Glinda; the ballad of media,</l>
+                    <l>the intellectuals, almost shepherding</l>
+                    <l>evolution, falling asleep in their haunted paintings</l>
+                    <l>and unattainable poetry—all the dimensions</l>
+                    <l>of each person’s being, punk, restless in a loop.</l>
+                    <l>Sometimes I want to be taken into nothingness.</l>
+                    <l>I want to be burned with the gypsy moths and bindweed.</l>
+                    <l>Run to exhaustion with the wildebeest.</l>
+                    <l>I don’t want this phone, I want to kill God.</l>
+                    <l>Maybe humans are the complex systems</l>
+                    <l>of a natural order that must build and destroy itself in perpetuity.</l>
+                    <l>Blue chicory on the road saying the end of summer</l>
+                    <l>in a sandstorm of our passing—they gyrate and smile—</l>
+                    <l>what of our little duties to the architect?</l>
+                    <l>Our deep-red blood, our lush tech—</l>
+                    <l>Archangels, limping in paradise.</l>
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>The Giver of Stars</title>
+        <author>
+          <persName>Amy Lowell</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- Public Domains --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="TheGiverofStars"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="freeverse"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+              <l>Hold your soul open for my welcoming.</l>
+          <l>Let the quiet of your spirit bathe me</l> 
+          <l>With its clear and rippled coolness,</l>
+          <l>That, loose-limbed and weary, I find rest,</l>
+          <l>Outstretched upon your peace, as on a bed of ivory.</l>
+          <l>Let the flickering flame of your soul play around about me,</l>
+          <l>That into limbs may come the keenness of fire,</l>
+          <l>The life and joy of tongues of flame,</l>
+          <l>And, going out from you, tightly strung and in tune,</l>
+          <l>I may rouse the blear-eyed world,</l>
+          <l>And pour into it the beauty whoch you have begotten.</l>
+          
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

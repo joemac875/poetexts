@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>confetti</title>
+        <author>
+          <persName>Robin Gow</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>Poetry (November 2018)</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/paola-amaya-349175383/confetti/s-qpERV"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Confetti"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+               <l>it started with the first time</l>
+               <l>i opened the closet in my new</l> 
+               <l>bedroom. paper flecks bursting from</l>
+               <l>behind the door. they had been waiting</l>
+               <l>all millennia. you helped</l>
+               <l>me pick them from my hair but even</l>
+               <l>weeks later we’d still find pieces</l>
+               <l>in between teeth — under tongues — </l>
+               <l>on shoulders and lodged beneath fingernails.</l>
+               <l>you were always so gentle as you’d release</l>
+               <l>them out the window — same as you’d do</l>
+               <l>for a spider. when finished with</l>
+               <l>a rainbow it is the task of the youngest</l>
+               <l>angel to put it through the paper shredder.</l>
+               <l>he crouches in the cloud mist — taking</l>
+               <l>handfuls of the body’s remnants.</l>
+               <l>he learns not to weep after years of practice.</l>
+               <l>the first rainbow he shredded was that one</l>
+               <l>that we tried to follow in your car — </l>
+               <l>driving around wet fallen trees — mist</l>
+               <l>rising from the asphalt. we never did get there</l>
+               <l>but we did stop for ice cream. you bit</l>
+               <l>the bottom off the cone. the sound</l>
+               <l>of the rainbow’s destruction was only a dull</l>
+               <l>static noise to us down here. i noticed</l>
+               <l>it but didn’t want to tell you. the next</l>
+               <l>time i was tearing open what looked like</l>
+               <l>a credit card offer in the mail and out</l>
+               <l>came the confetti. we had just stopped finding</l>
+               <l>it on everything — gushing like an artery</l>
+               <l>i covered my face until it was through.</l>
+               <l>mounds upon mounds of color. stole the rake</l>
+               <l>from my aunt’s shed we had used to rake leaves</l>
+               <l>in early october before the weather gave</l>
+               <l>herself over to frost. i resisted the impulse</l>
+               <l>to make the confetti into piles to leap into.</l>
+               <l>you were coming over and i wanted to be</l>
+               <l>clean. the next time we slept together</l>
+               <l>i transported myself somewhere else as you kissed me.</l>
+               <l>sat on the collarbone of the rainbow as</l>
+               <l>it was shred along with my hair. me, with the</l>
+               <l>thousand-piece body. me, getting blown</l>
+               <l>away by the first breeze. me, inhaling</l>
+               <l>the tears of the kneeling angel. i came</l>
+               <l>back to the room when you knelt,</l>
+               <l>spitting paper out of your mouth. confetti began to</l>
+               <l>pour out from behind my lips, miraculously dry.</l>
+               <l>each time i tried to apologize more came out;</l>
+               <l>you, naked on the bedroom floor trying to dispose</l>
+               <l>of the colors as they came. flow mountain spring.</l>
+               <l>flow slit neck of a pig. flash flood and</l>
+               <l>flow melted ice cream down to our elbows.</l>
+               <l>by the time it stopped your fear turned to anger.</l>
+               <l>slammed the door as you left and there i</l>
+               <l>was with all this color. i put some in my mouth</l>
+               <l>but it was too bitter too swallow.</l>
+               <l>if i don’t kiss anyone this won’t happen again — </l>
+               <l>i can keep it a beautiful secret. routine:</l>
+               <l>each morning removing the piles of cut paper.</l>
+               <l>when you come over i sometimes find them on your</l>
+               <l>skin. you don’t notice so i kiss them off</l>
+               <l>your neck. i’m trying i’m trying.</l>
+               <l>i peel the rainbows free and roll them up like</l>
+               <l>yoga mats in the closet. the shredding has</l>
+               <l>gotten so loud — i ask you if you hear</l>
+               <l>it and you shake your head, unknowingly.</l>
+               <l>i can’t stand it — i can’t stand it.</l>
+               <l>caress this color out of me.</l>
+        <l>           Robin Gow</l> 
+               <note><ref target="#Confetti"></ref></note>
+               <!-- I just made this up here -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

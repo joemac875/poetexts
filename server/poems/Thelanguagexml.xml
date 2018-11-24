@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>The Language </title>
+        <author>
+          <persName>Robert Creely</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="The Language "> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#type" type="sad"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+              <l>Locate I,</l>
+          <l>love you some-</l>
+          </l> where in,</l>
+          <l>teeth and</l>
+          <l>eyes bite,</l>
+          <l>it but</l>
+          <l>take care not</l>
+          <l>to hurt, you</l>
+          <l>want so</l>
+          
+            <l>Much so</l>
+          <l>little. words </l>
+          <l>say everything</l>
+          <l>I</l>
+          </l>Love you</l>
+          <l>Again</l>
+          
+          <l>Then what<l/>
+          <l> is emtiness</l>
+          <l> for. To<l/>
+          <l>Fill, fill.<l/>
+          <l>I heard words</l>
+          <l>and words full</l>
+            
+          <l>of holes<l/>
+          <l>aching. Speech<l/>
+          <l>is a mouth<l/>
+          
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

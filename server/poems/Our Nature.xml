@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Sonnet 41</title>
+                <author>
+                    <persName>Rae Armantrout</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="OurNature"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="Free"></interp>
+                    <interp ana="#tone" type="other"></interp>
+                    <interp ana="#topic" type="society"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>The very flatness</l>
+                    <l>of portraits</l> 
+                    <l>makes for nostalgia</l>
+                    <l>in the connoisseur.</l>
+                    <l>Here’s the latest</l>
+                    <l>little lip of wave</l>
+                    <l>to flatten</l>
+                    <l>and spread thin.</l>
+                    <l>Let’s say</l>
+                    <l>it shows our recklessness,</l>
+                    <l>our fast gun,</l>
+                    <l>our self-consciousness</l>
+                    <l>Which was really</l>
+                    <l>our infactuation</l>
+                    <l>with our own fame,</l>
+                    <l>our escapes,</l>
+                    <l>the easy way</l>
+                    <l>we'd blend in</l>
+                    <l>with the peasantry,</l>
+                    <l>our loyalty</l>
+                    <l>to our old gang</l>
+                    <l>from among whom</l>
+                    <l>it was our nature</l>
+                    <l>to be singled out</l>
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

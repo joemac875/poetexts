@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>The Cross of Snow</title>
+        <author>
+          <persName>Henry Wadsworth Longfellow</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/user-597751783/the-cross-of-snow?in=user-597751783/sets/english-151-poetry-assignment"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="TheCrossofSnow"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="death"></interp>
+              </interpGrp>
+             <lg> 
+               <l>In the long, sleepless watches of the night,</l>
+               <l>A gentle face--the face of one long dead-</l>
+               <l>Looks at me from the wall, where round its head</l>
+               <l>The night-lamp casts a halo of pale light.</l>
+               <l>Here in this room she died, and soul more white</l>
+               <l>Never through martyrdom of fire was led</l>
+               <l>To its repose; nor can in books be read</l>
+               <l>The legend of a life more benedight.</l>
+               <l>There is a mountain in the distant West</l>
+               <l>That, sun-defying, in its deep ravines</l>
+               <l>Displays a cross of snow upon its side.</l>
+               <l>Such is the cross I wear upon my breast</l>
+               <l>These eighteen years, through all the changing scenes</l>
+               <l>And seasons, changeless since the day she died.</l>
+               
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>First Blues</title>
+                <author>
+                    <persName>Saundra Rose Maley</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="https://soundcloud.com/user-509931528-773448690/first-blues"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Blues"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="free"></interp>
+                    <interp ana="#tone" type="other"></interp>
+                    <interp ana="#topic" type="nature"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>That summer night</l>
+                    <l>Was hot</l> 
+                    <l>Steaming like a crab</l>
+                    <l>Luscious under the shell</l>
+                    <l></l>
+                    <l>Televisions gone bleary</l>
+                    <l>Blinked</l>
+                    <l>In front of men</l>
+                    <l>In undershirts drinking beer</l>
+                    <l></l>
+                    <l>Wives upstairs took showers</l>
+                    <l>Caught</l>
+                    <l>A glimpse of their backs</l>
+                    <l>In hallway mirrors</l>
+                    <l></l>
+                    <l>I sat in the dark</l>
+                    <l>Invisible</l>
+                    <l>On the backporch</l>
+                    <l>Drinking in the night</l>
+                    <l>And it tasted good</l>
+                    <l>So good</l>
+                    <l>Going down</l>
+                    <l>And somebody like me</l>
+                    <l></l>
+                    <l>Blew night through an alto sax</l>
+                    <l>Blew and blew</l>
+                    <l>His cooling breath</l>
+                    <l>His hot cool breath on me—</l>
+                    <l></l>
+                    <l>And I came alive</l>
+                    <l>Glowing</l>
+                    <l>In the dark</l>
+                    <l>Listening like a fool</l>
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+
+

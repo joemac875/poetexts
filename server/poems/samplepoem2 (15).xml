@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>To Autumn</title>
+        <author>
+          <persName>John Keats</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="ToAutumn"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="freeverse"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+              <l>Seasons of mists and mellow fruitfulness</l>
+          <l>Close bosom-friend of the maturing sun;</l> 
+          <l>Conspiring with him how to load and bless</l>
+          <l>With fruit the vines that round the tatch-eves run;</l>
+          <l>To bend with apples the mossed cottage-trees,</l>
+          <l>And fill all fruits with ripeness to the core;</l>
+          <l>To swell the gourd, and plump the hazel shells</l>
+          <l>With a sweet kernel; to set budding more,</l>
+          <l>And still more. later flowers for the bees,</l>
+          <l>Until they think warm days will never cease,</l>
+          <l>For summer has o'er-brimmed their clammy cells</l>
+          
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>
