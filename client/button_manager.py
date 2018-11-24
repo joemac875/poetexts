@@ -52,7 +52,7 @@ class ButtonManager():
             if self.pressed == True:
                 # print('Button Reset')
                 play_obj = self.reset_sound.play()
-                play_obj.wait_done()
+                #play_obj.wait_done()
                 self.pressed = False
                 return 2
         return 0
