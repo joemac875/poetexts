@@ -47,7 +47,7 @@ class XML2DataFrame:
                     poem = self.parse_xml_file(filename)
                 except Exception as e:
                     self.write_error("FATAL" + filename, str(e))
-
+                    poem = None
                 if poem is not None:
                     dataframe = dataframe.append(poem, ignore_index=True)
 
