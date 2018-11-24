@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Love</title>
+        <author>
+          <persName>Elizabeh Barrett Borwning</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Love"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#type" type="love"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+          <l>We cannot live, except thus mutually </l>
+          <l>We alternate, aware or unaware, </l>
+          <l>The reflex act of life: and when we bear</l>
+          <l>Our virtue onward most impulsively,</l>
+          <l>Most full of invocation, and to be</l>
+          <l>Most instantly compellant, certes, there</l>
+          <l>We live most life, whoever breathes most air </l>
+          <l>And counts his dying years by sun and sea.</l>
+          <l>But when a soul, by choice and conscience, doth</l>
+          <l>Throw out her full force on another soul,</l>
+          <l>The conscience and the concentration both</l>
+          <l>Make mere life, Love. For Life in perfect whole</l> 
+          <l>And aim consummated, is Love in sooth, </l>
+          <l>As nature’s magnet-heat rounds pole with pole.</l>
+          
+          
+          
+          
+          
+          
+          
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

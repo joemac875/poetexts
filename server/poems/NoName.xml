@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>No Name</title>
+        <author>
+          <persName>Emily Berry</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>Poetry (November 2018)</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/paola-amaya-349175383/no-name/s-6zSIa"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="NoName"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+               <l>What can I tell you? It was a summer that seemed to be</l>
+               <l>making history — their personal history — almost before</l> 
+               <l>it began, and they stood back slightly, still in it, but</l>
+               <l>observing it, saying “the summer this,” “the summer that,”</l>
+               <l>all the while it was going on. They became obsessed with</l>
+               <l>a fountain, for example, one they walked past each day,</l>
+               <l>how abundantly it would reach upwards and yet be pouring</l>
+               <l>back down itself the whole time — all winter this fountain</l>
+               <l>had been dry, not saying a word. What more can I tell you?</l>
+               <l>Oh, everything — like how they would walk home in</l>
+               <l>the evenings when the light was soft, anything bad sliding</l>
+               <l>off them, and they would feel owned, completely owned,</l>
+               <l>in a good way, by the air, which would touch them constantly,</l>
+               <l>sometimes urgently, sometimes lightly, just to let them know</l>
+               <l>it was there, and they would think maybe this is what being</l>
+               <l>alive is, when they saw how complicated a tree was and how</l>
+               <l>it wanted them looking at it and saying this, how the color</l>
+               <l>of a particular flower at this particular moment was redder</l>
+               <l>even than the life force, whatever that is, if you could open</l>
+               <l>it up and get right down inside it, if you could put your mouth</l>
+               <l>to it and become as red as that rose even, it was still redder</l>
+               <l>than that, and they wouldn’t know what to do with themselves</l>
+               <l>so they wouldn’t do anything except listen to the songs in their</l>
+               <l>heads which were sad ones like nearly all good songs and watch</l>
+               <l>this feeling rolling in, sunshine or rain, we don’t know yet,</l>
+               <l>it’s a good one, it’s the best one, though it has no name.</l>
+        <l>           Emily Berry</l> 
+               <note><ref target="#NoName"></ref></note>
+               <!-- I just made this up here -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

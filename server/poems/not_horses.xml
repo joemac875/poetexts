@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Not Horses</title>
+        <author>
+          <persName>Natalie Shapero</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>Poetry (November 2013)</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/paola-amaya-349175383/not-horses/s-hCjjF"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="NotHorses"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="death"></interp>
+              </interpGrp>
+             <lg> 
+               <l>What I adore is not horses, with their modern</l>
+               <l>domestic life span of 25 years. What I adore</l> 
+               <l>is a bug that lives only one day, especially if</l>
+               <l>it’s a terrible day, a day of train derailment or</l>
+               <l>chemical lake or cop admits to cover-up, a day</l>
+               <l>when no one thinks of anything else, least of all</l>
+               <l>that bug. I know how it feels, born as I’ve been</l>
+               <l>into these rotting times, as into sin. Everybody’s</l>
+               <l>busy, so distraught they forget to kill me,</l>
+               <l>and even that won’t keep me alive. I share</l>
+               <l>my home not with horses, but with a little dog</l>
+               <l>who sees poorly at dusk and menaces stumps,</l>
+               <l>makes her muscle known to every statue.</l>
+               <l>I wish she could have a single day of   language,</l>
+               <l>so that I might reassure her don’t be afraid —</l>
+               <l>our whole world is dead and so can do you no harm.</l>
+        <l>           Natalie Shapero</l> 
+               <note><ref target="#NotHorses"></ref></note>
+               <!-- I just made this up here -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

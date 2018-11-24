@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Say This</title>
+        <author>
+          <persName>Lucia Perillo</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>Poetry (November 2018)</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/paola-amaya-349175383/my-therapist-wants-to-know-about-my-relationship-to-work/s-kcLem"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="SayThis"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+               <l>I live a small life, barely bigger than a speck,</l>
+               <l>barely more than a blip on the radar sweep</l> 
+               <l>though it is not nothing, as the garter snake</l>
+               <l>climbs the rock rose shrub and the squirrel creeps</l>
+               <l>on bramble thorns. Not nothing to the crows</l>
+               <l>who heckle from the crowns of the last light’s trees</l>
+               <l>winterstripped of green, except for the boles</l>
+               <l>that ivy winds each hour round. See, the world is busy</l>
+               <l>and the world is quick, barely time for a spider</l>
+               <l>to suck the juice from a hawk moth’s head</l>
+               <l>so it can use the moth as a spindle that it wraps in fiber</l>
+               <l>while the moth constricts until it’s thin as a stick</l>
+               <l>you might think was nothing, a random bit</l>
+               <l>caught in a web coming loose from the window frame, in wind.</l>
+        <l>           Lucia Perillo</l> 
+               <note><ref target="#SayThis"></ref></note>
+               <!-- I just made this up here -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

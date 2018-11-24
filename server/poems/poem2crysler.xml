@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>The Wing Reader</title>
+        <author>
+          <persName>Brooke Smith</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ref/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="TheWingReader"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+               <l>These moments were between real people.</l>
+               <l>Deep love a thread only wide eyes could see.</l>
+               <l>Tying here to there.</l>
+               <l>People lost.</l>
+               <l>Now found.</l>
+               <l>In the air</l>
+               <l>on wings</l>
+               <l>all around.</l>
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

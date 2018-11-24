@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Story Telling</title>
+                <author>
+                    <persName>Edgar Guest</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Story Telling"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="story"></interp>
+                    <interp ana="#tone" type="bedtime"></interp>
+                    <interp ana="#topic" type="night"></interp>
+                </interpGrp>
+                <lg> 
+                    <l> Most every night when they're in bed,</l>
+                    <l> And both their little prayers have said,</l>
+                    <l> They shout for me to come upstairs</l>
+                    <l>And tell them tales of gypsies bold,</l>
+                    <l> And eagles with the claws that hold</l>
+                    <l> A baby's weight, and fairy sprites</l>
+                    <l> That roam the woods on starry nights.</l>
+                    
+                    <l> And I must illustrate these tales,</l>
+                    <l> Must imitate the northern gales</l>
+                    <l>That toss the native man's canoe,</l>
+                    <l>And show the way he paddles, too.</l>
+                    <l> If in the story comes a bear,</l>
+                    <l>I have to pause and sniff the air</l>
+                    <l> And show the way he climbs the trees</l>
+                    <l>To steal the honey from the bees.</l>
+                    
+                    <l>And then I buzz like angry bees</l>
+                    <l>And sting him on his nose and knees</l>
+                    <l>And howl in pain, till mother cries:</l>
+                    <l>"That pair will never shut their eyes,</l>
+                    <l>While all that noise up there you make;</l>
+                    <l> You're simply keeping them awake."</l>
+                    <l>And then they whisper: "Just one more,"</l>
+                    <l>And once again I'm forced to roar.</l>
+                    
+                    <l>New stories every night they ask.</l>
+                    <l> And that is not an easy task;</l>
+                    <l> I have to be so many things,</l>
+                    <l>The frog that croaks, the lark that sings,</l>
+                    <l>The cunning fox, the frightened hen;</l>
+                    <l> But just last night they stumped me, when</l>
+                    <l>They wanted me to twist and squirm</l>
+                    <l>And imitate an angle worm.</l>
+                    
+                    <l> At last they tumble off to sleep,</l>
+                    <l>And softly from their room I creep</l>
+                    <l>And brush and comb the shock of hair</l>
+                    <l>I tossed about to be a bear.</l>
+                    <l> Then mother says: "Well, I should say</l>
+                    <l> You're just as much a child as they."</l>
+                    <l> But you can bet I'll not resign</l>
+                    <l>That story telling job of mine.</l>
+                    
+                    
+                    
+                    
+                    <l>Source: https://www.familyfriendpoems.com/poem/story-telling-by-edgar-albert-guest</l>
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

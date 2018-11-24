@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Disappointments</title>
+        <author>
+          <persName>Vivian Gilbert Zabel</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Disappointments"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="freeverse"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="sad"></interp>
+              </interpGrp>
+             <lg> 
+              <l>Every life has a room</l>
+          <l>where memories are stored:</l> 
+          <l>A box of special occasions here,</l>
+          <l>Shelves of shared laughter there.</l>
+          <l>But back in the shadows</l>
+          <l>Lurks a trunk locked tight,</l>
+          <l>Not to be opened and searched.</l>
+          <l>There hide disappointments</l>
+          <1>Which darken every heart.</1>
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

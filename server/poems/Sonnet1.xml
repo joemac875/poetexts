@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Sonnet</title>
+        <author>
+          <persName>Robert Hass</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="NatureKnowItsMath"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#tone" type="free"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+              <l>Divide</l>
+               <l>A man talking to his ex-wife on the phone.</l> 
+               <l>He has loved her voice and listens with attention</l>
+               <l>to every modulation of its tone. Knowing   </l>
+               <l>it intimately. Not knowing what he wants</l>
+               <l>from the sound of it, from the tendered civility.</l>
+               <l>He studies, out the window, the seed shapes</l>
+               <l>of the broken pods of ornamental trees.</l>
+               <l>The kind that grow in everyone’s garden, that no one</l> 
+               <l>but horticulturists can name. Four arched chambers</l>
+               <l>of pale green, tiny vegetal proscenium arches,</l>
+               <l>a pair of black tapering seeds bedded in each chamber.</l>
+               <l>A wish geometry, miniature, Indian or Persian,</l>
+               <l>lovers or gods in their apartments. Outside, white,</l>
+               <l>patient animals, and tangled vines, and rain.</l>
+
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

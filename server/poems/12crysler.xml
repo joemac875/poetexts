@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Mind</title>
+        <author>
+          <persName>Richard Wilbur</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ref/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Mind"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+           <l>Mind in its purest play is like some bat</l>
+               <l>That beats about in caverns all alone,</l>
+               <l>Contriving by a kind of senseless wit</l>
+               <l>Not to conclude against a wall of stone.</l>
+               <l>It has not need to falter or explore;</l>
+               <l>Darkly it knows what obstacles are there,</l>
+               <l>And so may weave and flitter, dip and soar</l>
+               <l>In perfect courses through the blackest air.</l>
+               <l>And has this simile a like perfection?</l>
+               <l>The mind is like a bat. Precisely. Save</l>
+               <l>That in the very happiest if intellection</l>
+               <l>A graceful error may correct the cave.</l>
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

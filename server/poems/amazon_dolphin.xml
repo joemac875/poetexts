@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>The Amazon River Dolphin</title>
+        <author>
+          <persName>Linda Rodriguez</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>Copyright © 2009 by Linda Rodriguez.</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/paola-amaya-349175383/the-amazon-river-dolphin/s-r4rmr"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="AmazonDolphin"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+               <l>The sudden pink shape</l>
+               <l>surfacing in black-water lagoons</l> 
+               <l>shocked explorers.</l>
+               <l>All dolphins share man’s</l>
+               <l>thumb and fingerbones,</l>
+               <l>but these also wear his flesh.</l>
+               <l>When the river overflows</l>
+               <l>and floods the varzea, </l>
+               <l>these dolphins travel miles</l>
+               <l>to splash in the shallows</l>
+               <l>amongst buttress-roots of giant</l>
+               <l>rainforest trees.</l>
+               <l>dolphins never.</l>
+               <l>                        </l>
+               <l>A lamp burning dolphin oil</l>
+               <l>blinds. At night</l>
+               <l>the pink-flesh contours melt and blur.</l>
+               <l>The flipper extends the hidden hand</l>
+               <l>to lift its woman’s torso</l>
+               <l>to the land. An Eve,</l>
+               <l>born each night from the black Amazon,</l>
+               <l>roams the dark banks for victims</l>
+               <l>to draw to the water and death.</l>
+               <l>Taboo to the Indians,</l>
+               <l>this pink daughter of the river’s magic</l>
+               <l>always looks, to explorers,</l>
+               <l>like she’s smiling.</l>
+        <l>          Linda Rodriguez</l> 
+               <note><ref target="#AmazonDolphin"></ref></note>
+               <!-- I just made this up here -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

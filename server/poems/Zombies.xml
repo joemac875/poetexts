@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title> Zombies 41</title>
+        <author>
+          <persName> jack </persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Sonnet41"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="Free"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+               <l>We began the journey in Morg city</l>
+               <l>Hopefully you enjoy this little ditty</l> 
+               <l>treyarch announced that there'd be a new crew</l>
+               <l>some folks liked that it was new, others gave it a massive boo</l>
+               <l>that crew consisted of a dancer , a boxer ,a magician and a cop</l>
+               <l>Overall this made people run to their game shop.</l>
+               <l>These 4 heros knew they had to defend their city from dusk to dawn</l>
+               <l>From the evil squid army known as the apothicons</l>
+               <l>but no one was aware that the mad doc was being a creeper</l>
+               <l>The shadowman was stuck inside the key</l>
+               <l>and it looked like our 4 were free.</l>
+               <l>But the mad Doc was having non of that</l>
+               <l>So he stole the key from them and took off just like that</l>
+               <l>The mad doc teleported to his facility</l>
+               <l>Where he met his twin brother , and with such agility</l>
+               <l>He put his twin down</l>
+               <l>His 3 friends asked him to explain why</l>
+               <l>But the Doc just smiled at them and said "Vat I do I do only to secure a better tomorrow"</l>
+               <l>then proceded to say , next ve will go somewhere vere der is snow.</l>
+<!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>              
+                
+               
+                 
+                 
+              
+                
+                 
+                
+               
+                 
+                 
+                 
+                 
+               
+                 
+          
+        
+                 
+                 
+               
+                 
+                 
+             
+                 
+                 
+                 
+                 
+                
+                 
+              
+                 
+                 
+                
+  
+               
+               
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Sonnet 41</title>
+        <author>
+          <persName>William Carlos Williams</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Williamx2"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sadhappy"></interp>
+                <interp ana="#topic" type="mysterious"></interp>
+              </interpGrp>
+             <lg> 
+              <l>let the snake wait under</l>
+          <l>his weed</l> 
+          <l>and the writing</l>
+          <l>be of words, slow and quick, sharp</l>
+          <l>to strike, quiet to wait</l>
+          <l>sleepless</l>
+          <l>-- through metaphor to reconcile</l>
+          <l>the people and the stones</l>
+          <l>compose</l>  
+               <l>invent</l>
+               <l>ssaxifriage is the flower that splits</l>
+               <l>the rocks</l>
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>The Language </title>
+        <author>
+          <persName>Robert Creely</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Sad Boys, sad boys"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free verse"></interp>
+                <interp ana="#type" type="sad"></interp>
+                <interp ana="#topic" type="sad"></interp>
+              </interpGrp>
+             <lg> 
+               <l>I ruin my hats and all the mat slides glad</l>
+               <l>I hop my girls and all is skip again</l>
+               <l>I jump I run you up inside my truck </l>
+               
+               <l>The car goes looping out in dark and light</l>
+               <l>And yellow hat slides in</l>
+               <l>I run my mats and all the girl slides glad</l>
+               
+               <l>I hoped you skipped me into luck</l>
+               <l>And jump me black, ruin me glad</l>
+               <l>I jump I run you up inside my truck</l>
+               
+               <l>I jump my slopes and all the dopes slide glad</l> 
+               <l>I glide my luck and all is slip again</l> 
+               <l>I jump my hopes and all the rope glides sad</l> 
+               
+               <l>I skip you jump the way you said</l>
+               <l>But I run old and sigh your name</l>
+               <l>I ruin my mats and all the girl slides glad</l>
+               
+               <l>At least when luck hops it skips back again</l>
+               <l>A rune my mats and all the girls slide glad</l>
+               <l>I jump I run you up inside my truck</l>
+               
+               
+               
+
+         
+          
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

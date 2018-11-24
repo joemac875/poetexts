@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Wind On The Hill</title>
+                <author>
+                    <persName>A.A. Milne</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="wind on the hill"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="wind on the hill"></interp>
+                    <interp ana="#tone" type="kite"></interp>
+                    <interp ana="#topic" type="blows"></interp>
+                </interpGrp>
+                <lg> 
+                   <l> No one can tell me,</l>
+                    <l> Nobody knows,</l>
+                    <l> Where the wind comes from,</l>
+                    <l> Where the wind goes.</l>
+                    
+                    <l> It's flying from somewhere</l>
+                    <l> As fast as it can,</l>
+                    <l>  I couldn't keep up with it,</l>
+                    <l> Not if I ran.</l>
+                    
+                    <l> But if I stopped holding</l>
+                    <l>The string of my kite,</l>
+                    <l> It would blow with the wind</l>
+                    <l> For a day and a night.</l>
+                    
+                    <l>And then when I found it,</l>
+                    <l> Wherever it blew,</l>
+                    <l>I should know that the wind</l>
+                    <l>Had been going there too.</l>
+                    
+                    <l>So then I could tell them</l>
+                    <l> Where the wind goes…</l>
+                    <l>But where the wind comes from</l>
+                    <l> Nobody knows.</l>
+                    
+                    <l>Source: https://www.familyfriendpoems.com/poem/wind-on-the-hill-by-a-a-milne</l>
+                    
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

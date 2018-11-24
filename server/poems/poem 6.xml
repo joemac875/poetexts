@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Blues Haiku [le me be yo wil]</title>
+        <author>
+          <persName>Sonia Sanchez</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab><!-- https://www.poets.org/poetsorg/poem/blues-haiku-let-me-be-yo-wil --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Haiku"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="haiku"></interp>
+                <interp ana="#tone" type="love"></interp>
+                <interp ana="#topic" type="wishing"></interp>
+              </interpGrp>
+             <lg> 
+              <l>let me be yo wil</l>
+          <l>derness le me be yo wind</l> 
+          <l>blowing you all day</l>
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

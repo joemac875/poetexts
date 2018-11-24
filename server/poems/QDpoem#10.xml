@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Now We Are Six</title>
+                <author>
+                    <persName>A.A. Milne</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="now we are six"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="numbers"></interp>
+                    <interp ana="#tone" type="counting"></interp>
+                    <interp ana="#topic" type="six"></interp>
+                </interpGrp>
+                <lg> 
+                    
+                    <l> When I was One,</l>
+                    <l> I had just begun.</l>
+                    <l> When I was Two,</l>
+                    <l> I was nearly new.</l>
+                    <l> When I was Three</l>
+                    <l> I was hardly me.</l>
+                    <l> When I was Four,</l>
+                    <l> I was not much more.</l>
+                    <l> When I was Five,</l>
+                    <l> I was just alive.</l>
+                    <l> But now I am Six,</l>
+                    <l> I'm as clever as clever,</l>
+                    <l> So I think I'll be six now for ever and ever.</l>
+                    
+                    <l> Source: https://www.familyfriendpoems.com/poem/now-we-are-six-by-a-a-milne</l>
+                    
+                    
+                    
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

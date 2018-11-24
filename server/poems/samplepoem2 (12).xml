@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>A Dog After Love</title>
+        <author>
+          <persName>Yehuda Amichai</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- Public Domain --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="ADogAfterLove"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="freeverse"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+              <l>After you left me</l>
+          <l>I let a dog smell at</l> 
+          <l>My chest and my belly. It will fill its nose</l>
+          <l>And set out to find you.</l>
+          <l>I hope it will tear the</l>
+          <l>Testicles of your lover and bite off the penis</l>
+          <l>Or at least </l>
+          <l>Will bring me your stockings between his teeth.</l>
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

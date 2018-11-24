@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Won't you?</title>
+                <author>
+                    <persName>Shel Silverstien</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="won't you">
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="eyes"></interp>
+                    <interp ana="#tone" type="her"></interp>
+                    <interp ana="#topic" type="sweet"></interp>
+                </interpGrp>
+                <lg>
+                    <l>Barbara's eyes are blue as azure,</l>
+                    <l>But she is in love with Freddy.</l>
+                    <l> Karen's sweet, but Harry has her.</l>
+                    <l>Gentle Jane is going steady.</l>
+                    <l> Carol hates me. So does May.</l>
+                    <l> Abigail will not be mine.</l>
+                    <l>Nancy lives too far away...</l>
+                    <l>Won't you be my Valentine?</l>
+                    
+                    <l>Source: https://www.familyfriendpoems.com/poem/wont-you-by-shel-silverstein</l>
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

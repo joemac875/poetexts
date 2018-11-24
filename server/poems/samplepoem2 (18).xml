@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>The Long View</title>
+        <author>
+          <persName>Fay Inchfawn</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- Public Domain --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="TheLongView"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="freeverse"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+              <l>Some days of days!Some dawning yet to be</l>
+          <l>I shall be clothed with immortality!</l> 
+          <l>And, in that day, I shall not greatly care</l>
+          <l>That Jane split candle grease upon the stair.</l>
+          <l>It will not grieve me then, as once it did,</l>
+          <l>That careless hands have chipped my teapot lid.</l>
+          <l>I groan, being burdened. But in that glad day,</l>
+          <l>I shall forget vexations of the way.</l>
+          <l>That needs were often great, when means were small,</l>
+          <l>Will not perplex me any more at all</l>
+          <l>A few short years at most (it may be less),</l>
+          <l>I shall forget vexations of the way.</l>
+          <l>So, for this day, I lay me at Thy feet.</l>
+          <l>O, keep me sweet, my Master!</l>     
+          <l>Keep me sweet.</l>     
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

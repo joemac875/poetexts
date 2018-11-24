@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>
+          
+          Impression du Voyage</title>
+        <author>
+          <persName>Oscar Wilde</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/user-765943576/voyage/s-m4zgg"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Poem25"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+               <l>The sea was sapphire coloured, and the sky</l>
+               <l>    Burned like a heated opal through air,</l> 
+               <l>    We hoisted sail; the wind was blowing fair</l>
+               <l>For the blue lands that to the eastward lie.</l>
+               <l>From the steep prow I marked with quickening eye</l>
+               <l>    Zakynthos, every olive grove and creek,</l>
+               <l>    Ithaca’s cliff, Lycaon’s snowy peak,</l>
+               <l>And all the flower-strewn hills of Arcady.</l>
+               <l>The flapping of the sail against the mast,</l>
+               <l>    The ripple of the water on the side,</l>
+               <l>    The ripple of girls’ laughter at the stern,</l>
+               <l>The only sounds:—when ’gan the West to burn,</l>
+               <l>    And a red sun upon the seas to ride,</l>
+               <l>    I stood upon the soil of Greece at last!</l>
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

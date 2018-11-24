@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Agent Blue</title>
+        <author>
+          <persName>Teresa Mei Chuc</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>Teresa Mei Chuc, "Agent Blue" from Invisible Light.  Copyright © 2018 by Teresa Mei Chuc.</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Sonnet41"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="death"></interp>
+              </interpGrp>
+             <lg> 
+          <l>To kill correctly</l>
+          <l>takes calculation</l> 
+          <l>Down to a science</l>
+          <l>Arsenic</l>
+          <l>cacodylic acid.</l>
+          <l>Know water and rice</l>
+          <l>on a cellular level.</l>
+          <l>Make sure</l>
+          <l>no surviving</l>
+          <l>seed can be</l>
+          <l>collected</l>
+          <l>and planted.</l>
+          <l>Because even</l>
+          <l>a small seed</l>       
+          <l>assures</l>
+          <l>survival.</l>    
+          <l>Because</l>    
+          <l>mortars</l>    
+          <l>grenades</l>     
+          <l>and bombs</l>      
+          <l>cannot destroy</l>     
+          <l>a grain.</l>     
+          <l>Because our</l>    
+          <l>heart is made</l>    
+          <l>of seeds.</l>    
+          <l>Know what it</l>   
+          <l>takes to kill</l>    
+          <l>the seeds.</l>   
+          <l>Know what it</l>     
+          <l>takes to deprive</l>
+          <l>the plant of water,</l>     
+          <l>to dehydrate it.</l>     
+          <l>To be surrounded</l>     
+          <l>by love but unable</l>  
+          <l>to absorb it.</l>     
+               
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

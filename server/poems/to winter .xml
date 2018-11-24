@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Sonnet 41</title>
+        <author>
+          <persName>Eugene O’Neill</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+        <div xml:id="Towinter "> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+               <l>"Blow, blow, thou winter wind."</l>
+               <l>Away from here,</l> 
+               <l>And I shall greet thy passing breath</l>
+               <l>Without a tear.</l>
+               <l>I do not love thy snow and sleet</l>
+               <l>Or icy flows;</l>
+               <l>When I must jump or stamp to warm</l>
+               <l>My freezing toes.</l>
+               <l>For why should I be happy or</l>
+               <l>E'en be merry,</l>
+               <l>In weather only fitted for</l>
+               <l>Cook or Peary.</l>
+               <l>My eyes are red, my lips are blue</l>
+               <l>My ears frost bitt'n;</l>
+               <l>Thy numbing kiss doth e'en extend</l>
+               <l>Thro'my mitten.</l>  
+               <l>I am cold, no matter how I warm</l>  
+               <l>Or clothe me;</l>  
+               <l>O Winter, greater bards have sung</l>  
+               <l>I loathe thee!</l>  
+              
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>
