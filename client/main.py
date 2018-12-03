@@ -105,10 +105,11 @@ while (1):
             status_code = publish_response['ResponseMetadata']['HTTPStatusCode']
             if status_code == 200:
                 screen.clear_and_write("Message Sent")
+                button.flash_leds(button.go_ahead_light, 5, .05)
             else:
                 screen.clear_and_write("SNS Error\n" + str(status_code))
-            screen.clear_and_write("Message Sent")
-            button.flash_leds(button.go_ahead_light, 5, .05)
+                button.flash_leds(button.stop_light, 5, .05)
+
             
 
     # Button reset!
