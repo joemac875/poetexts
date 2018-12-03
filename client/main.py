@@ -98,10 +98,15 @@ while (1):
             message += poem_json['text']
 
             # Send your sms message.
-            client.publish(
+            publish_response = client.publish(
                 PhoneNumber=clean_number,
                 Message=message
             )
+            status_code = publish_response['ResponseMetadata']['HTTPStatusCode']
+            if status_code == 200:
+                screen.clear_and_write("Message Sent")
+            else:
+                screen.clear_and_write("SNS Error\n" + str(status_code))
             screen.clear_and_write("Message Sent")
             button.flash_leds(button.go_ahead_light, 5, .05)
             
