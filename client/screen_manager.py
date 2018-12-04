@@ -39,6 +39,7 @@ class ScreenManager():
         #hook the keyboard
         self.new_hook.HookKeyboard()
         self.new_hook.start()
+        self.screen_lock = threading.Lock()
         
 
     def OnKeyPress(self, event):
@@ -52,16 +53,20 @@ class ScreenManager():
         if c == 'BackSpace':
             # Delete a  character
             self.message = self.message[:-1]
+            self.screen_lock.acquire()
             self.lcd.clear()
             self.lcd.message(self.message)
+            self.screen_lock.release()
             # Some other key has been pressed
         else:
             try:
                 # Add the Character
                 c = str(key_mapping[c])
+                self.screen_lock.acquire()
                 self.message = self.message + c
                 self.lcd.clear()
                 self.lcd.message(self.message)
+                self.screen_lock.release()
             except:
                 print("Non Number Entered")
         if event.Ascii==96: #96 is the ascii value of the grave key (`)
@@ -73,10 +78,12 @@ class ScreenManager():
         Clears the screen and prints a message to the screen
         :return: None
         '''
+        self.screen_lock.acquire()
         self.lcd.clear()
         # Reset the user inputted message
         self.message = ''
         self.lcd.message(message)
+        self.screen_lock.release()
 
     def get_message(self):
         '''
