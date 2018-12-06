@@ -19,11 +19,11 @@ def get_namespace(parser):
 def get_pins(parser):
     return parser['client']['dialPins'].split()
 
-def get_access_key(parser):
-    return parser['client']['accessKey']
+def get_auth_token(parser):
+    return parser['client']['auth_token']
 
-def get_key_id(parser):
-    return parser['client']['keyID']
+def get_account_sid(parser):
+    return parser['client']['account_sid']
 
 
 

@@ -2,6 +2,7 @@
 from input_manager import InputManager, InputThread
 from screen_manager import ScreenManager, ScreenThread
 from button_manager import ButtonManager
+from twilio.rest import Client
 import boto3
 import requests
 import configparser
@@ -16,13 +17,8 @@ user_config.read(os.path.join(os.getcwd(), '..') + '/server/pox.ini')
 # URL for Poem Server
 poem_server = configuration.get_server(user_config) 
 print(poem_server)
-# Create an SNS client
-client = boto3.client(
-    "sns",
-    aws_access_key_id=configuration.get_key_id(user_config),
-    aws_secret_access_key=configuration.get_access_key(user_config),
-    region_name="us-east-1"
-)
+# Create an Twilio client
+twilio_client = Client(configuration.get_account_sid(user_config), configuration.get_auth_token(user_config))
 
 inputs = InputManager('/dev/ttyACM0', 9600)
 
@@ -99,16 +95,13 @@ while (1):
 
             # Send your sms message.
             try:
-                publish_response = client.publish(
-                    PhoneNumber=clean_number,
-                    Message=message
-                )
-                status_code = publish_response['ResponseMetadata']['HTTPStatusCode']
-                if status_code == 200:
+                message_response = twilio_client.messages.create(to=clean_number, from_="+15173431475", body=message)
+                status_code = message_response.error_code
+                if status_code is None:
                     screen.clear_and_write("Message Sent")
                     button.flash_leds(button.go_ahead_light, 5, .05)
                 else:
-                    screen.clear_and_write("SNS Error\n" + str(status_code))
+                    screen.clear_and_write("Twilio Error\n" + str(status_code))
                     button.flash_leds(button.stop_light, 5, .05)
             except:
                 screen.clear_and_write("Publish Error!")
