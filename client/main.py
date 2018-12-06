@@ -101,7 +101,7 @@ while (1):
                     screen.clear_and_write("Message Sent")
                     button.flash_leds(button.go_ahead_light, 5, .05)
                 else:
-                    screen.clear_and_write("Twilio Error\n" + str(status_code))
+                    screen.clear_and_write("Twilio Error")
                     button.flash_leds(button.stop_light, 5, .05)
             except Exception as e:
                 screen.clear_and_write("Publish Error!")
