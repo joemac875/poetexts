@@ -95,7 +95,7 @@ while (1):
 
             # Send your sms message.
             try:
-                message_response = twilio_client.messages.create(to="+15176295660", from_="+15173431475", body="HI")
+                message_response = twilio_client.messages.create(to=clean_number, from_="+15173431475", body=message)
                 status_code = message_response.error_code
                 if status_code is None:
                     screen.clear_and_write("Message Sent")
