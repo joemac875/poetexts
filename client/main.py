@@ -103,8 +103,9 @@ while (1):
                 else:
                     screen.clear_and_write("Twilio Error\n" + str(status_code))
                     button.flash_leds(button.stop_light, 5, .05)
-            except:
+            except Exception as e:
                 screen.clear_and_write("Publish Error!")
+                print(str(e))
 
 
 
