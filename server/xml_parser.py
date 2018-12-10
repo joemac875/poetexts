@@ -9,13 +9,14 @@ class XML2DataFrame:
     Each row in the resulting dataframe represents a single XML file, where the columns correpsond to the extracted information.
     '''
 
-    def __init__(self, analysis_tags={}, text_tag='l', namespace='',title_tag = 'title', error_file='errors.txt', author_tag='persName'):
+    def __init__(self, analysis_tags={}, text_tag='l', namespace='',title_tag = 'title', url_tag='ref', error_file='errors.txt', author_tag='persName'):
         # A dictionary of analysis tags as keys and the list of acceptable inputs as values
         self.analysis_tags = analysis_tags
 
         # If a namespace if used in xml then '{namespace}' precedes each tag in the tagging
         self.namespace = '{' + namespace + '}'
         self.text_tag = self.namespace + text_tag
+        self.url_tag = self.namespace + url_tag
         self.author_tag = self.namespace + author_tag
         self.title_tag = self.namespace + title_tag
         self.error_file = error_file
@@ -36,6 +37,7 @@ class XML2DataFrame:
         col_names.append('text')
         col_names.append('author')
         col_names.append('title')
+        col_names.append('url')
         # Create empty dataframe
         dataframe = pd.DataFrame(columns=col_names)
 
@@ -51,7 +53,7 @@ class XML2DataFrame:
                 if poem is not None:
                     dataframe = dataframe.append(poem, ignore_index=True)
 
-
+        dataframe.fillna("Not Availiable", inplace=True)
         return dataframe
 
     def parse_xml_file(self, xml_file):
@@ -74,6 +76,7 @@ class XML2DataFrame:
                 # concatenate text to current text
                 if element.text is not None:
                     data['text'] = data['text'] + element.text + '\n'
+
             elif element.tag == self.author_tag:
                 # append author
                 if element.text is not None:
@@ -90,6 +93,12 @@ class XML2DataFrame:
                     self.write_error(xml_file, 'Missing title in title tag')
                     data['title'] = "NONE"
                     #return None
+            # check to see if the element is a url bibliography entry
+            elif element.attrib.get('corresp') is not None:
+                url = element.attrib['corresp']
+                if url != "http://site.file":
+                    data['url'] = url
+
             # check to see if the element is an analysis tag
             elif element.attrib.get('ana') is not None:
                 # remove the # from the tag
