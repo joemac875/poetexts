@@ -92,6 +92,9 @@ while (1):
                 message += tag + ' '
             message += '\n============\n'
             message += poem_json['text']
+            message += '\n============\n'
+            message += 'Audio: '
+            message += poem_json['url']
 
             # Send your sms message.
             try:
