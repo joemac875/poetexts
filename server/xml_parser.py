@@ -53,7 +53,7 @@ class XML2DataFrame:
                 if poem is not None:
                     dataframe = dataframe.append(poem, ignore_index=True)
 
-        dataframe.fillna("Not Availiable", inplace=True)
+        dataframe.fillna("NONE", inplace=True)
         return dataframe
 
     def parse_xml_file(self, xml_file):
