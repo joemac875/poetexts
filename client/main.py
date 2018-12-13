@@ -87,7 +87,7 @@ while (1):
             message += '\n'
             message += 'by ' + poem_json['author']
             message += '\n'
-            message += 'tags: '
+            message += 'tags matched: '
             for attribute, tag in matches:
                 message += tag + ' '
             message += '\n============\n'
