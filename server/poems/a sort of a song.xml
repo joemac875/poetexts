@@ -6,7 +6,7 @@
   <teiHeader>
     <fileDesc >
       <titleStmt>
-        <title>Sonnet 41</title>
+        <title>A Sort of a Song</title>
         <author>
           <persName>William Carlos Williams</persName>
         </author>
@@ -29,8 +29,8 @@
       <div xml:id="Williamx2"> 
               <interpGrp type="poembox">
                 <interp ana="#form" type="free"></interp>
-                <interp ana="#tone" type="sadhappy"></interp>
-                <interp ana="#topic" type="mysterious"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="nature"></interp>
               </interpGrp>
              <lg> 
               <l>let the snake wait under</l>

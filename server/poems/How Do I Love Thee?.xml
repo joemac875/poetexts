@@ -6,7 +6,7 @@
     <teiHeader>
         <fileDesc >
             <titleStmt>
-                <title>Sonnet 41</title>
+                <title>How do I love Thee</title>
                 <author>
                     <persName>Elizabeth Barrett Browning</persName>
                 </author>
@@ -28,7 +28,7 @@
             
             <div xml:id="Romance"> 
                 <interpGrp type="poembox">
-                    <interp ana="#form" type="Free"></interp>
+                    <interp ana="#form" type="sonnet"></interp>
                     <interp ana="#tone" type="happy"></interp>
                     <interp ana="#topic" type="love"></interp>
                 </interpGrp>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Into My Own</title>
+                <author>
+                    <persName>Robert Frost</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- In the public domain. --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- https://soundcloud.com/user-511877528/into-my-own?in=user-511877528/sets/poetry-assignment -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Into my Own"> 
+                <interpGrp type="theme">
+                    <interp ana="#form" type="sonnet">sonnet</interp>
+                    <interp ana="#tone" type="sad">sad</interp>
+                    <interp ana="#topic" type="society">society</interp>
+                </interpGrp>
+                <p>One of my wishes is that those dark trees,</p>
+                <p>So old and firm they scarcely show the breeze,</p>
+                <p>Were not, as ‘twere, the merest mask of gloom,</p>
+                <p>But stretched away unto the edge of doom. </p>
+                <p/>
+                <p>I should not be withheld but that some day</p>
+                <p>Into their vastness I should steal away,</p>
+                <p>Fearless of ever finding open land,</p>
+                <p>Or highway where the slow wheel pours the sand.</p>
+                <p/>
+                <p>I do not see why I should e’er turn back,</p>
+                <p>Or those should not set forth upon my track</p>
+                <p>To overtake me, who should miss me here</p>
+                <p>And long to know if still I held them dear.</p>
+                <p>They would not find me changed from him they knew—</p>
+                <p>Only more sure of all I thought was true.</p>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

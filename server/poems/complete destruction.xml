@@ -6,7 +6,7 @@
   <teiHeader>
     <fileDesc >
       <titleStmt>
-        <title>Sonnet 41</title>
+        <title>Complete Destruction</title>
         <author>
           <persName>William Carlos Williams</persName>
         </author>
@@ -29,8 +29,8 @@
       <div xml:id="Williamx2"> 
               <interpGrp type="poembox">
                 <interp ana="#form" type="free"></interp>
-                <interp ana="#tone" type="sadhappy"></interp>
-                <interp ana="#topic" type="mysterious"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="society"></interp>
               </interpGrp>
              <lg> 
               <l>it was an icy day</l>
@@ -39,7 +39,7 @@
           <l>and set fire to it</l>
           <l>in the back yard</l>
           <l>those fleas that escaped</l>
-          <l>dieed by the cold</l>
+          <l>died by the cold</l>
           
                  
                <!-- You can put comments or notes to yourself in like this -->

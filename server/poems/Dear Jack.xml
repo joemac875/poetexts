@@ -1,0 +1,58 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Dear Jack</title>
+                <author>
+                    <persName>William Makepeace Thackeray</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab>This poem is in the public domain</ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Dear Jack">
+                <interpGrp type="character">
+                    <interp ana="#form" type="sonnet">free</interp>
+                    <interp ana="#tone" type="sad">sad</interp>
+                    <interp ana="#topic" type="love">society</interp>
+                </interpGrp>
+                <quote> Dear Jack, this white mug that with Guinness I fill, </quote>
+                <quote>And drink to the health of sweet Nan of the Hill, </quote>
+                <quote/>
+                <quote>Was once Tommy Tosspot’s, as jovial a sot </quote>
+                <quote>As e’er drew a spigot, or drain’d a full pot— </quote>
+                <quote/>
+                <quote>In drinking all round ‘twas his joy to surpass, </quote>
+                <quote>And with all merry tipplers he swigg’d off his glass. </quote>
+                <quote/>
+                <quote>One morning in summer, while seated so snug,</quote>
+                <ab> In the porch of his garden, discussing his jug, </ab>
+            </div>
+            <div>
+                <quote>Stern Death, on a sudden, to Tom did appear, </quote>
+                <addSpan>And said, “Honest Thomas, come take your last bier.” </addSpan>
+            </div>
+            <div>
+                <quote>We kneaded his clay in the shape of this can,</quote>
+                <quote> From which let us drink to the health of my Nan.</quote>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

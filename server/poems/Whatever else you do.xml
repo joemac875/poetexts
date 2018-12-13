@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Whatever Else You Do </title>
+        <author>
+          <persName>Max Ehrmann</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- No copyright information found --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- https://soundcloud.com/user-511877528/whatever-else-you-do?in=user-511877528/sets/poetry-assignment-->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+
+        <div xml:id="Whatever else you do"> 
+          <interpGrp type="Happiness">
+            <interp ana="#form" type="free">free</interp>
+            <interp ana="#tone" type="happy">happy</interp>
+            <interp ana="#topic" type="love">love</interp>
+            <interp ana="#topic" type="society">society</interp>
+          </interpGrp>
+             <lg>
+          <l>Whatever else you do or forbear,</l>
+          <l>impose upon yourself the task of hapiness;</l>
+          <l>and now and then abandon yourself</l>
+          <l>to the joy of laughter. </l>
+          <l/>
+          <l>And however much you condemn</l>
+          <l>the evil in the world, remember that the</l>
+          <l>world is not all evil; that somewhere</l>
+          <l>children are at play, as you yourself in the</l>
+          <l>old days; that women still find joy</l>
+          <l>in the stalwart hearts of men; </l>
+        </lg>
+        <lg>
+          <l>And that men, treading with restless feet</l>
+          <l>their many paths, may yet find refuge</l>
+          <l>from the storms of the world in the cheerful</l>
+          <l>house of love. </l>
+        </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

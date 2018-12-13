@@ -6,9 +6,9 @@
   <teiHeader>
     <fileDesc >
       <titleStmt>
-        <title> Sonnet 138 41</title>
+        <title> Sonnet 138</title>
         <author>
-          <persName> william shakespeare </persName>
+          <persName>William Shakespeare </persName>
         </author>
       </titleStmt>
       <publicationStmt>
@@ -26,7 +26,7 @@
       <body>
         
      
-      <div xml:id="Sonnet41"> 
+      <div xml:id="Sonnet138"> 
               <interpGrp type="poembox">
                 <interp ana="#form" type="sonnet"></interp>
                 <interp ana="#tone" type="other"></interp>

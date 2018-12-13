@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>If We Must Die</title>
+                <author>
+                    <persName>Claude Mckay</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- No copyright information found --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="If We Must Die"> 
+                <interpGrp type="image">
+                    <interp ana="#form" type="sonnet"></interp>
+                    <interp ana="#tone" type="sad"></interp>
+                    <interp ana="#topic" type="society"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>If we must die, let it not be like hogs</l>
+                    <l>Hunted and penned in an inglorious spot</l> 
+                    <l>While round us bark the mad and hungry dogs,</l>
+                    <l>Making their mock at our accursed lot.</l>
+                    <l/>
+                    <l>If we must die, O let us nobly die,</l>
+                    <l>So that our precious blood may not be shed</l>
+                    <l>In vain; then even the monsters we defy</l>
+                    <l>Shall be constrained to honor us though dead!</l>
+                    <l>O kinsmen! we must meet the common foe!</l>
+                    <l/>
+                    <l>Though far outnumbered let us show us brave,</l>
+                    <l>And for their thousand blows deal one death-blow!</l>
+                    <l>What though before us lies the open grave?</l>
+                    <l>Like men we'll face the murderous, cowardly pack,</l>
+                    <l>Pressed to the wall, dying, but fighting back!</l>
+                    
+                    <!-- Poem from 1919 -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

@@ -6,7 +6,7 @@
   <teiHeader>
     <fileDesc >
       <titleStmt>
-        <title> Zombies 41</title>
+        <title> Zombies</title>
         <author>
           <persName> jack </persName>
         </author>
@@ -26,7 +26,7 @@
       <body>
         
      
-      <div xml:id="Sonnet41"> 
+      <div xml:id="zombies"> 
               <interpGrp type="poembox">
                 <interp ana="#form" type="Free"></interp>
                 <interp ana="#tone" type="other"></interp>

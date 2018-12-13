@@ -2,7 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
 <TEI xmlns:html="http://www.w3.org/1999/xhtml" 
-     xmlns="http://www.tei-c.org/ns/1.0" >
+  xmlns="http://www.tei-c.org/ns/1.0" >
   <teiHeader>
     <fileDesc >
       <titleStmt>
@@ -12,42 +12,43 @@
         </author>
       </titleStmt>
       <publicationStmt>
-          <ab><!-- copyright or copyleft information here --></ab>
+        <ab><!-- copyright or copyleft information here --></ab>
       </publicationStmt>
       <sourceDesc>
         <bibl>
           <!-- URL audio file -->
-          <ref corresp="https://soundcloud.com/user-509931528-773448690/fire-and-ice"/>
+          <ref corresp="http://site.file"/>
         </bibl>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
   <text>
-      <body>
-        
+    <body>
+      
+      
+      <div xml:id="Fire and ice"> 
+        <interpGrp type="poembox">
+          <interp ana="#form" type="free"></interp>
+          <interp ana="#tone" type="sad"></interp>
+          <interp ana="#topic" type="death"></interp>
+        </interpGrp>
+        <lg> 
+          <l>Some say the world will end in fire,</l>
+          <l>Some say in ice.</l> 
+          <l>From what I’ve tasted of desire</l>
+          <l>I hold with those who favor fire.</l>
+          <l>But if it had to perish twice,</l>
+          <l>I think I know enough of hate</l>
+          <l>To say that for destruction ice</l>
+          <l>Is also great</l>
+          <l>And would suffice.</l>
+         
      
-      <div xml:id="FireIce"> 
-              <interpGrp type="poembox">
-                <interp ana="#form" type="free"></interp>
-                <interp ana="#tone" type="sad"></interp>
-                <interp ana="#topic" type="death"></interp>
-              </interpGrp>
-             <lg> 
-               <l>Some say the world will end in fire,</l>
-               <l>Some say in ice.</l> 
-               <l>From what I’ve tasted of desire</l>
-               <l>I hold with those who favor fire.</l>
-               <l>But if it had to perish twice,</l>
-               <l>I think I know enough of hate</l>
-               <l>To say that for destruction ice</l>
-               <l>Is also great</l>
-               <l>And would suffice.</l>
-                 
-               <!-- You can put comments or notes to yourself in like this -->
-             </lg>
-            </div>
-        
-      </body>
+          <!-- You can put comments or notes to yourself in like this -->
+        </lg>
+      </div>
+      
+    </body>
   </text>
   
 </TEI>

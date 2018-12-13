@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>A Prayer in Spring</title>
+        <author>
+          <persName>Robert Frost</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>In the public domain</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="A Prayer in the Spring"> 
+              <interpGrp type="image">
+                <interp ana="#form" type="free">free</interp>
+                <interp ana="#tone" type="happy">happy</interp>
+                <interp ana="#topic" type="nature">nature</interp>
+              </interpGrp>
+        <quote>Oh, give us pleasure in the flowers to-day; </quote>
+        <quote>And give us not to think so far away</quote>
+        <quote> As the uncertain harvest; keep us here</quote>
+        <quote> All simply in the springing of the year. </quote>
+        <quote/>
+        <quote>Oh, give us pleasure in the orchard white, </quote>
+        <quote>Like nothing else by day, like ghosts by night; </quote>
+        <quote>And make us happy in the happy bees, </quote>
+        <quote>The swarm dilating round the perfect trees. </quote>
+        <quote/>
+        <quote>And make us happy in the darting bird </quote>
+        <quote>That suddenly above the bees is heard, </quote>
+        <quote>The meteor that thrusts in with needle bill,</quote>
+        <quote> And off a blossom in mid air stands still. </quote>
+        <quote/>
+        <quote>For this is love and nothing else is love, </quote>
+        <quote>The which it is reserved for God above </quote>
+        <quote>To sanctify to what far ends He will, </quote>
+        <quote>But which it only needs that we fulfil. </quote>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>
