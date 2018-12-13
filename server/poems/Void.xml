@@ -6,7 +6,7 @@
   <teiHeader>
     <fileDesc >
       <titleStmt>
-        <title> Blackout 41</title>
+        <title> Blackout</title>
         <author>
           <persName>Bryan Harris</persName>
         </author>
@@ -26,7 +26,7 @@
       <body>
         
      
-      <div xml:id="Sonnet41"> 
+      <div xml:id="Blackout"> 
               <interpGrp type="poembox">
                 <interp ana="#form" type="Free"></interp>
                 <interp ana="#tone" type="sad"></interp>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>The Last Word of a Bluebird</title>
+                <author>
+                    <persName>Robert Frost</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab>This Poem is in the public domain.</ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="The Last Word of a Bluebird"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="narrative">narrative</interp>
+                    <interp ana="#tone" type="happy">happy</interp>
+                    <interp ana="#topic" type="nature">nature</interp>
+                </interpGrp>
+                <p>As I went out a Crow</p>
+                <p>In a low voice said, “Oh,</p>
+                <p>I was looking for you.</p>
+                <p>How do you do?</p>
+                <p>I just came to tell you</p>
+                <p>To tell Lesley (will you?)</p>
+                <p>That her little Bluebird</p>
+                <p>Wanted me to bring word</p>
+                <p>That the north wind last night</p>
+                <p>That made the stars brights</p>
+                <p>And made ice on the trough</p>
+                <p>Almost made him cough</p>
+                <p>His tail feathers off.</p>
+                <p>He just had to fly!</p>
+                <p>But he sent her Good-by,</p>
+                <p>And said to be good,</p>
+                <p>And wear her red hood,</p>
+                <p>And look for skunk tracks</p>
+                <p>In the snow with an ax—</p>
+                <p>And do everything!</p>
+                <p>And perhaps in the spring</p>
+                <p>He would come back and sing.”</p>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

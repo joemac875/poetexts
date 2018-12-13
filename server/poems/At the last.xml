@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>At the Last</title>
+                <author>
+                    <persName>Witter Bynner</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab>This poem is in the public domain.</ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- https://soundcloud.com/user-511877528/at-the-last?in=user-511877528/sets/poetry-assignment -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="At The Last"> 
+                <interpGrp type="character">
+                    <interp ana="#form" type="free">free</interp>
+                    <interp ana="#tone" type="sad">sad</interp>
+                    <interp ana="#topic" type="love">love</interp>
+                </interpGrp>
+                <p>There is no denying</p>
+                <p>That it matters little,</p>
+                <p>When through a narrow door</p>
+                <p>We enter a room together,</p>
+                <p>Which goes after, which before. </p>
+                <p/>
+                <p>Perhaps you are not dying:</p>
+                <p>Perhaps—there is no knowing—</p>
+                <p>I shall slip by and turn and laugh with you</p>
+                <p>Because it mattered so little,</p>
+                <p>The order of our going.</p>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

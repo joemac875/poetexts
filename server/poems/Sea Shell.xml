@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Sea Shell</title>
+                <author>
+                    <persName>Amy Lowell</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab>This poem is in the public domain</ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Sea Shell">
+                <interpGrp type="character">
+                    <interp ana="#form" type="sonnet">free</interp>
+                    <interp ana="#tone" type="sad">sad</interp>
+                    <interp ana="#topic" type="love">love</interp>
+                    <interp ana="#topic" type="nature">nature</interp>
+                </interpGrp>
+                <quote> Sea Shell, Sea Shell, </quote>
+                <quote>Sing me a song, O Please! </quote>
+                <quote>A song of ships, and sailor men, </quote>
+                <quote>And parrots, and tropical trees, </quote>
+                <quote/>
+                <quote>Of islands lost in the Spanish Main</quote>
+                <quote> Which no man ever may find again, </quote>
+                <quote>Of fishes and corals under the waves, </quote>
+                <quote>And seahorses stabled in great green caves. </quote>
+                <quote/>
+                <quote>Sea Shell, Sea Shell, </quote>
+                <quote>Sing of the things you know so well.</quote>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

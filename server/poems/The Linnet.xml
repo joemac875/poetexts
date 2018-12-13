@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>The Linnet</title>
+                <author>
+                    <persName>Phillip M. Raskin</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- In public Domain --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- https://soundcloud.com/user-511877528/the-linnet?in=user-511877528/sets/poetry-assignment-->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Sonnet41"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="free">free</interp>
+                    <interp ana="#tone" type="happy">happy</interp>
+                    <interp ana="#topic" type="love">love</interp>
+                </interpGrp>
+                <p>Have you heard the linnet trilling,</p>
+                <p> To discover did you try</p>
+                <p>What is hidden in her carol—</p>
+                <p> Does she sing or does she cry?</p>
+                <p/>
+                <p>I am singing like the linnet,</p>
+                <p> When my heart does pine and long;</p>
+                <p>Love, and pain, and joy, and sorrow,</p>
+                <p> All are hidden in my song.</p>
+                <lg>
+                    <l>.</l>
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+

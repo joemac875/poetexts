@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>[Here dead we lie because we did not choose]</title>
+                <author>
+                    <persName>A. E. Housman</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab>This poem is in the public domain.</ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- https://soundcloud.com/user-511877528/here-dead-we-lie?in=user-511877528/sets/poetry-assignment-->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="[Here dead we lie because we did not choose]"> 
+                <interpGrp type="theme">
+                    <interp ana="#form" type="free">free</interp>
+                    <interp ana="#tone" type="sad">sad</interp>
+                    <interp ana="#topic" type="society">society</interp>
+                </interpGrp>
+                <lg/>
+                <p>Here dead lie we because we did not choose</p>
+                <p> To live and shame the land from which we sprung.</p>
+                <p>Life, to be sure, is nothing much to lose;</p>
+                <p> But young men think it is, and we were young.</p>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

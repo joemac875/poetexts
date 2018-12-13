@@ -6,7 +6,7 @@
   <teiHeader>
     <fileDesc >
       <titleStmt>
-        <title>Improvisation on Them</title>
+        <title>Improvisation on Theme</title>
         <author>
           <persName>Linda Susan Jackson</persName>
         </author>
@@ -26,9 +26,9 @@
       <body>
         
      
-      <div xml:id="sonnet"> 
+      <div xml:id="Soir"> 
               <interpGrp type="poembox">
-                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#form" type="free"></interp>
                 <interp ana="#tone" type="other"></interp>
                 <interp ana="#topic" type="love"></interp>
               </interpGrp>
