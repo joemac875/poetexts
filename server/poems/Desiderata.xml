@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Desiderata </title>
+        <author>
+          <persName>Max Ehrmann</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- Copyright 1952 --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Desiderata"> 
+              <interpGrp type="Imagery">
+                <interp ana="#form" type="narrative">Narrative</interp>
+                <interp ana="#tone" type="Happy">happy</interp>
+                <interp ana="#topic" type="love">love</interp>
+                <interp ana="#topic" type="Society">society</interp>
+              </interpGrp>
+             <lg> 
+               <l>Go placidly amid the noise and haste,</l>
+             <l>and remember what peace there may be in silence.</l>
+             <l>As far as possible without surrender</l>
+             <l>be on good terms with all persons.</l>
+          <l/>
+             <l>Speak your truth quietly and clearly;</l>
+             <l>and listen to others,</l>
+             <l>even the dull and the ignorant;</l>
+             <l>they too have their story. </l>
+          <l/>
+               
+             <l>Avoid loud and aggressive persons,</l>
+             <l>they are vexations to the spirit.</l>
+             <l>If you compare yourself with others,</l>
+             <l> you may become vain and bitter;</l>
+             <l>for always there will be greater and lesser persons than yourself.</l>
+          <l/>
+             <l> Enjoy your achievements as well as your plans </l>
+               
+               <l>Keep interested in your own career, however humble;</l>
+               <l>it is a real possession in the changing fortunes of time.</l>
+               <l>Exercise caution in your business affairs;</l>
+               <l>for the world is full of trickery.</l>
+          <l/>
+               <l>But let this not blind you to what virtue there is;</l>
+               <l>many persons strive for high ideals;</l>
+               <l>and everywhere life is full of heroism.</l>
+          <l/> 
+               
+               <l>Be yourself.</l>
+               <l>Especially, do not feign affection.</l>
+               <l>Neither be cynical about love;</l>
+               <l>for in the face of all aridity and disenchantment</l>
+               <l>it is as perennial as the grass. </l>
+          <l/>
+               
+               <l> Take kindly the counsel of the years,</l>
+               <l>gracefully surrendering the things of youth.</l>
+               <l> Nurture strength of spirit to shield you in sudden misfortune.</l>
+               <l> But do not distress yourself with dark imaginings.</l>
+               <l> Many fears are born of fatigue and loneliness.</l>
+               <l> Beyond a wholesome discipline,</l>
+               <l>be gentle with yourself. </l>
+          <l/>
+               
+               <l>You are a child of the universe,</l>
+               <l>no less than the trees and the stars;</l>
+               <l>you have a right to be here.</l>
+               <l>And whether or not it is clear to you,</l>
+               <l>no doubt the universe is unfolding as it should. </l>
+          <l/>
+               
+               <l>Therefore be at peace with God,</l>
+               <l>whatever you conceive Him to be,</l>
+               <l> and whatever your labors and aspirations,</l>
+               <l>in the noisy confusion of life keep peace with your soul.</l>
+          <l/> 
+               
+               <l> With all its sham, drudgery, and broken dreams,</l>
+               <l>it is still a beautiful world.</l>
+               <l>Be cheerful.</l>
+          <l/>
+               <l>Strive to be happy.</l> 
+     
+                 
+               <!-- My favorite poem! -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

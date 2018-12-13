@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Jaguar</title>
+                <author>
+                    <persName>Francisco X. Alarcon</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- Copyright Le & Low Books, 2008 --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Jaguar"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="free">free</interp>
+                    <interp ana="#tone" type="happy">happy</interp>
+                    <interp ana="#topic" type="nature">nature</interp>
+                </interpGrp>
+                <lg> 
+                    <l>some say</l>
+                    <l>I'm now almost </l> 
+                    <l>extinct in this park</l>
+                    
+                    <l>but the people</l>
+                    <l>who say this</l>
+                    <l>dont know</l>
+                    
+                    <l>that by smelling </l>
+                    <l>the orchids</l>
+                    <l>in the trees</l>
+                    
+                    <l>they're sensing</l>
+                    <l>the fragrance</l>
+                    <l>of my chops</l>
+                    
+                    <l>that by hearing</l>
+                    <l>the rumbling</l>
+                    <l>of the waterfalls</l>
+                    
+                    <l>they're listening</l>
+                    <l>to my ancestors'</l>
+                    <l>great roar</l>
+                    
+                    <l>that by observing</l>
+                    <l>the constellations</l>
+                    <l>of the night sky</l>
+                    
+                    <l>they're gazing</l>
+                    <l>at the star spots</l>
+                    <l>on my fur</l>
+                    
+                    <l>that I am and</l>
+                    <l>always will be</l>
+                    <l>the wild</l>
+                    
+                    <l>untames</l>
+                    <l>living spirit</l>
+                    <l>of this jungle</l>
+                    
+                    <!-- Interesting form, no capital letters or punctuation -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+
+                    

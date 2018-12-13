@@ -26,9 +26,9 @@
       <body>
         
      
-      <div xml:id="Sonnet41"> 
+      <div xml:id="forsythia"> 
               <interpGrp type="poembox">
-                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#form" type="free"></interp>
                 <interp ana="#tone" type="love"></interp>
                 <interp ana="#topic" type="society"></interp>
               </interpGrp>

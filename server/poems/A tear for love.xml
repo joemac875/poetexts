@@ -6,7 +6,7 @@
   <teiHeader>
     <fileDesc >
       <titleStmt>
-        <title>Sonnet 41</title>
+        <title>A Tear for Love</title>
         <author>
           <persName>T.I.R.O.JY</persName>
         </author>
@@ -26,7 +26,7 @@
       <body>
         
      
-      <div xml:id="Sonnet41"> 
+      <div xml:id="Broken"> 
               <interpGrp type="poembox">
                 <interp ana="#form" type="sonnet"></interp>
                 <interp ana="#tone" type="other"></interp>

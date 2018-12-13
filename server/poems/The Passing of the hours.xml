@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>The Passing of the Hours</title>
+                <author>
+                    <persName>Ella Higginson</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab>This poem is in the public domain</ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!--https://soundcloud.com/user-511877528/the-passing-of-the-hours?in=user-511877528/sets/poetry-assignment -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="The Passing of the Hours"> 
+                <interpGrp type="character">
+                    <interp ana="#form" type="free">free</interp>
+                    <interp ana="#tone" type="sad">sad</interp>
+                    <interp ana="#topic" type="love">love</interp>
+                    <interp ana="#topic" type="society">society</interp>
+                </interpGrp>
+                <p>The hours steal by with still, unasking lips—</p>
+                <p> So lightly that I cannot hear their tread;</p>
+                <p>And softly touch me with their finger-tips</p>
+                <p> To find if I be dreaming, or be dead.</p>
+                <p/>
+                <p>And yet however still their flight may be,</p>
+                <p> Their ceaseless going weights my heart with tears;</p>
+                <p>These touches will have wrought deep scars on me—</p>
+                <p> When the light hours have worn to heavy years.</p>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

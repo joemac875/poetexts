@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>More Dangerous Air</title>
+                <author>
+                    <persName>Margarita Engle</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab> Text copyright © 2015 by Margarita Engle.  Reprinted by permission of Atheneum Books for Young Readers, an imprint of Simon Schuster Children's Publishing Division. </ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="More Dangerous Air">
+                <interpGrp type="allusion">
+                    <interp ana="#form" type="free">Free</interp>
+                    <interp ana="#tone" type="sad">sad</interp>
+                    <interp ana="#topic" type="death">death</interp>
+                    <interp ana="#topic" type="society">society</interp>
+                </interpGrp>
+                <lg>
+                    <l>Newsmen call it the Cuban Missile Crisis.</l>
+                    <l>Teachers say it's the end of the world.</l>
+                    <l>At school, they instruct us to look up</l>
+                    <l>and watch the Cuban-cursed sky.</l>
+                    <l/>
+                    <l>Search for a streak of light.</l>
+                    <l>Listen for a piercing shriek,</l>
+                    <l>and a whistle that will warn us</l>
+                    <l>as poisonous A-bombs</l>
+                    <l>zoom close.</l>
+                    <l/>
+                    <l>Hide under a desk.</l>
+                    <l>Pretend that furniture is enough</l>
+                    <l>to protect us against perilous flames.</l>
+                    <l>Radiation. Contamination. Toxic Breath.</l>
+                    <l/>
+                    <l>Each air-raid drill is sheer terror,</l>
+                    <l>but some of the city kids giggle.</l>
+                    <l>They don't believe that death</l>
+                    <l>is real.</l>
+                </lg>
+                <lg>
+                    <l>They've never touched a bullet,</l>
+                    <l>or seen a vulture, or made music</l>
+                    <l>by shaking</l>
+                    <l>the jawbone</l>
+                    <l>of a mule.</l>
+                </lg>
+                <lg>
+                    <l>When I hide under my frail school desk,</l>
+                    <l>my heart grows as rough and brittle</l>
+                    <l>as the slab of wood</l>
+                    <l>that fails to protect me</l>
+                    <l>from reality's</l>
+                    <l>gloom.</l>
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

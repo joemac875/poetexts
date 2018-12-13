@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Regret</title>
+                <author>
+                    <persName>William Makepeace Thackeray</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab>This poem is in the public domain</ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Serenade">
+                <interpGrp type="character">
+                    <interp ana="#form" type="sonnet">free</interp>
+                    <interp ana="#tone" type="sad">happy</interp>
+                    <interp ana="#topic" type="love">love</interp>
+                </interpGrp>
+                <quote> Now the toils of day are over, </quote>
+                <quote>And the sun hath sunk to rest, </quote>
+                <quote>Seeking, like a fiery lover, </quote>
+                <quote>The bosom of the blushing west— </quote>
+                <quote/>
+                <quote>The faithful night keeps watch and ward, </quote>
+                <quote>Raising the moon her silver shield, </quote>
+                <quote>And summoning the stars to guard </quote>
+                <quote>The slumbers of my fair Mathilde! </quote>
+                <quote/>
+                <quote>The faithful night! Now all things lie </quote>
+                <quote>Hid by her mantle dark and dim, </quote>
+                <quote>In pious hope I hither hie, </quote>
+                <quote>And humbly chant mine ev’ning hymn. </quote>
+                <quote>Thou art my prayer, my saint, my shrine! </quote>
+                <quote>(For never holy pilgrim kneel’d, </quote>
+                <quote>Or wept at feet more pure than thine), My virgin love, my sweet
+                    Mathilde!</quote>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
