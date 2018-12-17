@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>What I Love About You</title>
+                <author>
+                    <persName>Nidhi Kaul</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="WhatILoveboutYou"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="Free"></interp>
+                    <interp ana="#tone" type="romantic"></interp>
+                    <interp ana="#topic" type="love"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>The sparkle in your eye,</l>
+                    <l>The warmth of your skin,</l> 
+                    <l>The warmth of your skin,</l>
+                    <l>That shakes me within.</l>
+                    <l>The touch of your hand,</l>
+                    <l>The smell of your hair,</l>
+                    <l>The naughtiness in your smile,</l>
+                    <l>That strength in your stare.</l>
+                    <l>Your kiss on my lips,</l>
+                    <l>Your body near mine,</l>
+                    <l>The stroke of your touch,</l>
+                    <l>Makes everything feel fine.</l>
+                    <l>The compassion in your touch,</l>
+                    <l>The power in your face,</l>
+                    <l>The beating of your heart</l>
+                    <l>That we may never end our embrace.</l>
+                    <l>The beauty of your kiss,</l>
+                    <l>And that magic in your touch.</l>
+                    <l>It is for all these reasons and more</l>
+                    <l>Why I love you so much...</l>
+
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Use Your Words</title>
+                <author>
+                    <persName>Blas Falconer</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- https://www.poets.org/poetsorg/poem/use-your-words --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- Not in the public domain. -->  
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Short17"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="free"></interp>
+                    <interp ana="#tone" type="sad"></interp>
+                    <interp ana="#topic" type="love"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>You said bad men waited inside</l>
+                    <l>your mouth, which meant a fire</l>
+                    <l>was catching. We drove toward</l>
+                    <l>a cloud of smoke that rose above</l>
+                    <l>the city. In the mirror, I saw</l>
+                    <l>the wide belt strapped across</l>
+                    <l>your chest, and on the radio,</l>
+                    <l>men stormed the gates</l>
+                    <l>in another country. I do</l>
+                    <l>love you, you said, looking out.</l>
+                    <l>The window held the sun</l>
+                    <l>flatly. I held my breath. The brush</l>
+                    <l>had not been cleared in weeks,</l>
+                    <l>and the mountain prepared to burn.</l>
+                    
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+

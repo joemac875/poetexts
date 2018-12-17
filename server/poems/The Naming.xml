@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>The Naming</title>
+                <author>
+                    <persName>Karenne Wood</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="https://soundcloud.com/user-509931528-773448690/the-naming"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Naming"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="free"></interp>
+                    <interp ana="#tone" type="other"></interp>
+                    <interp ana="#topic" type="nature"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>Some nights we feel the furred darkness</l>
+                    <l>of an ancient one's breath and are trapped</l> 
+                    <l>in awakening, dismembered</l>
+                    <l>by events we no longer recall.</l>
+                    <l>We can touch the windowsill,</l>
+                    <l>where October air gathers</l>
+                    <l>as hours slip past in thin robes,</l>
+                    <l>the forest a concert of voices.</l>
+                    <l>The last crickets let go of their songs.</l>
+                    <l></l>
+                    <l>The land speaks, its language arising</l>
+                    <l>from its own geography—</l>
+                    <l>the mountains' hulked shapes</l>
+                    <l>are blue whales, remembering</l>
+                    <l>when they were undersea ridges,</l>
+                    <l>and rivers are serpentine strands</l>
+                    <l>hammered from silver, and dark trees</l>
+                    <l>talk to the wind—weaving mortal lives,</l>
+                    <l>drumbeats, pillars of smoke,</l>
+                    <l>voices wavering into updraft,</l>
+                    <l>the storyteller shifting the present.</l>
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+
+

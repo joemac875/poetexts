@@ -53,8 +53,9 @@ class ButtonManager():
             if self.pressed == True:
                 # print('Button Reset')
                 play_obj = self.reset_sound.play()
+
                 # We know the program will continue so we don't have to wait
-                #play_obj.wait_done()
+
                 self.pressed = False
                 return 2
         return 0

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>How do I love Thee</title>
+                <author>
+                    <persName>Elizabeth Barrett Browning</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Romance"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="sonnet"></interp>
+                    <interp ana="#tone" type="happy"></interp>
+                    <interp ana="#topic" type="love"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>How do I love thee? Let me count the ways.</l>
+                    <l>I love thee to the depth and breadth and height</l> 
+                    <l>My soul can reach, when feeling out of sight,</l>
+                    <l>FFor the ends of being and ideal grace.</l>
+                    <l>I love thee to the level of every day's</l>
+                    <l>Most quiet need, by sun and candle-light.</l>
+                    <l>I love thee freely, as men strive for right;</l>
+                    <l>I love thee purely, as they turn from praise.</l>
+                    <l>I love thee with the passion put use</l>
+                    <l>In my old griefs, and with my childhood's faith.</l>
+                    <l>I love thee with a love I seemed to lose</l>
+                    <l>With my lost saints. I love I seemed to lose</l>
+                    <l>Smiles, tears, of all my life; and, if God choose,</l>
+                    <l>I shall but love thee better after death</l>
+                  
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+

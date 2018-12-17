@@ -1,24 +1,38 @@
+#! /usr/bin/env python3
 from input_manager import InputManager, InputThread
 from screen_manager import ScreenManager, ScreenThread
 from button_manager import ButtonManager
+from twilio.rest import Client
 import boto3
 import requests
+import configparser
 import re
+import os
+import configuration
+import sys
+# read in user configurations
+user_config = configparser.ConfigParser()
+user_config.read(os.path.join(os.getcwd(), '..') + '/server/pox.ini')
 
 # URL for Poem Server
-poem_server = 'http://pox-deploy.us-east-2.elasticbeanstalk.com'
-# Create an SNS client
-client = boto3.client(
-    "sns",
-    aws_access_key_id="AKIAIAFRQL7SJUH5TFJQ",
-    aws_secret_access_key="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",
-    region_name="us-east-1"
-)
+poem_server = configuration.get_server(user_config) 
+print(poem_server)
+# Create an Twilio client
+twilio_client = Client(configuration.get_account_sid(user_config), configuration.get_auth_token(user_config))
 
 inputs = InputManager('/dev/ttyACM0', 9600)
-inputs.add_input('16', ['sonnet', 'free', 'haiku'], 'form', 1024)
-inputs.add_input('15', ['happy', 'sad', 'indifferent'], 'tone', 1024)
-inputs.add_input('14', ['love', 'war', 'environment', 'education', 'history'], 'topic', 1024)
+
+dials = configuration.get_dial_values(user_config)
+dialPins = configuration.get_pins(user_config)
+
+counter = 0
+print(dialPins)
+print(dials)
+
+for dial in sorted(dials.items()):
+    print(dial[0])
+    inputs.add_input(dialPins[counter], list(dials[dial[0]]), dial[0], 1024)
+    counter += 1
 
 button = ButtonManager(go_pin=18, reset_pin=23, go_ahead_light=12, stop_light=17, reset_time=0, go_sound='/home/pi/pox/client/go.wav', reset_sound='/home/pi/pox/client/reset.wav')
 screen = ScreenManager("Enter Phone #\nand Pull Lever")
@@ -29,6 +43,9 @@ thread1 = InputThread(1, "Input Manager Thread", 1, inputs)
 # Start new Threads
 thread1.start()
 #thread2.start()
+if len(sys.argv) == 2 and sys.argv[1] == 'debug':
+    while(1):
+        print(thread1.get_readings())
 
 while (1):
     check = button.check()
@@ -70,19 +87,31 @@ while (1):
             message += '\n'
             message += 'by ' + poem_json['author']
             message += '\n'
-            message += 'tags: '
+            message += 'tags matched: '
             for attribute, tag in matches:
                 message += tag + ' '
             message += '\n============\n'
             message += poem_json['text']
+            message += '\n============\n'
+            message += 'Audio: '
+            message += poem_json['url']
 
             # Send your sms message.
-            client.publish(
-                PhoneNumber=clean_number,
-                Message=message
-            )
-            screen.clear_and_write("Message Sent")
-            button.flash_leds(button.go_ahead_light, 5, .05)
+            try:
+                message_response = twilio_client.messages.create(to=clean_number, from_="+15173431475", body=message)
+                status_code = message_response.error_code
+                if status_code is None:
+                    screen.clear_and_write("Message Sent")
+                    button.flash_leds(button.go_ahead_light, 5, .05)
+                else:
+                    screen.clear_and_write("Twilio Error")
+                    button.flash_leds(button.stop_light, 5, .05)
+            except Exception as e:
+                screen.clear_and_write("Publish Error!")
+                print(str(e))
+
+
+
             
 
     # Button reset!

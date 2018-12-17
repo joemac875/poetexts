@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Silence is Golden</title>
+                <author>
+                    <persName>Shelagh Bullman</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="SilenceIsGolden"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="Free"></interp>
+                    <interp ana="#tone" type="other"></interp>
+                    <interp ana="#topic" type="society"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>They say silence is Golden</l>
+                    <l>I believe it is true,</l> 
+                    <l>Because in that Golden silence,</l>
+                    <l>my htoughts occur of you.</l>
+                    <l>You are the flame in my candle</l>
+                    <l>that lights the darkness of my room,</l>
+                    <l>You are the scented flowers</l>
+                    <l>That makes my heart bloom.</l>
+                    <l>You are the butterflies</l>
+                    <l>that flicker in my stomach all day long,</l>
+                    <l>When I know I will be holding you</l>
+                    <l>before my day is done.</l>
+                    <l>You are the stars that shimmer and shine,</l>
+                    <l>You light up the skies above.</l>
+                    <l>In this Golden silence</l> 
+                    <l>it's truly you I love.</l>
+                    <l>You are the thunder of the night,</l>
+                    <l>your lightning strikes whenever,</l>
+                    <l>into my soul that makes me whole,</l>
+                    <l>and excites my heart forever.</l>
+                    <l>You are my paradise, my oceans wide,</l>
+                    <l>My mountains standing tall,</l>
+                    <l>So in this Golden Silence</l>
+                    <l>I love you most of all.</l>
+                    
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+

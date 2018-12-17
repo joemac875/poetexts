@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>To A Wasp</title>
+        <author>
+          <persName>Janice Townly Moore</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- Bits Press--></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="ToAWasp"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="freeverse"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="Nature"></interp>
+              </interpGrp>
+             <lg> 
+              <l>You must have chrotled</l>
+          <l>finding that tiny hole</l> 
+          <l>in the kitchen screen. Right </l>
+          <l>into my cheese cake batter</l>
+          <l>you dived, </l>
+          <l>no chance to swim ashore, </l>
+          <l>no saving spoon,</l>
+          <l>the mixer whirring </l>
+          <l>your legs, wings, stinger</l>
+          <l>churning you into such</l>
+          <l>delicious death. </l>
+          <l>Never mind the bright April day. </l>
+          <l>Did you not see </l>
+          <l>rising out of the cumulus clouds</l>
+          <l>That fist aimed at both of us?</l>       
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

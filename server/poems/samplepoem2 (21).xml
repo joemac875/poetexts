@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Paris </title>
+        <author>
+          <persName>Willa Cather</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- Public Domain --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Paris"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="freeverse"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+              <l>Behind the arch of glory sets the day;</l>
+          <l>The river lies in curves of silver light,</l> 
+          <l>The Fields Elysian glitter in a spray</l>
+          <l>Og golden dust; the gilded dome is bright,</l>
+          <l>The towers of Norte Dame cut clean and gray</l>
+          <l>The evening sky, and pale from left to right</l>
+          <l>A hundred bridges leap from ethier quay.</l>
+          <l>Pillared with pride, the city of the delight</l>
+          <l>Sits like an empress by her silver Seine,</l>
+          <l>Heavy with jewels, all her splendid dower</l>
+          <l>Falshing upon her, won from shore and main</l>
+          <l>By shock of combat, sacked from town and tower.</l>
+          <l>Wherever man have builded hall or fane</l>
+          <l>Red war hath gleaned for her and men have slain</l>    
+          <l>To deck her loveliness. I feel again</l>     
+          <l>That joy which brings her art to faultless flower,</l>     
+          <l>That passion of her kings, who, reign on reign</l>     
+          <l>Arrayed her star with pride and power.</l>    
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

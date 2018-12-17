@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Here and There</title>
+        <author>
+          <persName>Emily Grosholz</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>Poem copyright ©2017 by Emily Grosholz, "Here and There (from "June"), from The Stars of Earth: New and Selected Poems, (Word Galaxy Press, 2017).</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/paola-amaya-349175383/here-and-there/s-0Yvpe"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="HereThere"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="death"></interp>
+              </interpGrp>
+             <lg> 
+               <l>What will I miss when I'm gone?</l>
+               <l>The squeak of the wheelbarrow's wheel,</l> 
+               <l>Grace note that strikes with every slow</l>
+               <l>Revolution, and then the hushed, rusty</l>
+               <l>Answer in triplets from the invisible</l>
+               <l>Bird in the lackluster maples.</l>
+               <l>                                     </l>
+               <l>Branches, weeds, last autumn's leavings</l>
+               <l>Raked from the moss-eaten pads, beds,</l>
+               <l>Borders, still untrimmed hedges.</l>
+               <l>Also the silent pale blue bells</l>
+               <l>Of my half dozen borage, ringed,</l>
+               <l>Self-seeded from the woods.</l>
+               <l>                                     </l>
+               <l>Daylilies my mother liked to set</l>
+               <l>Roadside in June. Pale Greek anemones</l>
+               <l>She never traveled far enough</l>
+               <l>To find wild, as I did once or twice, but</l>
+               <l>Maybe I'll bring her some, if over there</l>
+               <l>Windflowers blow beside a cloudy sea.</l>
+        <l>           Emily Grosholz</l> 
+               <note><ref target="#HereThere"></ref></note>
+               <!-- I just made this up here -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Leaves</title>
+        <author>
+          <persName>Gerald Stern</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Sonnet41"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+              <l>He was cleaning leaves for one at a time</l>
+          <l>was what he needed and a minute before the two</l> 
+          <l>brown poodles walked by he looked the stripped-down trees</l>
+          <l>from one more point of view and thought they were</l>
+          <l>part of a system in which the dappled was foreign</l>
+          <l>for he had arrived at his own conclusion and that was</l>
+          <l>for him a relief even if he was seperated</l>
+          <l>even if his hands were frozen</l>
+          <l>even if the wind knocked him down</l>
+          <l>even if his cat went into her helpless mode</l>
+          <l>inside the green and sheltering Japenese yew tree</l>
+         
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

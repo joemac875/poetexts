@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Anthem for Doomed Youth</title>
+        <author>
+          <persName>Wilfred Owen</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>The Poems of Wilfred Owen, edited by Jon Stallworthy (W. W. Norton and Company, Inc., 1986)</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Sonnet41"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+               <l>What passing-bells for these who die as cattle?</l>
+               <l> — Only the monstrous anger of the guns.</l> 
+               <l>Only the stuttering rifles' rapid rattle</l>
+               <l>Can patter out their hasty orisons.</l>
+               <l>No mockeries now for them; no prayers nor bells;</l>
+               <l>Nor any voice of mourning save the choirs,—</l>
+               <l>The shrill, demented choirs of wailing shells;</l>
+               <l>And bugles calling for them from sad shires.</l>
+               <l>What candles may be held to speed them all?</l>
+               <l>Not in the hands of boys, but in their eyes</l>
+               <l>Shall shine the holy glimmers of goodbyes.</l>
+               <l>The pallor of girls' brows shall be their pall;</l>
+               <l>Their flowers the tenderness of patient minds,</l>
+               <l>And each slow dusk a drawing-down of blinds.</l>
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

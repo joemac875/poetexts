@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>XXXV [A man saw a ball of gold in the sky]</title>
+                <author>
+                    <persName>Stephen Crane</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- In the public domain. --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- https://soundcloud.com/user-511877528/xxxv?in=user-511877528/sets/poetry-assignment -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="XXXV [A man saw a ball of gold in the sky]">
+                <interpGrp type="theme">
+                    <interp ana="#form" type="sonnet">free</interp>
+                    <interp ana="#tone" type="sad">happy</interp>
+                    <interp ana="#topic" type="society">nature</interp>
+                </interpGrp>
+                <quote>A man saw a ball of gold in the sky; </quote>
+                <quote>He climbed for it, </quote>
+                <quote>And eventually he achieved it— </quote>
+                <quote>It was clay. </quote>
+                <quote/>
+                <quote>Now this is the strange part: </quote>
+                <quote>When the man went to the earth </quote>
+                <quote>And looked again,</quote>
+                <quote> Lo, there was the ball of gold. </quote>
+                <quote>Now this is the strange part: </quote>
+                <quote>It was a ball of gold. </quote>
+                <quote>Aye, by the heavens, it was a ball of gold.</quote>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

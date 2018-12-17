@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>There is no Frigate like a Book</title>
+        <author>
+          <persName>Emily Dickinson</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ref/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="ThereisnoFrigatelikeaBook"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+           <l>There is no Frigate like a Book</l>
+             <l>To take us Lands away</l>
+               <l>Nor any Coursers like a Page</l>
+               <l>Of Prancing Poetry---</l>
+               <l>This Traverse may the poorest take</l>
+               <l>Without oppress of Toll---</l>
+               <l>How frugal is the Chariot</l>
+               <l>That bears the Human soul.</l>
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

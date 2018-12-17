@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Recitative</title>
+        <author>
+          <persName>A.E. Stallings</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Recitative"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#type" type="love"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+               <l>Every night, we couldn’t sleep.</l>
+               <l>Our upstairs neighbors had to keep</l>
+               <l>Dropping something down the hall—</l>
+               <l>A barbell or a bowling ball,</l>
+          
+               <l>And from the window by the bed,</l> 
+               <l>Echoing inside my head,</l>
+               <l>Alley cats expended breath</l>
+               <l>In arias of love and death. </l>
+          
+               <l>Dawn again, across the street,</l>
+               <l>Jackhammers began to beat </l>  
+               <l>Like hangovers, and you would frown— </l>
+               <l>That well-built house, why tear it down? </l>
+          
+               <l>Noon, the radiator grill</l>
+               <l>Groaned, gave off a lesser chill</l> 
+               <l>So that we could take off our coats.</l>
+               <l>The pipes coughed to clear their throats.</l>
+               
+               <l>Our nerves were frayed like ravelled sleeves, </l>
+               <l>We cherished each our minor griefs </l>  
+               <l>To keep them warm until the night, </l> 
+               <l>When it was time again to fight;</l> 
+          
+               <l>But we were young, did not need much </l>
+               <l>To make us laugh instead, and touch,</l>
+               <l>And could not hear ourselves above </l>
+               <l>The arias of death and love.</l>
+          
+          
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

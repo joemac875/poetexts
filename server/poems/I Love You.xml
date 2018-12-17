@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>I Love You</title>
+        <author>
+          <persName>Jenny George</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>Copyright © 2018 by Jenny George. Originally published in Poem-a-Day on September 17, 2018, by the Academy of American Poets.</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Poem31"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+               <l>Her eyes were mostly shut. She didn’t speak.</l>
+               <l>The sun’s slow exile crossed the wall above the bed.</l> 
+               <l> </l>
+               <l>But once, when I bent to feed her a drop</l>
+               <l>of morphine from the little plastic beak,</l>
+               <l> </l>
+               <l>her hand shot up and gripped my arm. She looked right at me.</l>
+               <l>When she said the words, it sounded like she meant: Don’t leave</l>
+               <l>   me.</l>
+               <l> </l>
+               <l>From the very first, we love like this: our heads turning</l>
+               <l>toward whatever mothers us, our mouths urgent</l>
+               <l> </l>
+               <l>for the taste of our name.</l>
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

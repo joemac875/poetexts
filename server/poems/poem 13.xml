@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Figure, ground</title>
+        <author>
+          <persName>Melissa Stein</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab><!-- https://www.poets.org/poetsorg/poem/figure-ground --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <div xml:id="Sonnet41">
+        <interpGrp type="poembox">
+          <interp ana="#form" type="narrative"/>
+          <interp ana="#tone" type="sad"/>
+          <interp ana="#topic" type="death"/>
+        </interpGrp>
+        <lg>
+          <l>Catapult through hills</l>
+          <l>locking on air. So much of it</l>
+          <l>the lungs won't take it in.</l> 
+          
+          <l>Then all's a pinwheel, i'm</l>
+          <l>the oin. The girl</l>
+          <l>on her back</l>
+          
+          <l>having a tantrum</l>
+          <l>on the drugstore floor</l>
+          <l>until her mother stands up and leaves.</l>
+          
+          <l>The ladybug's gunmetal</l>
+          <l>legs pedaling machinely</l>
+          <l>until they still</l>
+          
+          <l>and fold. The body</l>
+          <l>is an envelope.</l>
+          <l>The air black</l>
+          
+          <l>diamonds and helium</l>
+          <l>I'm far too far</l>
+          <l>to grieve.</l>
+
+          <!-- You can put comments or notes to yourself in like this -->
+        </lg>
+      </div>
+
+    </body>
+  </text>
+
+</TEI>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>In Neglect</title>
+        <author>
+          <persName>Robert Frost</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- Public Domain --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- https://soundcloud.com/user-38522460/neglect -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="InNeglect"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="FreeVerse"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+              <l>They leave us so to the way we took,</l>
+          <l>As two in whom they were proved mistaken,</l> 
+          <l>That we sit sometimes in the wayside nook,</l>
+          <l>With mischievous, vagrant, seraphic look,</l>
+          <l>And try if we cannot feel forsaken.</l>
+        
+         
+                 
+               <!-- insert comment -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

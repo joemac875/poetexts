@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>The Robin</title>
+        <author>
+          <persName>Witter Bynner</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- Public Domain --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- https://soundcloud.com/user-38522460/the-robin -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="TheRobin"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="FreeVerse"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+              <l>Except within poetic pale</l>
+          <l>I have not found a nightingale,</l> 
+          <l>Nor hearkened in a dusky vale</l>
+          <l>To song and silence blending;</l>
+          <l>No stock-dove have I ever heard,</l>
+          <l>Nor listened to a cuckoo-bird,</l>
+          <l>Nor seen a lark ascending.</l>
+          <l>But I have felt a pulse-beat start</l>
+          <l>Because a robin, spending</l>
+          <l>The utmost of his simple art</l>
+          <l>Some of his pleasure to impart</l>
+          <l>While twilight came descending,</l>
+          <l>Has found an answer in my heart,</l>
+          <l>A sudden comprehending.</l>
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

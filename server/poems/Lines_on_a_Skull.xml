@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Lines on a Skull</title>
+                <author>
+                    <persName>Ravi Shankar</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- https://www.poets.org/poetsorg/poem/lines-skull
+                Copyright by Ravi Shankar 2012 --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- Not in the public domain. -->  
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Short20"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="haiku"></interp>
+                    <interp ana="#tone" type="other"></interp>
+                    <interp ana="#topic" type="death"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>Start spirit; behold</l>
+                    <l>the skull. A living head loved</l>
+                    <l>earth. My bones resign</l>
+                    <l>the worm, lips to hold</l>
+                    <l>sparkling grape's slimy circle,</l>
+                    <l>shape of reptile's food.</l>
+                    <l>Where wit shone of shine,</l>
+                    <l>when our brains are substitute,</l>
+                    <l>like me, with the dead.</l>
+                    <l>life's little, our heads</l>
+                    <l>sad. Redeemed and wasting clay</l>
+                    <l>this chance. Be of use.</l>
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+
+

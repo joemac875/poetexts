@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>A Chilly Night</title>
+        <author>
+          <persName>Christina Rossetti</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- Public Domain --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- https://soundcloud.com/user-38522460/a-chilly-night -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Sonnet41"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="FreeVerse"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="Death"></interp>
+              </interpGrp>
+             <lg> 
+              <l>I rose at the dead of night,</l>
+          <l>And went to the lattice alone,</l> 
+          <l>To look for my Mother's ghost</l>
+          <l>Where the ghostly moonlight shone.</l>
+          <l>My friends had failed one by one,</l>
+          <l>Middle-aged, young, and old,</l>
+          <l>Till the ghosts were warmed to me</l>
+          <l>Than my friends that had grown cold.</l>
+          <l>I looked and I saw the ghosts</l>
+          <l>Dotting plain and mound:</l>
+          <l>They stood in the blank moonlight,</l>
+          <l>But no shadow lay on the ground:</l>
+          <l>They spoke without a voice</l>
+           <l>And they leaped without a sound.</l>
+           <l>I called: 'O my Mother dear,'--</l>
+          <l>I sobbed: 'O my Mother kind,</l>
+          <l>Make a lonely bed for me</l>
+           <l>And shelter it from the wind.</l>
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

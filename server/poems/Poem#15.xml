@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>After the War</title>
+        <author>
+          <persName>Rachel Galvin</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="AftertheWar"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+               <l>When he got to the farmhouse, he rifled through</l>
+               <l>the cabinets, drawers, and cupboards,</l> 
+               <l>and his buddies did too. The place was abandoned,</l>
+               <l>or so he thought, and his buddies did too.</l>
+               <l>He tried to talk to people in town, and his buddies did too,</l>
+               <l>but he was the only one whose Yiddish made it</l>
+               <l>across into German. They took his meaning.</l>
+               <l>He, in the farmhouse, took a camera and a gun,</l>
+               <l>but his buddies, who knows. About the gun,</l>
+               <l>it’s also hard to say, but after the war he took up</l>
+               <l>photography, why not, and shot beautiful women</l>
+               <l>for years. Got pretty good at it, and how.</l>
+               <l>Won prizes and engraved plates, put them in a drawer, forgot</l>
+               <l>the war, forgot his buddies, forgot the women, forgot the drawer.</l>
+               
+               <!-- You can put comments or notes to yourself in like this -->
+               
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

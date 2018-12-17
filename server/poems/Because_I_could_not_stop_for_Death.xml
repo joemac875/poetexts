@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Because I could not stop for Death</title>
+                <author>
+                    <persName>Emily Dickinson</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- https://www.poets.org/poetsorg/poem/because-i-could-not-stop-death-479
+                From The Poems by Emily Dickinson by Ralph Franklin 1998 --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- Not in the public domain -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Short12"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="free"></interp>
+                    <interp ana="#tone" type="sad"></interp>
+                    <interp ana="#topic" type="death"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>Because I could not stop for Death -</l>
+                    <l>He kindly stopped for me -</l>
+                    <l>The Carriage held but just Ourselves -</l>
+                    <l>And Immortality.</l>
+                    <l></l>
+                    <l>We slowly drove - He knew no haste</l>
+                    <l>And I had put away</l>
+                    <l>My labor and my leisure too,</l>
+                    <l>For His Civility -</l>
+                    <l></l>
+                    <l>We passed the School, where Children strove</l>
+                    <l>At Recess - in the Ring -</l>
+                    <l>We passed the Fields of Gazing Grain -</l>
+                    <l>We passed the Setting Sun -</l>
+                    <l></l>
+                    <l>Or rather- He passed us -</l>
+                    <l>The Dews drew quivering and chill -</l>
+                    <l>For only Gossamer, my Gown -</l>
+                    <l>My Tippet - only Tulle -</l>
+                    <l></l>
+                    <l>We paused before a House that seemed</l>
+                    <l>A Swelling of the Ground -</l>
+                    <l>The Roof was scarcely visible - </l>
+                    <l>The Cornice - in the Ground -</l>
+                    <l></l>
+                    <l>Since then - 'tis Centuries - and yet</l>
+                    <l>Feels shorter than the Day</l>
+                    <l>I first surmised the Horses' Heads</l>
+                    <l>Were toward Eternity -</l>
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+

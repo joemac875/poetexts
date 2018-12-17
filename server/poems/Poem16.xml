@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Telling the Bees</title>
+        <author>
+          <persName>Lizette Woodworth Reese</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- Public Domain --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Bees"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="FreeVerse"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="Death"></interp>
+              </interpGrp>
+             <lg> 
+              <l>Bathsheba came out to the sun,</l>
+          <l>Out to our walled cherry-trees;</l> 
+          <l>The tears adown her cheek did run,</l>
+          <l>Bathsheba standing in the sun,</l>
+          <l>Telling the bees.</l>
+          <l>My mother had that moment died;</l>
+          <l>Unknowing, sped I to the trees,</l>
+          <l>And plucked Bathsheba's hand aside;</l>
+          <l>Then caught the name that there she cried</l>
+          <l>telling the bees.</l>
+          <l>Her look I never can forget,</l>
+          <l>I that held sobbing to her knees;</l>
+          <l>The cherry-boughs above us met;</l>
+          <l>I think I see Bathsheba yet</l>
+          <l>Telling the bees.</l>
+                 
+               <!-- death and nature -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

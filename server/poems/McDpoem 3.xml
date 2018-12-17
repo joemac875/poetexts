@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Child's Pose</title>
+        <author>
+          <persName>Brionne Janae</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab><!-- https://www.poets.org/poetsorg/poem/childs-pose --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Sonnet41"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="narrative"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+              <l>imagine your heart is just a ball you learned to dribble up</l>
+          <l>and down the length of your driveway back home. slow down</l> 
+          <l>control it. plant your feet in the soft blue of your mat and</l>
+          <l>release</l>
+          <l>it is hard but slowly you are unlearning the shallow plant</l>
+          <l>of your childhood. extend your body-do not reach</l>
+          <l>for someone but something fixed and fleshless and certain-</l>
+          <l>fold flatten then lift your head like a cobra sure of the sun</l>
+          <l>waiting and ready to caress the chill</l>
+          <l>from its scales. inhale-try not to remeber how desperate</l>
+          <l>you've been for touch-yes ignore it-that hitch of your heart</l>
+          <l>you got from mornings you wke to find momma hysterical</l>
+          <l>or gone. try to give up the certainty she'd never return</l>
+          <l>recall only the return and not its coldness. imagine her arms</l>       
+          <l>wide to recieve you imagine you are not a thing that needs</l>    
+          <l>escaping. it is hard and though at times you are sure</l> 
+          <l>you will always be the abandoned girl trying to abandon herself</l>     
+          <l>push up arch deep into your back exhale and remeber-</l>   
+          <l>when it is too late to pray the end of the flood</l>     
+          <l>we pray instead to survive it.</l>  
+               
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+  xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>To You</title>
+        <author>
+          <persName>Walt Whitman</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+      
+      <div xml:id="toyou"> 
+        <interpGrp type="poembox">
+          <interp ana="#form" type="free"></interp>
+          <interp ana="#tone" type="sad"></interp>
+          <interp ana="#topic" type="society"></interp>
+        </interpGrp>
+        <lg> 
+          <l>LET us twain walk aside from the rest;</l>
+          <l>Now we are together privately, do you discard ceremony, </l> 
+          <l> Come! vouchsafe to me what has yet been vouchsafed to none—Tell me the whole story, </l>
+          <l>Tell me what you would not tell your brother, wife, husband, or physician. </l>
+          
+     
+          <!-- You can put comments or notes to yourself in like this -->
+        </lg>
+      </div>
+      
+    </body>
+  </text>
+  
+</TEI>

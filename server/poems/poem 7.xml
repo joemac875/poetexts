@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Notes For Futher Study</title>
+        <author>
+          <persName>Christopher Salerno</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab><!-- https://www.poets.org/poetsorg/poem/notes-further-study --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <div xml:id="Sonnet41">
+        <interpGrp type="poembox">
+          <interp ana="#form" type="narrative"/>
+          <interp ana="#tone" type="love"/>
+          <interp ana="#topic" type="nature"/>
+        </interpGrp>
+        <lg>
+          <l>You are a nobody</l>
+          <l>until another man leaves</l>
+          <l>a note under your wiper:</l>
+          <l>I like your hair, clothes, car-call me!</l>                                      
+          <l>Late May, i brush pink</l>
+          <l>Crepe Myrtle blossoms</l>
+          <l>from the hood of my car.</l>
+          <l>Again spring factors</l>
+          <l>into our fever. Would this</l>
+          <l>affair leave any room for error?</l>
+          <l>What if i only want</l>
+          <l>him to hum me a lullably.</l>
+          <l>To rest in the nets</l>
+          <l>of our own preferences.</l>
+          <l>I think of women</l>
+          <l>I've loved who, near the end,</l>
+          <l>made love to me soley</l>
+          <l>for the endorphines. Praise</l>
+          <l>be to those bodies lit</l>
+          <l>with magic. I pulse</l>
+          <l>my wipers, sweep away pollen</l>
+          <l>from the windsheild glass</l>
+          <l>to allow the radar</l>
+          <l>dector to detect. In the prim</l>
+          <l>light of spring I drive</l>
+          <l>home alone along the river's</l>
+          <l>tight curves where it bends</l>
+          <l>like handwritten words.</l>
+          <l>On the radio, a foreign love</l>
+          <l>song some men sing to rise.</l>
+          
+          
+          <!-- You can put comments or notes to yourself in like this -->
+        </lg>
+      </div>
+
+    </body>
+  </text>
+
+</TEI>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Vespers</title>
+        <author>
+          <persName>Denis Johnson</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Vespers"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+               <l>The towels rot and disgust me on this damp</l>
+               <l>peninsula where they invented mist</l> 
+               <l>and drug abuse and taught the light to fade,</l>
+               <l>where my top-quality and rock-bottom heart</l>
+               <l>cried because I'll never get to kiss</l>
+               <l>your famous knees again in a room made</l>
+               <l>vague by throwing a scarf over a lamp.</l>
+               <l>Things get pretty radical in the dark:</l>
+               <l>the sailboats on the inlet sail away;</l>
+               <l>the provinces of actuality</l>
+               <l>crawl on the sea; the dusk now tenderly</l>
+               <l>ministers to the fallen parking lots—</l>
+               <l>the sunset instananeous on the fenders,</l>
+               <l>memory and peace . . . the grip of chaos . . .</l>
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

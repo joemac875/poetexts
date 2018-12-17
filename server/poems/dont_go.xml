@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Don't Go Far Off</title>
+        <author>
+          <persName>Pablo Neruda</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="FarOff"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+               <l>Don't go far off, not even for a day, because -- </l>
+               <l>because -- I don't know how to say it: a day is long </l> 
+               <l>and I will be waiting for you, as in an empty station </l>
+               <l>when the trains are parked off somewhere else, asleep. </l>
+               <l>                                                 </l>
+               <l>Don't leave me, even for an hour, because </l>
+               <l>then the little drops of anguish will all run together, </l>
+               <l>the smoke that roams looking for a home will drift </l>
+               <l>into me, choking my lost heart. </l>
+               <l>                                                 </l>
+               <l>Oh, may your silhouette never dissolve on the beach; </l>
+               <l>may your eyelids never flutter into the empty distance. </l>
+               <l>Don't leave me for a second, my dearest, </l>
+               <l>                                                 </l>
+               <l>because in that moment you'll have gone so far </l>
+               <l>I'll wander mazily over all the earth, asking, </l>
+               <l>Will you come back? Will you leave me here, dying? </l>
+        <l>           Pablo Neruda</l> 
+               <note><ref target="#FarOff"></ref></note>
+               <!-- I just made this up here -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

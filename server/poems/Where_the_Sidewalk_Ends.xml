@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Where the Sidewalk Ends</title>
+        <author>
+          <persName>Shel Silverstein</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab><!-- http://famouspoetsandpoems.com/poets/shel_silverstein/poems/14836
+        Copyright 2006 by Famous Poets and poems --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- Not in the public domain! -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Short1"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+              <l>There is a place where the sidewalk ends</l>
+              <l>And before the street begins,</l>
+              <l>And there the grass grows soft and white,</l>
+              <l>And there the sun burns crimson bright,</l>
+              <l>And there the moon-bird rests from his flight</l>
+              <l>To cool in the peppermint wind.</l>
+              <l> </l>
+              <l>Let us leave this place where the smoke blows black</l>
+              <l>And the dark street winds and bends.</l>
+              <l>Past the pits where the asphalt flowers grow</l>
+              <l>We shall walk with a walk that is measured and slow,</l>
+              <l>And watch where the chalk-white arrows go</l>
+              <l>To the place where the sidewalk ends.</l>
+              <l></l>
+              <l>Yes we'll walk with a walk that is measured and slow,</l>
+              <l>And we'll go where the chalk-white arrows go,</l>
+              <l>For the children, they mark, and the children, they know</l>
+              <l>The place where the sidewalk ends.</l>
+          
+          
+          
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>
+
+
+
+
+
