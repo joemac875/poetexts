@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Still I Rise</title>
+                <author>
+                    <persName>Maya Angelou</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="StillIRise"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="Free"></interp>
+                    <interp ana="#tone" type="other"></interp>
+                    <interp ana="#topic" type="society"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>You may write me down in history</l>
+                    <l>With your bitter, twisted lies,</l> 
+                    <l>You may trod me in the very dirt,</l>
+                    <l>But still, like dust, I'll rise.</l>
+                    <l>Does my sassiness upset you?</l>
+                    <l>Why are you beset with gloom?,</l>
+                    <l>'Cause I walk like I've got oil wells</l>
+                    <l>Pumping in my living room.</l>
+                    <l>Just like moons and like suns,</l>
+                    <l>With the certainty of tides,</l>
+                    <l>Just like hops springing high,</l>
+                    <l>still I'll rise.</l>
+                    <l>Did you want to see me broken?,</l>
+                    <l>Bowed head and lowered eyes?,</l>
+                    <l>TShoulders falling down like teardrops.</l>
+                    <l>Weakened by my soulful cries.</l>
+                    <l>Does my haughtiness offend you?</l>
+                    <l>Don't you take it awful hard</l>
+                    <l>'Cause I laugh like I've got gold mines</l>
+                    <l>Diggin' in my own back yard</l>
+                    <l>You may shoot me with your words,</l>
+                    <l>You may cut me with your eyes,</l>
+                    <l>You may kill me with your hatefulness,</l>
+                    <l>But still, like air, I'll rise.</l>
+                    <l>Does my sexiness upset you?</l>
+                    <l>Does it come as a surprise</l>
+                    <l>That I dance Like I've got diamonds</l>
+                    <l>At the meeting of my thighs?</l>
+                    <l>Out of the huts of history's shame</l>
+                    <l>I rise</l>
+                    <l>Up from a past that's rooted in pain</l>
+                    <l>I rise</l>
+                    <l>I'm a black ocean, leaping and wide,</l>
+                    <l>Welling and swelling I bear in the tide.</l>
+                    <l>Leaving behind nights of terror and fear</l>
+                    <l>I rise</l>
+                    <l>Into a daybreak that's windrously clear</l>
+                    <l>I rise</l>
+                    <l>Bringing gifts that my ancestors gave,</l>
+                    <l>I am the fream and the hopes of the slave.</l>
+                    <l>I rise</l>
+                    <l>I rise</l>
+                    <l>I rise.</l>
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+

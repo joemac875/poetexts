@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>the dust of snow</title>
+        <author>
+          <persName>robert frost</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="robfrost"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sadhappy"></interp>
+                <interp ana="#topic" type="mysterious"></interp>
+              </interpGrp>
+             <lg> 
+              <l>the way a crow</l>
+               <l>shook down on me</l>
+               <l>the dust of snow</l>
+               <l>from a hemlock tree</l>
+               <l>has given my heart</l>
+               <l>a change of mood</l>
+               <l>and saved some part</l>
+               <l>of a day i had rued</l>
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

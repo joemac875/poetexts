@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>A Prayer in Spring</title>
+                <author>
+                    <persName>Robert Frost</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- https://www.poets.org/poetsorg/poem/prayer-spring --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- In the public domain. -->  
+                    <ref corresp="https://soundcloud.com/nickolas-kinachtchouk/a-prayer-in-spring-1"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Short19"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="free"></interp>
+                    <interp ana="#tone" type="happy"></interp>
+                    <interp ana="#topic" type="nature"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>Oh, give us pleasure in the flowers to-day;</l>
+                    <l>And give us not to think so far away</l>
+                    <l>As the uncertain harvest; keep us here</l>
+                    <l>All simply in the springing of the year.</l>
+                    <l>Oh, give us pleasure in the orchard white,</l>
+                    <l>Like nothing else by day, like ghosts by night;</l>
+                    <l>And make us happy in the happy bees,</l>
+                    <l>The swarm dilating round the perfect trees.</l>
+                    <l>And make us happy in the darting bird</l>
+                    <l>That suddenly above the bees is heard,</l>
+                    <l>The meteor that thrusts in with needle bill,</l>
+                    <l>And off a blossom in mid air stands still.</l>
+                    <l>For this is love and nothing else is love,</l>
+                    <l>The which it is reserved for God above</l>
+                    <l>To sanctify to what far ends He will,</l>
+                    <l>But which it only needs that we fulfil.</l>
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+

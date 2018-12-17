@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>A Tear for Love</title>
+        <author>
+          <persName>T.I.R.O.JY</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Broken"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="death"></interp>
+              </interpGrp>
+             <lg> 
+               <l>We went in to see</l>
+               <l>TO see the broken line </l> 
+               <l>Though good people we once may have been</l>
+               <l>can we still make that claim from now on in forward time?</l>
+               <l>Men, boys and animals lives</l>
+               <l>Perished defending a scrap of ground </l>
+               <l>A solemn quiet now we see with our own eyes </l>
+               <l>Where smoke and sharp lead reigned hell from the sky murdering the ground</l>
+               <l>Doubts too painful to bear</l>
+               <l>live in our minds constantly</l>
+               <l>a tear for love, a smile or a care</l>
+               <l>do we still have the right to feel any humanity?</l>
+               <l>We enter the Treanch to see</l>
+               <l>To see the broken line. </l>
+               
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

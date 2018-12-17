@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>My Friend</title>
+        <author>
+          <persName>James Whitcomb Riley</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="myfriend"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+               <l>He is my friend,' I said,--</l>
+               <l>'Be patient!' Overhead</l> 
+               <l>The skies were drear and dim;</l>
+               <l>And lo! the thought of him</l>
+               <l>Smited on my heart--and then</l>
+               <l>The sun shone out again!</l>
+               <l>'He is my friend!' The words</l>
+               <l>Brought summer and the birds;</l>
+               <l>And all my winter-time</l>
+               <l>Thawed into running rhyme</l>
+               <l>And rippled into song,</l>
+               <l>Warm, tender, brave, and strong.</l>
+               <l>And so it sings to-day.--</l>
+               <l>So may it sing alway!</l>
+               <l>Though waving grasses grow</l>
+               <l>Between, and lilies blow</l>  
+               <l>Their trills of perfume clear</l>  
+               <l>As laughter to the ear,</l>  
+               <l>Let each mute measure end</l>  
+               <l>With 'Still he is thy friend.'</l>  
+              
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

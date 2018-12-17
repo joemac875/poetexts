@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>heart, we will forget him!</title>
+        <author>
+          <persName>emily dickinson</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="robfrost"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sadhappy"></interp>
+                <interp ana="#topic" type="mysterious"></interp>
+              </interpGrp>
+             <lg> 
+              <l>Heart! we will forget him!</l>
+               <l>you an i, tonight!</l>
+               <l>you may forget the warmth he gave</l>
+               <l>i will forget the light</l>
+               <l>when you have done, pray tell me</l>
+               <l>that i my thoughts may dim</l>
+               <l>haste! lest while youre lagging</l>
+               <l>i may remember him!</l>
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

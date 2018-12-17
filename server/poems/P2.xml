@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>A Jelly-Fish</title>
+                <author>
+                    <persName>Marianne Moore</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!--Public domain poem published in Poem a Day by the Academy of American Poets --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Jelly-fish"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="Free"></interp>
+                    <interp ana="#tone" type="Sad"></interp>
+                    <interp ana="#topic" type="Love"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>Visible, invisible,</l>
+                    <l>A fluctuating charm,</l> 
+                    <l>An amber-colored amethyst</l>
+                    <l>Inhabits it; your arm</l>
+                    <l>Approaches, and</l>
+                    <l>It opens and</l>
+                    <l>It closes;</l>
+                    <l>You have meant</l>
+                    <l>To catch it,</l>
+                    <l>And it shrivels;</l>
+                    <l>You abandon</l>
+                    <l>Your intent-</l>
+                    <l>It opens, and it</l>
+                    <l>Close and you</l>
+                    <l>Reach for it-</l>
+                    <l>The blue</l>
+                    <l>Surrounding it</l>
+                    <l>Grows cloudy, and</l>
+                    <l>It floats away</l>
+                    <l>From you.</l>
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+

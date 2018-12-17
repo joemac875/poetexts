@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>The Dead Soldier</title>
+        <author>
+          <persName>John Woods</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          https://soundcloud.com/nathan-lawrence-906498502/poem4
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Sonnet41"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="death"></interp>
+              </interpGrp>
+             <lg> 
+              <l>Now his body is a uniform</l>
+          <l>All the colors have bled</l> 
+          <l>from the gray flag of his face.</l>
+          <l>He was badly led to this sprawl,</l>
+          <l>whether by Ike or Priam</l>
+          <l>The curly burst to the summer street.</l>
+          <l>The pain in the groin from the teasing girl.</l>
+          <l>The pint passed behind the stands.</l>
+          <l>His being!</l>
+          <l>The unblessed seeds of his dead children.</l>
+          <l>He was badly taught to speak out his throat,</l>
+          <l>in our bad silence.</l>
+          <l>All his leaders follow</l>
+          <l>where his torn body points down.</l>
+          <l>Now his body is a uniform.</l>
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

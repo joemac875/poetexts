@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>  Perfect Bed </title>
+        <author>
+          <persName>Kewayne Wadley</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Sonnet41"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+               <l>And there I saw the perfect bed.</l>
+               <l> Just the perfect size, height width everything I could have dreamt.</l> 
+               <l>I imagined the perfect sleep in my perfect bed.</l>
+               <l>Never quite seeing home the same again.</l>
+               <l>It came equipped with sheets and blankets even a heated mattress. </l>
+               <l>This bed was better than anything I could have imagined.</l>
+               <l>I climbed her leg and slipped myself in her pocket.</l>
+               <l>I haven't slept this good in a long while</l>
+               <l></l>
+               <l></l>
+               <l></l>
+               <l></l>
+               <l></l>
+               <l></l>
+<!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>              
+                
+               
+                 
+                 
+              
+                
+                 
+                
+               
+                 
+                 
+                 
+                 
+               
+                 
+          
+        
+                 
+                 
+               
+                 
+                 
+             
+                 
+                 
+                 
+                 
+                
+                 
+              
+                 
+                 
+                
+  
+               
+               
+

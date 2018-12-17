@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>The Pond</title>
+                <author>
+                    <persName>Amy Lowell</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- https://www.poetryfoundation.org/poems/42982/the-pond-56d221a570f61
+                From The Complete Poetical Works of Amy Lowell 1955 --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- Not in the public domain -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Short9"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="free"></interp>
+                    <interp ana="#tone" type="other"></interp>
+                    <interp ana="#topic" type="nature"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>Cold, wet leaves</l>
+                    <l>Floating on moss-colored water,</l>
+                    <l>And the croaking of frogs -</l>
+                    <l>Cracked bell-notes in the twilight</l>
+                    
+                    
+                    
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+
+
+
+
+
+
+
+
+
+
+
+
+

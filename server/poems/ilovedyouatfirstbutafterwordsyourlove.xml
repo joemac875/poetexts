@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>I Loved you at first: but afterwords your love</title>
+        <author>
+          <persName>Christina Rossetti</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="I loved you at first: but afterwords your love"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#type" type="love"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+               <l>I loved you first: but afterwards your love</l>
+               <l>Outsoaring mine, sang such a loftier song</l>
+               <l>As drowned the friendly cooings of my dove.</l>
+               <l>Which owes the other most? my love was long,</l>
+               <l>And yours one moment seemed to wax more strong;</l>
+               <l>I loved and guessed at you, you construed me</l>
+               <l>And loved me for what might or might not be –</l>
+               <l>Nay, weights and measures do us both a wrong.</l>
+               <l>For verily love knows not ‘mine’ or ‘thine;’</l>
+               <l>With separate ‘I’ and ‘thou’ free love has done,</l>
+               <l>For one is both and both are one in love:</l>
+               <l>Rich love knows nought of ‘thine that is not mine;’</l>  
+               <l>Both have the strength and both the length thereof,</l>
+               <l>Both of us, of the love which makes us one.</l>
+          
+               
+          
+          
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

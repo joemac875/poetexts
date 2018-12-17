@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Soldier Boy</title>
+        <author>
+          <persName>Selwyn S. Schwartz</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          https://soundcloud.com/nathan-lawrence-906498502/poem11
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Sonnet41"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+              <l>Little boy, nothing has been said about your fear;</l>
+          <l>the sky projects your growth and in this sudden blackout</l> 
+          <l>ghost foreknow the naked stars that will skin you alive.</l>
+          <l>Your voice distant, buried deep in your toys, the year uncatalogued,</l>
+          <l>and yet the cruel clock of war's evening answers,</l>
+          <l>each hour falters, autographs your lean gaze.</l>
+          <l>I tell you past the impersonal sanctum of high scholars:</l>
+          <l>fear breeds hate and death brings no taste of godliness,</l>
+          <l>yet count the saints, while ogres strike your day</l>
+          <l>I am tired of your retouched photo under glass,</l>
+          <l>of your cinema orbits where flamingos sleep,</l>
+          <l>of your uncomplaining grave, politely adult.</l>
+         
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

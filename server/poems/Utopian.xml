@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Utopian</title>
+        <author>
+          <persName>Alicia Ostriker</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>Copyright © 2016 by Alicia Ostriker. Originally published in Poem-a-Day on April 22, 2016, by the Academy of American Poets.</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/user-765943576/utopian/s-F1XnF"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Poem23"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+          <l>My neighbor’s daughter has created a city</l>
+          <l>you cannot see</l> 
+          <l>on an island to which you cannot swim</l>
+          <l>Gentle thou art and therefore to be won,</l>
+          <l>ruled by a noble princess and her athletic consort</l>
+          <l>all the buildings are glass so that lies are impossible</l>
+          <l>beneath the city they have buried certain words</l>
+          <l>which can never be spoken again</l>
+          <l>chiefly the word divorce which is eaten by maggots</l>
+          <l>when it rains you hear chimes</l>
+          <l>rabbits race through its suburbs</l>
+          <l>the name of the city is one you can almost pronounce</l>
+          
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

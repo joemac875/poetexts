@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>If</title>
+                <author>
+                    <persName>Karen Jo Shapiro</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab>"If" from I Must Go Down to the Beach Again. Copyright © 2007 by Karen Jo Shapiro.</ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="If"> 
+                <interpGrp type="theme">
+                    <interp ana="#form" type="free"/>
+                    <interp ana="#tone" type="happy"/>
+                    <interp ana="#topic" type="society"/>
+                </interpGrp>
+                <lg> 
+                    <l>If you can't wait to pick a book right now</l>
+                    <l>And read it through until the very end</l> 
+                    <l>To find out who did what, and why, and how,</l>
+                    <l>Then-lucky you!-you're a READER, my friend!</l>
+                 
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

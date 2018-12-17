@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Haiku [for you]</title>
+        <author>
+          <persName>Sonia Sanchez</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- 1934 --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="haiku"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="Haiku"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+              <l>love between us is</l>
+          <l>speech and breath. loving you is</l> 
+          <l>a long river running.</l>
+          
+                 
+               <!-- metaphorical comparison of love to basic needs, perpetuating nature -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

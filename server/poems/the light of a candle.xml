@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>The light of a candle</title>
+        <author>
+          <persName>Yosa Buson</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>From Haiku Master Buson by Yosa Buson. Copyright © 2007 by Yosa Buson, translated by Edith Shiffert. Reprinted by permission of White Pine Press.</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Poem28"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="haiku"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+               <l>The light of a candle</l>
+               <l>               is transferred to another candle—</l> 
+               <l>               spring twilight.</l>
+         
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

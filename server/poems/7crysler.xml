@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Here</title>
+        <author>
+          <persName>Arthur Sze</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab>Copyright 1998 by Arthur Sze</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ref/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Here"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+               <l>Here a snail on a wet leaf shivers and dreams of spring.</l>
+               <l>Here a green iris in December.</l>
+               <l>Here the topaz light of the sky.</l>
+               <l>Here one stops hearing a twig break and listens for deer.</l>
+               <l>Here the art of the ventriloquist.</l>
+               <l>Here the obsession of a kleptomaniac to steal red pushpins.</l>
+               <l>Here the art of the alibi.</l>
+               <l>Here one walks into an abandoned farmhouse and hears a tarantella.</l>
+               <l>Here one dreamed a bear claw and died.</l>
+               <l>Here a humpback whale leaped out of the ocean.</l>
+               <l>Here the outboard motor stopped but a man made it to this island with one oar.</l>
+               <l>Here the actor forgot his lines and wept.</l>
+               <l>Here the art of prayer.</l>
+               <l>Here marbles, buttons, thimbles, dice, pins, stamps, beads.</l>
+               <l>Here one becomes terrified.</l>
+               <l>Here one wants to see as a god sees and becomes clear amber.</l>
+               <l>Here one is clear pine.</l>
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

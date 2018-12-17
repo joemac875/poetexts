@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Church</title>
+                <author>
+                    <persName>Jacqueline Woodson</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- https://www.poetryfoundation.org/poems/58429/church-56d23ccb64678
+                From Locomotion 2003 --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- Not in the public domain -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Short2"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="free"></interp>
+                    <interp ana="#tone" type="sad"></interp>
+                    <interp ana="#topic" type="society"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>On Sundays, the preacher gives everyone a chance</l>
+                    <l>to repent their sins. Miss Edna makes me go</l>
+                    <l>to church. She wears a bright hat</l>
+                    <l>I wear my suit. Babies dress in lace.</l>
+                    <l>Girls my age, some pretty, some not so</l>
+                    <l>pretty. Old ladies and men nodding.</l>
+                    <l>Miss Edna every now and then throwing her hand</l>
+                    <l>in the air. Saying Yes, Lord and Preach!</l>
+                    <l>I sneak a pen from my back pocket,</l>
+                    <l>bend down low like I dropped something.</l>
+                    <l>The chorus marches up behind the preacher</l>
+                    <l>clapping and humming and getting ready to sing.</l>
+                    <l>I write the word HOPE on my hand.</l>
+                    
+                    
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+

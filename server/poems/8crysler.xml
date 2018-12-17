@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Harlem</title>
+        <author>
+          <persName>Langston Hughes</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ref corresp="https://soundcloud.com/user-249604262/poem-8-harlem"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Harlem"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+              <l>What happens to a dream deferred?</l>
+               <l>Does it dry up</l>
+               <l>like a raisin in the sun?</l>
+               <l>Or fester like a sore--</l>
+               <l>And then run?</l>
+               <l>Does it stink like rotten meat?</l>
+               <l>Or crust and sugar over--</l>
+               <l>like a syrupy sweet?</l>
+               <l>Maybe it just sags</l>
+               <l>like a heavy load.</l>
+               <l>Or does it explode?</l>
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>One Hundred Love Sonnets</title>
+        <author>
+          <persName>Pablo Neruda</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Love"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#type" type="love"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+          <l>I don’t love you as if you were a rose of salt, topaz,</l>
+          <l>or arrow of carnations that propagate fire:</l>
+          <l>I love you as one loves certain obscure things, </l>
+          <l>secretly, between the shadow and the soul.</l>
+          
+          <l>I love you as the plant that doesn’t bloom but carries  </l>
+          <l>the light of those flowers, hidden, within itself, </l>
+          <l>and thanks to your love the tight aroma that arose</l>
+          <l>from the earth lives dimly in my body.</l>
+               
+          <l>I love you without knowing how, or when, or from where, </l>
+          <l>I love you directly without problems or pride:</l>
+          <l>I love you like this because I don’t know any other way to love,</l>
+          <l>except in this form in which I am not nor are you, </l> 
+          <l>so close that your hand upon my chest is mine,</l>
+          <l>so close that your eyes close with my dreams.</l>
+          
+          
+          
+          
+          
+          
+          
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

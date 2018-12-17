@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>I Felt a Funeral in My Brain</title>
+        <author>
+          <persName>Emily DIckinson</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="FuneralinmyBrain"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="Free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="funeral"></interp>
+              </interpGrp>
+             <lg> 
+              <l>I felt a Funeral, in my Brain,</l>
+          <l>And Mourners to and fro,</l> 
+          <l>Kept reading-treading-till it seemed.</l>
+          <l>That sense was breaking through,</l>
+          <l>And when they all were seated;</l>
+          <l>A service, like a drum-</l>
+          <l>Kept beating-beating-till I thought</l>
+          <l>My mind was going numb,</l>
+          <l>And then I heard them lift a Box,</l>
+          <l>And creak across my soul</l>
+          <l>With those same Boots of Lead, again,</l>
+          <l>Then Space- began to toll,</l>
+          <l>As all the Heavens were a Bell,</l>
+          <l>And Being, but an Ear,</l>
+          <l>And I , and Silence, some strange Race,</l>
+          <l>Wrecked, solitary, here,</l>
+          <l>ANf then a PLank in Reason broke,</l>
+          <l>And I dropped down, and down-,</l>
+          <l>And hit a World, at every plunge,</l>
+          <l>Ans finished knowing-then-</l>
+             
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

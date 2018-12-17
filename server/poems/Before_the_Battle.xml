@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Before the Battle</title>
+                <author>
+                    <persName>Siegfried Sassoon</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- https://www.poets.org/poetsorg/poem/battle --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- In the public domain. -->  
+                    <ref corresp="https://soundcloud.com/nickolas-kinachtchouk/before-the-battle-1"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Short18"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="free"></interp>
+                    <interp ana="#tone" type="other"></interp>
+                    <interp ana="#topic" type="nature"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>Music of whispering tress</l>
+                    <l>Hushed by the broad-winged breeze</l>
+                    <l>Where shaken water gleams;</l>
+                    <l>And evening radiance falling</l>
+                    <l>With reedy bird-notes calling.</l>
+                    <l>O bear me safe through dark, you low-voiced streams.</l>
+                    <l>I have no need to pray</l>
+                    <l>That fear may pass away;</l>
+                    <l>I scorn the growl and rumble of the fight</l>
+                    <l>That summons me from cool</l>
+                    <l>Silence of marsh and pool,</l>
+                    <l>And yellow lilies islanded in light.</l>
+                    <l>O river of stars and shadows, lead me through the night.</l>
+                    
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

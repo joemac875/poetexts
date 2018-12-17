@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Flirtation </title>
+        <author>
+          <persName>Rita Dove</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Flirtation"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#type" type="love"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+              <l>After all, there is no need</l>
+          <l>to say anything</l>
+          
+          <l>at first. An orange peeled</l>
+          <l>and quartered, flares</l>
+          
+          <l>like a tulip on a wedgewood plate</l>
+          <l>anything can happen.</l>
+          
+          <l>outside the sun</l>
+          <l>has rolled up her rugs</l>
+          
+          <l>and night strewn soft</l>
+          <l>across the sky. My heart</l>
+          
+          <l>is humming a tune</l>
+          <l>I havent heard in years!</l>
+          
+          <l>Quiets cool flesh</l>
+          <l>lets sniff and eat it</l>   
+          
+          <l>There are ways</l>
+          <l>to make of the moment</l>
+          
+          <l>a topiary</l>
+          <l>so the leasures in</l>
+          
+          <l>Walking through</l>
+               
+         
+          <l>Walking through</l>
+          
+          
+          
+          
+          
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

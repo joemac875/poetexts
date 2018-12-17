@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Sonnet</title>
+        <author>
+          <persName>Alice Dunbar-Nelson</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/user-597751783/sonnet?in=user-597751783/sets/english-151-poetry-assignment"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Sonnet"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+               <l>I had no thought of violets of late,</l>      
+               <l>The wild, shy kind that spring beneath your feet</l>
+               <l>In wistful April days, when lovers mate</l>
+               <l>And wander through the fields in raptures sweet.</l>       
+               <l>The thought of violets meant florists’ shops,</l>          
+               <l>And bows and pins, and perfumed papers fine;</l>
+               <l>And garish lights, and mincing little fops</l>
+               <l>And cabarets and songs, and deadening wine. </l>
+               <l>So far from sweet real things my thoughts had strayed,</l> 
+               <l>I had forgot wide fields, and clear brown streams;</l>           
+               <l>The perfect loveliness that God has made,—</l> 
+               <l>Wild violets shy and Heaven-mounting dreams.</l>
+               <l>And now—unwittingly, you’ve made me dream</l>
+               <l>Of violets, and my soul’s forgotten gleam.</l>
+                
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Hug O War</title>
+                <author>
+                    <persName>Shel Silverstien</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Hug O War"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="tug"></interp>
+                    <interp ana="#tone" type="war"></interp>
+                    <interp ana="#topic" type="hug"></interp>
+                </interpGrp>
+                <lg> 
+                    
+                    <l>I will not play at tug o' war.</l>
+                    <l>I'd rather play at hug o' war,</l>
+                    <l> Where everyone hugs</l>
+                    <l>Instead of tugs,</l>
+                    <l>Where everyone giggles</l>
+                    <l> And rolls on the rug,</l>
+                    <l>Where everyone kisses,</l>
+                    <l>And everyone grins,</l>
+                    <l> And everyone cuddles,</l>
+                    <l> And everyone wins</l>
+                    
+                    <l>Source: https://www.familyfriendpoems.com/poem/hug-o-war-by-shel-silverstein</l>
+                    
+                    
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

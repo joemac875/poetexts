@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title> Sonnet 138</title>
+        <author>
+          <persName>William Shakespeare </persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Sonnet138"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+               <l>When my love swears that she is made of truth</l>
+               <l>I do believe her, though I know she lies,</l> 
+               <l>That she might think me some untutor’d youth</l>
+               <l>That she might think me some untutor’d youth.</l>
+               <l>Unlearned in the world’s false subtleties.</l>
+               <l>Thus vainly thinking that she thinks me young,</l>
+               <l>Although she knows my days are past the best,</l>
+               <l>Simply I credit her false speaking tongue:</l>
+               <l>On both sides thus is simple truth suppress’d.</l>
+               <l>But wherefore says she not she is unjust?</l>
+               <l>And wherefore say not I that I am old?</l>
+               <l>O, love’s best habit is in seeming trust,</l>
+               <l>And age in love loves not to have years told:</l>
+               <l>Therefore I lie with her and she with me,</l>
+               <l>And in our faults by lies we flatter’d be.</l>
+<!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>              
+                
+               
+                 
+                 
+              
+                
+                 
+                
+               
+                 
+                 
+                 
+                 
+               
+                 
+          
+        
+                 
+                 
+               
+                 
+                 
+             
+                 
+                 
+                 
+                 
+                
+                 
+              
+                 
+                 
+                
+  
+               
+               
+

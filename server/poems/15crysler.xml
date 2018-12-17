@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>My mistress' eyes are nothing like the sun (Sonnet 130)</title>
+        <author>
+          <persName>William Shakespeare</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ref/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Sonnet130"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+          <l>My mistress' eyes are nothing like the sun;</l>
+               <l>Coral is far more red than her lips' red;</l>
+               <l>If snow be white, why then her breasts are dun;</l>
+               <l>If hairs be wires, black wires grow on her head.</l>
+               <l>I have seen roses damasked, red and white,</l>
+               <l>But no such roses see I in her cheeks;</l>
+               <l>And in some perfumes is there more delight</l>
+               <l>Than in the breath that from my mistress reeks.</l>
+               <l>I love to hear her speak, yet well I know</l>
+               <l>That music hath a far more pleasing sound;</l>
+               <l>I grant I never saw such a goddess go;</l>
+               <l>My mistress when she walks treads on the ground.</l>
+               <l>And yet, by heaven, I think my love as rare</l>
+               <l>As any she belied with false compare.</l>
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

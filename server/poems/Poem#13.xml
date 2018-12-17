@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>martydom</title>
+        <author>
+          <persName>Andrew McMillan</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Sonnet41"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+               <l>tonight      I started walking back to you father</l>
+               <l>it was meant to be a stroll but then I started</l> 
+               <l>walking faster      father      I started chanting all</l>
+               <l>the names of all the men I ever went to bed</l>
+               <l>with      father      my thighs were burning and my feet</l>
+               <l>were heavy with blood but I kept the pace and chants</l>
+               <l>of names up      father      listed them to fence posts</l>
+               <l>and the trees and didn’t stop and started getting</l>
+               <l>younger      father      and walked all night till I was home</l>
+               <l>just a spark in your groin again and told you not</l>
+               <l>to bring me back to life      told you I repented</l>
+               <l>every name and had freed them of me      father</l>
+         
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

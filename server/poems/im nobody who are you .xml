@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+  xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>I'm nobody; Who are You?</title>
+        <author>
+          <persName>Emily Dickinson</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+      
+      <div xml:id="ImnobodyWhoareyou"> 
+        <interpGrp type="poembox">
+          <interp ana="#form" type="free"></interp>
+          <interp ana="#tone" type="other"></interp>
+          <interp ana="#topic" type="soceity"></interp>
+        </interpGrp>
+        <lg> 
+          <l>I'm nobody! Who are you?</l>
+          <l>Are you nobody, too?</l> 
+          <l>Then there's a pair of us - don't tell!</l>
+          <l>They'd banish us, you know.</l>
+          <l>How dreary to be somebody!</l>
+          <l>How public, like a frog</l>
+          <l>To tell your name the livelong day</l>
+          <l>To an admiring bog! </l>
+          
+          
+         
+     
+          <!-- You can put comments or notes to yourself in like this -->
+        </lg>
+      </div>
+      
+    </body>
+  </text>
+  
+</TEI>

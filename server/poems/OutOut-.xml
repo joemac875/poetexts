@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>"Out, Out-"</title>
+        <author>
+          <persName>Robert Frost</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/user-597751783/out-out?in=user-597751783/sets/english-151-poetry-assignment"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="OutOut-"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="narrative"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+               <l>The buzz-saw snarled and rattled in the yard</l>
+               <l>And made dust and dropped stove-length sticks of wood,</l>
+               <l>Sweet-scented stuff when the breeze drew across it.</l>
+               <l>And from there those that lifted eyes could count</l>
+               <l>Five mountain ranges one behind the other</l>
+               <l>Under the sunset far into Vermont.</l>
+               <l>And the saw snarled and rattled, snarled and rattled,</l>
+               <l>As it ran light, or had to bear a load.</l>
+               <l>And nothing happened: day was all but done.</l>
+               <l>Call it a day, I wish they might have said</l>
+               <l>To please the boy by giving him the half hour</l>
+               <l>That a boy counts so much when saved from work.</l>
+               <l>His sister stood beside them in her apron</l>
+               <l>To tell them “Supper.” At the word, the saw,</l>
+               <l>As if to prove saws knew what supper meant,</l>
+               <l>Leaped out at the boy’s hand, or seemed to leap—</l>
+               <l>He must have given the hand. However it was,</l>
+               <l>Neither refused the meeting. But the hand!</l>
+               <l>The boy’s first outcry was a rueful laugh,</l>
+               <l>As he swung toward them holding up the hand</l>
+               <l>Half in appeal, but half as if to keep</l>
+               <l>The life from spilling. Then the boy saw all—</l>
+               <l>Since he was old enough to know, big boy</l>
+               <l>Doing a man’s work, though a child at heart—</l>
+               <l>He saw all spoiled. “Don’t let him cut my hand off—</l>
+               <l>The doctor, when he comes. Don’t let him, sister!”</l>
+               <l>So. But the hand was gone already.</l>
+               <l>The doctor put him in the dark of ether.</l>
+               <l>He lay and puffed his lips out with his breath.</l>
+               <l>And then—the watcher at his pulse took fright.</l>
+               <l>No one believed. They listened at his heart.</l>
+               <l>Little—less—nothing!—and that ended it.</l>
+               <l>No more to build on there. And they, since they</l>
+               <l>Were not the one dead, turned to their affairs.</l>
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>The Circle of Nature</title>
+                <author>
+                    <persName>Friedrich Schiller</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- https://www.poemhunter.com/poems/nature/page-1/455333/ --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="https://soundcloud.com/nickolas-kinachtchouk/the-circle-of-nature-1"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Short10"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="free"></interp>
+                    <interp ana="#tone" type="other"></interp>
+                    <interp ana="#topic" type="nature"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>All, thou gentle one, lies embraced in thy</l>
+                    <l>kingdom; the graybeard</l>
+                    <l>Back to the days of his youth, childish and</l>
+                    <l>child-like, returns.</l>
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+
+

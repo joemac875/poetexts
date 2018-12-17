@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Vertigo</title>
+        <author>
+          <persName>Elena Karina Byrne</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Sonnet41"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+               <l>But all dark notes are dismantled</l>
+               <l>there from the middle ear</l> 
+               <l>downward. Voyaged mind, cauldron skin.</l>
+               <l>Can you claim anything is yours?</l>
+               <l>The burning salt hour</l>
+               <l>throws its black broken-glass frame skyward.</l>
+               <l>Left behind</l>
+               <l>the mum orchestra, body parts in peril</l>
+               <l>and animals dizzy for</l>
+               <l>lust past all lost</l>
+               <l>astronomy and wipeout,</l>
+               <l>this naked edible overjoy, a kind</l>
+               <l>of suicide in syllables, fifth</l>
+               <l>panic, fourth stall’s birds-fermata, this</l>
+               <l>half ocean’s susurrus is coming over us in the picture.</l>
+               <l>Can you akin? Can you</l>
+               <l>hear it, pinned to the unseasonable underearth,</l>
+               <l>an option for music and water</l>
+               <l>constantly changing shape, an answer</l>
+               <l>in dissonance? To hear desire</l>
+               <l>is to wake yourself inside, upturne</l>
+               <l>long enough to know</l>
+               <l>tomorrow is exile. Chaos, body harp,</l>
+               <l>and painted butt music, crowd-crawl, rose</l>
+               <l>crowned to the chest, rabbit</l>
+               <l>call and playing cards    ...    listen,</l>
+               <l>I’m hell-humming in</l>
+               <l>your direction, giddy, I am too taken</l>
+               <l>to leave it alone, the will</l>
+               <l>locked in as if it is already</l>
+               <l>inside of me now: to fall.</l>
+               <l>Let’s be clear.</l>
+               <l>my darling, in the reeling</l>
+               <l>crave, spilled gut-platter</l>
+               <l>of enclosed bones, in</l>
+               <l>the final flesh-clean drop, it sounds</l>
+               <l>like fire rising</l>
+               <l>with the cliff's updraft.</l>
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

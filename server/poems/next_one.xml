@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>The Next Last One</title>
+        <author>
+          <persName>Frank Sherlock</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>Poetry (November 2018)</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/paola-amaya-349175383/the-next-last-one/s-nJVOI"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Next1"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+               <l>One day we’re told to look at the sun</l>
+               <l>through a hole in a cereal box     All there is to be seen</l> 
+               <l>is the rest of  the world disappearing     This</l>
+               <l>somehow shadows aliveness but almost</l>
+               <l>everyone who has ever lived is restlessly sleeping as dead</l>
+               <l>For who     About what     The end is near over</l>
+               <l>                                                </l>
+               <l>                    and over yet we insist on making dates to keep talking</l>
+               <l>          Always about the last eclipse the next blood</l>
+               <l>          flower buck worm strawberry ice wolf event</l>
+               <l>          Then there’s a last constellation we might ever see</l>
+               <l>          until there’s something else to look out for</l>
+               <l>                                                 </l>
+               <l>Gone are the frightening and gorgeous conspirators</l>
+               <l>that I’m sure I will not see again</l>
+               <l>Traces of sweat and mystery streaks</l>
+               <l>some hells     communion and of course</l>
+               <l>a few awkward goodbyes     The mattress is</l>
+               <l>          gone forever like so many of the bodies I’ve worshipped</l>
+               <l>                                                 </l>
+               <l>Here we are left with impressions</l>
+               <l>and a recollection of  my side of  the story     I cry</l>
+               <l>w/ one eye all the time but the right one staid defiant</l>
+               <l>                                                  </l>
+               <l>                                                  What would you read to someone you</l>
+               <l>                                                  love if you knew that they were dying</l>
+               <l>                                                  </l>
+               <l>If  it’s over again can we share more than black sites and</l>
+               <l>drownings     skin turned confetti     blue turned coal</l>
+               <l>and innards swept down sewers w/ brooms</l>
+               <l>          We give way beyond what we know     So the gun</l>
+               <l>          in my mouth made me a monster for a while</l>
+               <l>          Coming back shoeless calloused me</l>
+               <l>          everywhere but the bottoms of feet     Someone</l>
+               <l>                                                  </l>
+               <l>dressed like a traitor convinced me</l>
+               <l>there are loyalties that deserve to be broken     Someone</l>
+               <l>w/ death to the klan on the door</l>
+               <l>let me know I already broke free</l>
+               <l>                                                  </l>
+               <l>          Hear them both     They’re dead and it’s tricky</l>
+               <l>          since the decomposed and me are close but here</l>
+               <l>          I am w/ you     The friend who is you</l>
+               <l>          Impossible almost lover you     The us</l>
+               <l>          we chose as family you and others in the fullness of  time</l>
+               <l>                                                  </l>
+               <l>None of us breed but someone will give</l>
+               <l>birth behind bulletproof glass where life and</l>
+               <l>the divide begin     This is a fabled event</l>
+               <l>packaged as betterment     It will spawn someone</l>
+               <l>who pays to spray us</l>
+               <l>                                                  </l>
+               <l>                                                  like invasive bugs in the street     Cops</l>
+               <l>                                                  were children so we can look forward to</l>
+               <l>                                                  good regime/bad regime during future</l>
+               <l>                                                  questioning     Thanks for the theater</l>
+               <l>                            but we’ve seen the play     Civil discourse is broken</l>
+               <l>                            down in the destruction manual     They can have all</l>
+               <l>                the orchestras     Classical music will never drown out the sins</l>
+               <l>                                                  </l>
+               <l>What would you write to someone you</l>
+               <l>love if   you thought you might be dying</l>
+               <l>                                                  </l>
+               <l>          Maybe once I was someone who I’d love to see</l>
+               <l>          punched in the face     But I am here and not yet dead so</l>
+               <l>          a constellation of the imaginary is no imaginary</l>
+               <l>          constellation     There is no sky w/o a dream of sky     You</l>
+               <l>          who are family   fuck a grid and thanks to you I see</l>
+               <l>          brightness independent of state-­sponsored power</l>
+               <l>                                                  </l>
+               <l>We talk about who threw that brick through</l>
+               <l>the window     and how it’s now part of a path in a garden</l>
+               <l>Broken glass is as old as glass     but the sound is</l>
+               <l>more than fresh wounds     There are fresh worlds still to be heard</l>
+               <l>                                                  </l>
+               <l>                            Oh  and you my friend   I will fight anyone who says</l>
+               <l>                  you’re not pretty     That is just ridiculous talk     Distant</l>
+               <l>           impractical you     I believed we could be possible w/ translation</l>
+               <l>                            software and hearts-for-eyes emojis     No dice</l>
+               <l>                            but not before I entertained</l>
+               <l>                            dressing in a tux as your husband     Look</l>
+               <l>                                                  </l>
+               <l>          I never thought when you said no more haircuts</l>
+               <l>          until wars were over that you’d never have</l>
+               <l>          short hair again     My beautiful barber</l>
+               <l>                     brushes my face     I feel funny I</l>
+               <l>          moan a weird prayer for peace     I guess it could happen</l>
+               <l>          lol     after all we deserve a new start     Soon we’ll be dead and brag</l>
+               <l>          about riches     We were here and looked right into the sun</l>
+        <l>           Frank Sherlock</l> 
+               <note><ref target="#Next1"></ref></note>
+               <!-- I just made this up here -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

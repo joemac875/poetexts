@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Now</title>
+        <author>
+          <persName>Robert Browning</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/user-597751783/now?in=user-597751783/sets/english-151-poetry-assignment"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Now"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+               <l>Out of your whole life give but a moment!</l> 
+               <l>All of your life that has gone before,</l> 
+               <l>All to come after it,—so you ignore,</l> 
+               <l>So you make perfect the present,—condense,</l> 
+               <l>In a rapture of rage, for perfection’s endowment,</l> 
+               <l>Thought and feeling and soul and sense—</l>
+               <l>Merged in a moment which gives me at last</l> 
+               <l>You around me for once, you beneath me, above me—</l>
+               <l>Me—sure that despite of time future, time past,—</l>
+               <l>This tick of our life-time’s one moment you love me!</l> 
+               <l>How long such suspension may linger? Ah, Sweet—</l>
+               <l>The moment eternal—just that and no more—</l>
+               <l>When ecstasy’s utmost we clutch at the core</l> 
+               <l>While cheeks burn, arms open, eyes shut and lips meet!</l>
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

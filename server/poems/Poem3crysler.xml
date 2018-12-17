@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Wind</title>
+        <author>
+          <persName>Gary Soto</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ref/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Wind"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+               <l>When you got up this morning the sun</l>
+               <l>Blazed an hour in the sky,</l>
+               <l>A lizard hid</l>
+               <l>Under the curled leaves of manzanita</l>
+               <l>And winked its dark lids.</l>
+               <l>Later, the sky grayed,</l>
+               <l>And the cold wind you breathed</l>
+               <l>Was moving under your skin and already far</l>
+               <l>From the small hives of your lungs.</l>
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

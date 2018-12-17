@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Seasons of Grief</title>
+                <author>
+                    <persName>Belinda Stotler</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Seasons of Grief"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="Free"></interp>
+                    <interp ana="#tone" type="sad"></interp>
+                    <interp ana="#topic" type="Death"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>Shall I wither and fall like and autumn leaf,</l>
+                    <l>From this deep sorrow- from this painful grief?</l> 
+                    <l>How can I go on or find a way to be strong?</l>
+                    <l>Will I ever again enjoy life's sweet song?</l>
+                    <l>Sometimes a warm memory sheds light in the dark</l>
+                    <l>And eases the pain like the song of a Meadow Lark.</l>
+                    <l>Then it flits aqay on silent wings and I'm alone;</l>
+                    <l>Hungering for more of the light it had shone.</l>
+                    <l>Shall grief's bitter cold sadness consume me,</l>
+                    <l>Like a winter storm on the vast angry sea?</l>
+                    <l>How can I fill the void and deep desperate need</l>
+                    <l>To replant my heart with hope's lovely seed?</l>
+                    <l>Then I look at a photo of your playful smiling face</l>
+                    <l>And for a moment I escape to a serene happy place;</l>
+                    <l>Remembering the laughter and all you would do,</l>
+                    <l>Cherishing the honest, caring, loving spirit of you.</l>
+                    <l>Shall spring's cheerful flowers bring life anew</l>
+                    <l>And allow me to forget the agony of missing you>?</l>
+                    <l>Will spring's burst of new life bring fresh hope</l>
+                    <l>And teach mhy grieving soul how to cope?</l>
+                    <l>Sometimes I'll read a treasured card you had given me</l>
+                    <l>And each word's special meaning makes me see,</l>
+                    <l>The precious gift of love I was fortunate to receive,</l>
+                    <l>And I realize you'd never want to see me grieve.</l>
+                    <l>Shall summer's warm brilliant sun bring new light,</l>
+                    <l>ANd free my anguished mind of its terrible plight?</l>
+                    <l>Will its gentle breezes chase grief's dark clouds away,</l>
+                    <l>And show me a clear path towards a better day?</l>
+                    <l>When I visit the grave where you lie in eternal peace,</l>
+                    <l>I know that death and heaven brough you release;</l>
+                    <l>I try to envision your joy on that shore across the sea,</l>
+                    <l>And, until I join you, that'll have to be enough for me.</l>
+                    <l>For all the remaining seasons of m life on earth,</l>
+                    <l>There'll be days I'll miss your merriment and mirth,</l>
+                    <l>And sometimes I'll sadly loong for all the yesterdays;</l>
+                    <l>Missing our chats and your gentle understanding ways.</l>
+                    <l>Yet, the lessons of kindness and love you taught me,</l>
+                    <l>And the good things in life you've helped me to see;</l>
+                    <l>Linger as lasting gifts that comfort and will sustain,</l>
+                    <l>Until I journey to that peaceful shore and see you again.</l>
+                 
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+

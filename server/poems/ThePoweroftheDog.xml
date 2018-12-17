@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>The Power of the Dog</title>
+        <author>
+          <persName>Rudy Kipling</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/user-597751783/the-power-of-the-dog?in=user-597751783/sets/english-151-poetry-assignment"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="ThePoweroftheDog"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="narrative"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+               <l>There is sorrow enough in the natural way</l>
+               <l>From men and women to fill our day;</l> 
+               <l>And when we are certain of sorrow in store,</l>
+               <l>Why do we always arrange for more?</l>
+               <l>Brothers and sisters, I bid you beware</l>
+               <l>Of giving your heart to a dog to tear.</l>
+               
+               <l>When the fourteen years which Nature permits</l>
+               <l>Are closing in asthma, or tumour, or fits,</l>
+               <l>And the vet’s unspoken prescription runs</l>
+               <l>To lethal chambers or loaded guns,</l>
+               <l>Then you will find – it’s your own affair, –</l>
+               <l>But … you’ve given your heart to a dog to tear.</l>
+               
+               <l>When the body that lived at your single will,</l>
+               <l>With its whimper of welcome, is stilled (how still!),</l>
+               <l>When the spirit that answered your every mood</l>
+               <l>Is gone – wherever it goes – for good,</l>
+               <l>You will discover how much you care,</l>
+               <l>And will give your heart to a dog to tear!</l>
+               
+               <l>We’ve sorrow enough in the natural way,</l>
+               <l>When it comes to burying Christian clay.</l>
+               <l>Our loves are not given, but only lent,</l>
+               <l>At compound interest of cent per cent,</l>
+               <l>Though it is not always the case, I believe,</l>
+               <l>That the longer we’ve kept ’em, the more do we grieve;</l>
+               <l>For, when debts are payable, right or wrong,</l>
+               <l>A short-time loan is as bad as a long –</l>
+               <l>So why in – Heaven (before we are there)</l>
+               <l>Should we give our hearts to a dog to tear?</l>
+               
+        
+               
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

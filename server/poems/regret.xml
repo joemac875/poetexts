@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Regret</title>
+                <author>
+                    <persName>Olivia Ward Bush</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab>This poem is in the public domain</ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- https://soundcloud.com/user-511877528/regret?in=user-511877528/sets/poetry-assignment -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Regret"> 
+                <interpGrp type="character">
+                    <interp ana="#form" type="sonnet">sonnet</interp>
+                    <interp ana="#tone" type="sad">sad</interp>
+                    <interp ana="#topic" type="love">love</interp>
+                </interpGrp>
+                <p>I said a thoughtless word one day,</p>
+                <p>A loved one heard and went away;</p>
+                <p>I cried: “Forgive me, I was blind;</p>
+                <p>I would not wound or be unkind.”</p>
+                <p>I waited long, but all in vain,</p>
+                <p>To win my loved one back again.</p>
+                <p>Too late, alas! to weep and pray,</p>
+                <p>Death came; my loved one passed away.</p>
+                <p>Then, what a bitter fate was mine;</p>
+                <p>No language could my grief define;</p>
+                <p>Tears of deep regret could not unsay</p>
+                <p>The thoughtless word I spoke that day.</p>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

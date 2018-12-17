@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Turn Again to Life</title>
+        <author>
+          <persName>Mary Lee Hall</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="TurnAgainToLife"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="Free"></interp>
+                <interp ana="#tone" type="Happy"></interp>
+                <interp ana="#topic" type="Life"></interp>
+              </interpGrp>
+             <lg> 
+               <l>If I should die and leave you here a while,</l>
+               <l>be not like others sore undone,</l> 
+               <l>who keep long vigil by the silent dust.</l>
+               <l>For my sake turn again to life and smile,</l>
+               <l>nerving thy heart and trembling hand</l>
+               <l>to do something to comfort other hearts than mine.</l>
+               <l>Complete these dear unfinished tasks of mine</l>
+               <l>and I perchance may therein comfort you.</l>
+        
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Stopping by the Snowy Woods</title>
+                <author>
+                    <persName>Robert Frost</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="StoppingByWoods"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="Free"></interp>
+                    <interp ana="#tone" type="sad"></interp>
+                    <interp ana="#topic" type="nature"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>Whose woods these are I think I know.</l>
+                    <l>His house is in the village though;</l> 
+                    <l>He will not see me stopping here</l>
+                    <l>To watch his woods fill up with snow.</l>
+                    <l>My little horse must think it queer</l>
+                    <l>To stop without a farmhouse near</l>
+                    <l>Between the woods and frozen lake</l>
+                    <l>The darkest evening of the year.</l>
+                    <l>He gives his harness bells a shake</l>
+                    <l>To ask if there is sokme mistake.</l>
+                    <l>The only other sound's the sweep</l>
+                    <l>Of easy wind and downy flake.</l>
+                    <l>The woods are lovely, dark and deep,</l>
+                    <l>But I have promises to keep,</l>
+                    <l>And miles to go before I sleep,</l>
+                    <l>And miles to go before I sleep.-</l>
+                   
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

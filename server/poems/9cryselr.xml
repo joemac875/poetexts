@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Suicide's Note</title>
+        <author>
+          <persName>Langston Hughes</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ref corresp="https://soundcloud.com/user-249604262/poem-9-suicides-note"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="SuicidesNote"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="death"></interp>
+              </interpGrp>
+             <lg> 
+             <l>The calm,</l>
+               <l>Cool face of the river</l>
+               <l>Asked me for a kiss.</l>
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>
