@@ -42,6 +42,7 @@ class ButtonManager():
                     GPIO.output(self.stop_light, GPIO.HIGH)
                     self.time_since_trigger = time.time()
                     play_obj = self.go_sound.play()
+                    # We know the program will continue so we don't have to wait
                     #play_obj.wait_done()
                     self.pressed = True
                     return 1
@@ -52,7 +53,9 @@ class ButtonManager():
             if self.pressed == True:
                 # print('Button Reset')
                 play_obj = self.reset_sound.play()
-                #play_obj.wait_done()
+
+                # We know the program will continue so we don't have to wait
+
                 self.pressed = False
                 return 2
         return 0
