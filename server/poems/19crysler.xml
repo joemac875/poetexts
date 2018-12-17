@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Away</title>
+        <author>
+          <persName>Anna Crysler</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ref corresp="https://soundcloud.com/user-249604262/poem-19-away"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Away"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+               <l>all I did</l>
+               <l>was love you</l>
+               <l>but you threw me away.</l>
+               <l>I showed you</l>
+               <l>my whole world</l>
+               <l>but you threw it away.</l>
+               <l>my soul loved</l>
+               <l>every inch of you</l>
+               <l>but you threw her away.</l>
+               <l>I spoke words</l>
+               <l>of your perfection</l>
+               <l>but you threw them away.</l>
+               <l>all I did </l>
+               <l>was love you</l>
+               <l>but you threw me away.</l>
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

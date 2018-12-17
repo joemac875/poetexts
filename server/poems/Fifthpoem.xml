@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>The Soldier</title>
+        <author>
+          <persName>Donald W. Baker</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          https://soundcloud.com/nathan-lawrence-906498502/poem5
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Sonnet41"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+              <l>In my dreams floating between</l>
+          <l>walls</l> 
+          <l>of palm and liana,</l>
+          <l>The leaves still dripping</l>
+          <l>green</l>
+          <l>at the tips of my nails,</l>
+          <l>my roots trail</l>
+          <l>blood</l>
+          <l>down a river of shadows</l>
+          <l>to a clearing blazed</l>
+          <l>free</l>
+          <l>of jungle, a clear</l>
+          <l>bell of sunlight</l>
+          <l>covering</l>   
+          <l>ashes of thatch</l>
+          <l>where my enemy lies in a</l>
+          <l>peace</l>
+          <l>blessed by my fire</l>
+          <l>Wading the shallows a</l>
+          <l>woman</l>
+          <l>hugs at her breast</l>
+          <l>a black bundle of</l>
+          <l>linen,</l>
+          <l>a shroud draping away</l>
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

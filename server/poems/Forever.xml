@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+  xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Forever</title>
+        <author>
+          <persName>Terri Nicole Tharrington</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      
+      
+      <div xml:id="Forever"> 
+        <interpGrp type="poembox">
+          <interp ana="#form" type="free"></interp>
+          <interp ana="#tone" type="other"></interp>
+          <interp ana="#topic" type="society"></interp>
+        </interpGrp>
+        <lg> 
+          <l>Forever we remain oblivious to the future,</l>
+          <l>lost to the past and enduring our torture.</l> 
+          <l>Forever we take chances to settle our scores,</l>
+          <l>losing some battles and winning some wars. </l>
+          <l>Forever praying out loud hoping someone will hear,</l>
+          <l>forever crying softly but never shedding a tear. </l>
+          <l>Forever exists behind a disguise, </l>
+          <l>but the belief in forever keeps our hearts alive.</l>
+        
+         
+     
+          <!-- You can put comments or notes to yourself in like this -->
+        </lg>
+      </div>
+      
+    </body>
+  </text>
+  
+</TEI>

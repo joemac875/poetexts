@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>The Language </title>
+        <author>
+          <persName>Robert Creely</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="A Glimpse"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free verse"></interp>
+                <interp ana="#type" type="happy"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+               <l>A glimpse through an interstice caught,</l>
+               <l>Of a crowd of workmen and drivers in a bar-room around the stove late of a winter night, and I </l>
+               <l>unremark’d seated in a corner,</l>
+               <l>Of a youth who loves me and whom I love, silently approaching and seating himself near, that he </l>
+               <l>may hold me by the hand,</l>
+               <l>A long while amid the noises of coming and going, of drinking and oath and smutty jest,</l>
+               <l>There we two, content, happy in being together, speaking little, perhaps not a word.</l>
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+
+         
+          
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

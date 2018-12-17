@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Summer in the Ordinary</title>
+        <author>
+          <persName>William Logan</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab><!-- Copyright © 2017 William Logan. Used with permission of the author. This poem originally appeared in Kenyon Review, November/December 2017 --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Summer"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="FreeVerse"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="Nature"></interp>
+              </interpGrp>
+             <lg> 
+              <l>The iris wavers as the fox trots by,</l>
+          <l>mornings in paradise, or what pretends</l> 
+          <l>by any other name to smell of meat.</l>
+          <l>What were we then that we did not become?</l>
+          <l>The water touched the image of the beast;</l>
+          <l>old factories of iron muted the plain.</l>
+          <l>They were of no consequence, those sun-dar days</l>
+          <l>before the word fell hard upon the ear.</l>
+          <l>The indian corn, I mean the poppy fields,</l>
+          <l>carpets of color sown and yet not sown,</l>
+          <l>ideas that rose t ometal and to brick.</l>
+          <l>That too was passion. Naked, in need of need,</l>
+          <l>we had heard of passion. We knew ourselves</l>
+          <l>that first first morning when we woke, and died.</l>
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

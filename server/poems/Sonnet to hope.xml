@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title> Sonnet to hope</title>
+        <author>
+          <persName> Helen Maria Williams </persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Sonnet41"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+               <l>O, ever skilled to wear the form we love!</l>
+               <l>To bid the shapes of fear and grief depart;</l> 
+               <l>Come, gentle Hope! with one gay smile remove</l>
+               <l>The lasting sadness of an aching heart.</l>
+               <l>Thy voice, benign Enchantress! let me hear;</l>
+               <l>Say that for me some pleasures yet shall bloom,</l>
+               <l>That Fancy's radiance, Friendship's precious tear,</l>
+               <l>Shall soften, or shall chase, misfortune's gloom.</l>
+               <l>But come not glowing in the dazzling ray,</l>
+               <l>Which once with dear illusions charm'd my eye,</l>
+               <l>O! strew no more, sweet flatterer! on my way</l>
+               <l>The flowers I fondly thought too bright to die;</l>
+               <l>visions less fair will soothe my pensive breast,</l>
+               <l>That asks not happiness, but longs for rest! </l>
+               
+<!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>              
+                
+               
+                 
+                 
+              
+                
+                 
+                
+               
+                 
+                 
+                 
+                 
+               
+                 
+          
+        
+                 
+                 
+               
+                 
+                 
+             
+                 
+                 
+                 
+                 
+                
+                 
+              
+                 
+                 
+                
+  
+               
+               
+

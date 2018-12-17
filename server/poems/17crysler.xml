@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>It's all I have to bring today</title>
+        <author>
+          <persName>Emily Dickinson</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ref/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="ItsallIhavetobringtoday"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+        <l>It's all I have to bring today--</l>
+               <l>This, and my heart beside--</l>
+               <l>This, and my heart, and all the fields--</l>
+               <l>And all the meadows wide--</l>
+                 <l>Be sure you count--should I forget</l>
+               <l>Some one the sum could tell--</l>
+               <l>This, and my heart, and all the Bees</l>
+               <l>Which in the Clover dwell.</l>
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

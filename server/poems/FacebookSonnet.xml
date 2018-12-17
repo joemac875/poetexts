@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Facebook Sonnet</title>
+        <author>
+          <persName>Sherman Alexie</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>Copyright © 2011 by Sherman Alexie</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="FacebookSonnet"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="sonnet"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+               <l>Welcome to the endless high-school</l>
+               <l>Reunion. Welcome to past friends</l> 
+               <l>And lovers, however kind or cruel.</l> 
+               <l>Let’s undervalue and unmend</l> 
+                 
+               <l>The present. Why can’t we pretend</l> 
+               <l>Every stage of life is the same?</l>
+               <l>Let’s exhume, resume, and extend</l> 
+               <l>Childhood. Let’s play all the games</l> 
+              
+               <l>That occupy the young. Let fame</l>
+               <l>And shane intertwine. Let one’s search</l> 
+               <l>For God become public domain.</l> 
+               <l>Let church.com become our church.</l>
+               
+               <l>Let’s sign up, sign in, and confess</l> 
+               <l>Here at the altar of loneliness.</l> 
+             
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

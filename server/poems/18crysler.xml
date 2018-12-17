@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>The Black Art</title>
+        <author>
+          <persName>Anne Sexton</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab>2018 Poetry Foundation</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <ref/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="TheBlackArt"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+        <l>A woman who writes feels too much,</l>
+               <l>those trances and portents!</l>
+               <l>As if cycles and children and islands</l>
+               <l>weren't enough; as if mourners and gossips</l>
+               <l>and vegetables were never enough.</l>
+               <l>She thinks she can warn the stars.</l>
+               <l>A writer is essentially a spy.</l>
+               <l>Dear love, I am that girl.</l>
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

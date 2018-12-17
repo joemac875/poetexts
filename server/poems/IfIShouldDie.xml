@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>If I should die</title>
+                <author>
+                    <persName>Emily Dickinson</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="https://soundcloud.com/user-509931528-773448690/if-i-should-die"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="IfIShouldDie"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="free"></interp>
+                    <interp ana="#tone" type="happy"></interp>
+                    <interp ana="#topic" type="death"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>If I should die,</l>
+                    <l>And you should live,</l> 
+                    <l>And time should gurgle on,</l>
+                    <l>And morn should beam,</l>
+                    <l>And noon should burn,</l>
+                    <l>As it has usual done;</l>
+                    <l>If birds should build as early,</l>
+                    <l>And bees as bustling go,—</l>
+                    <l>One might depart at option</l>
+                    <l>From enterprise below!</l>
+                    <l>’T is sweet to know that stocks will stand</l>
+                    <l>When we with daisies lie,</l>
+                    <l>That commerce will continue,</l>
+                    <l>And trades as briskly fly.</l>
+                    <l>It makes the parting tranquil</l>
+                    <l>And keeps the soul serene,</l>
+                    <l>That gentlemen so sprightly</l>
+                    <l>Conduct the pleasing scene!</l>
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+
+

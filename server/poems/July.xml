@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>July</title>
+        <author>
+          <persName>Cristin O’Keefe Aptowicz</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>Copyright © 2013 by Cristin O’Keefe Aptowicz</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="July"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+               <l>The figs we ate wrapped in bacon.</l>
+               <l>The gelato we consumed greedily:</l>
+               <l>coconut milk, clove, fresh pear.</l>
+               <l>How we’d dump hot espresso on it</l>
+               <l>just to watch it melt, licking our spoons</l>
+               <l>clean. The potatoes fried in duck fat,</l>
+               <l>the salt we’d suck off our fingers,</l>
+               <l>the eggs we’d watch get beaten</l>
+               <l>’til they were a dizzying bright yellow,</l>
+               <l>how their edges crisped in the pan.</l>
+               <l>The pink salt blossom of prosciutto</l>
+               <l>we pulled apart with our hands, melted</l>
+               <l>on our eager tongues. The green herbs</l>
+               <l>with goat cheese, the aged brie paired</l>
+               <l>with a small pot of strawberry jam,</l>
+               <l>the final sour cherry we kept politely</l>
+               <l>pushing onto each other’s plate, saying,</l>
+               <l>No, you. But it’s so good. No, it’s yours. </l>
+               <l>How I finally put an end to it, plucked it</l>
+               <l>from the plate, and stuck it in my mouth.</l>
+               <l>How good it tasted: so sweet and so tart.</l>
+               <l>How good it felt: to want something and</l>
+               <l>pretend you don’t, and to get it anyway.</l>
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

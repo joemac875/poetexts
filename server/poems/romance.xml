@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Romance</title>
+                <author>
+                    <persName>Edgar Allan Poe</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Romance"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="Free"></interp>
+                    <interp ana="#tone" type="sad"></interp>
+                    <interp ana="#topic" type="love"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>Romance, who loves to nod and sing</l>
+                    <l>With drowsy head and folded wing</l> 
+                    <l>Among the green leaves as they shake,</l>
+                    <l>Far down within some shadowy lake,.</l>
+                    <l>To me a painted paroquet</l>
+                    <l>Hath been—most familiar bird—</l>
+                    <l>Taught me my alphabet to say,</l>
+                    <l>To lisp my very earliest word</l>
+                    <l>While in the wild wood I did lie,</l>
+                    <l>A child- with a mist knowing eye.</l>
+                    <l>Of late, eternal condor years</l>
+                    <l>So shale the very Heaven on high</l>
+                    <l>With tumult as they thunder by,</l>
+                    <l>I have no time for idle cares</l>
+                    <l>Through gazing on the unquiet sky;</l>
+                    <l>And when an hour with calmer wings</l>
+                    <l>Its down upon my spirit flings,</l>
+                    <l>That little time with lyre and rhyme</l>
+                    <l>To while away-forbidden things-</l>
+                    <l>My heart would feel to be a crime</l>
+                    <l>Unless it trembled with the strings.</l>
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+

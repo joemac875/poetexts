@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>SEntry For Not an Island</title>
+        <author>
+          <persName>Gabriel Jesiolowski</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab><!-- https://www.poets.org/poetsorg/poem/entry-not-island --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="free"> 
+              <interpGrp type="sonnet">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+              <l>where the sea circles arounf the island in a star pattern - where in</l>
+          <l>the center of grieving er are disoriented, skinless - where i wade</l> 
+          <l>into the field...the scent of sun on wheat - where the horses</l>
+          <l>bow in &amp; out, kick up a hoof, satisfied, perhaps, in their available</l>
+          <l>bodies - where I've located a tiny refuge : the horizontal view</l>
+          <l>from the house on stilts - where we hide the part of us that</l>
+          <l>shudders, wihtout a script - where we grief, even our own stories</l>
+          <l>feel vacant - where you hear yourself telling the story &amp; at the</l>
+          <l>same time you think that's not it, that's really not it - where the</l>
+          <l>ice plants grow in a translucent bandsge across the cliff face - </l>
+          <l>where impermanence is the direct expression of emptiness &amp;</l>
+          <l>emptiness is the best description of reality - where you wake from</l>
+          <l>sleep to someone leaving, but only the drape of their scarf</l>
+          <l>across their back - if grief is a shining fruit</l>     
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

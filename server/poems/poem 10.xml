@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Improvisation on Theme</title>
+        <author>
+          <persName>Linda Susan Jackson</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab><!-- https://www.poets.org/poetsorg/poem/improvisation-them --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Soir"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+              <l>He courts her with Soir de Paris &amp; braids myths in her hair.</l>
+          <l>To hear time how they need it to be is the sound of dare.</l> 
+          <l>His soft-burned tenor soaks her like grapes in wild yeast.</l>
+          <l>A beatiful loser, she takes pleasure in being incomplete.</l>
+          <l>He draws tears from grown men when he plucks his box.</l>
+          <l>She is reckles, never trained, so mouch a wound clock.</l>
+          <l>They move like movement in a still life picture.</l>
+          <l>She sings behind the beat and leans into the future.</l>
+          <l>Stepping out of sequence as though they've just begun.</l>
+          <l>Then again, the start moves back, depending on the run.</l>
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

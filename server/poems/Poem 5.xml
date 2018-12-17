@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>The Code</title>
+        <author>
+          <persName>Robert Frost</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- Public Domain --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- https://soundcloud.com/user-38522460/the-code -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="TheCode"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="FreeVerse"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+              <l>There were three in the meadow by the brook</l>
+          <l>Gathering up windrows, piling cocks of hay,</l> 
+          <l>With an eye always lifted toward the west</l>
+          <l>Where an irregular sun-boardered cloud</l>
+          <l>Darkly advanced with a perpetual dagger</l>
+          <l>Flickering across its bosom. Suddenly</l>
+          <l>One helper, thrusting pitchfork in the ground,</l>
+          <l>Marched himself off the field and home. One stayed.</l>
+          <l>The town-bred farmer failed to understand.</l>
+          <l>"What is there wrong?"</l>
+          <l>"Something you just now said."</l>
+          <l>"What did I say?"</l>
+          <l>"About our taking pains."</l>
+          <l>To cock the hay?--because it's going to shower?<l>
+          <l>I said that more than half an hour ago. <l>
+          <l>I said it to myself as much as you.<l>
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

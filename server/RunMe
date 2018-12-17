@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Uploading pox (maybe)"
+git add -u
+git add pox.ini poems/*.xml && git commit -m "touch" && git push origin configuration
+eb deploy

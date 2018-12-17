@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Taking Out the Trash</title>
+        <author>
+          <persName>Kamilah Aisha Moon</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>Copyright © 2018 by Kamilah Aisha Moon</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="TakingOuttheTrash"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="narrative"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+               <l>Someone else used to do this before.</l>
+               <l>Someone responsible,</l>
+               <l>someone who loved me enough</l>
+               <l>to protect me from my own filth</l>
+               <l>piling up.</l>
+               
+               <l>But I’m over 40 now &amp; live alone,</l>
+               <l>&amp; if I don’t remember it’s Thursday</l>
+               <l>&amp; rise with the cardinals &amp; bluejays</l>
+               <l>calling up the sun, I’m stuck</l>
+               <l>with what’s left rotting</l>
+               <l>for another week.</l>
+               
+               <l>I swing my legs like anchors over the side</l>
+               <l>of the bed &amp; use the wall for leverage</l>
+               <l>to stand, shuffle to the bathroom.</l>
+               <l>In summer, I slide into a pair of shorts &amp; flip flops,</l>
+               <l>wandering room to room to collect</l>
+               <l>what no longer serves me.</l>
+               
+               <l>I shimmy the large kitchen bag from</l>
+               <l>the steel canister, careful not to spill</l>
+               <l>what’s inside or rip it somehow</l>
+               <l>&amp; gross myself out.</l>
+               <l>Sometimes I double bag for insurance,</l>
+               <l>tying loose ends together,</l>
+               <l>cinching it tightly for the journey.</l>
+               
+               <l>Still combing through webs of dreams,</l>
+               <l>of spiders’ handiwork glistening above</l>
+               <l>the wheeled container on the back patio,</l>
+               <l>I drag my refuse down the driveway</l>
+               <l>past the chrysanthemums &amp; azaleas,</l>
+               <l>the huge Magnolia tree shading the living room</l>
+               <l>from Georgia’s heat, flattening hordes</l>
+               <l>of unsuspecting ants in my path to park it</l>
+               <l>next to the mailbox for merciful elves</l>
+               <l>to take off my hands.</l>
+               
+               <l>It is not lost on me that one day</l>
+               <l>someone responsible,</l>
+               <l>someone who loves me enough</l>
+               <l>will dispose of this worn, wrinkled</l>
+               <l>container after my spirit soars on.</l>
+               
+               <l>I don’t wait to say thank you</l>
+               <l>to those doing this grueling, necessary work.</l>
+               <l>But I do stand in the young, faintly lit air</l>
+               <l>for a long moment to inhale deeply,</l>
+               <l>&amp; like clockwork when he strides by,</l>
+               <l>watch the jogger’s strong, wet back</l>
+               <l>fade over the slight rise of the road.</l>
+               
+               
+             
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

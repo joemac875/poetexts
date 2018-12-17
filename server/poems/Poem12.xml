@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Wartime Christmas</title>
+        <author>
+          <persName>Jocye Kilmer</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- public domain --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- https://soundcloud.com/user-38522460/wartime-christmas -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="WartimeChristmas"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="FreeVerse"></interp>
+                <interp ana="#tone" type="Other"></interp>
+                <interp ana="#topic" type="Society"></interp>
+              </interpGrp>
+             <lg> 
+              <l>Led by a star, a golden star,</l>
+          <l>The youngest star, an olden star,</l> 
+          <l>Here the kinds and the spepherds are,</l>
+          <l>A kneeling on the ground.</l>
+          <l>What did they come to the inn to see?</l>
+          <l>God in the Highest, and this is He,</l>
+          <l>A baby asleep on His mother's knee</l>
+          <l>And with her kisses crowned.</l>
+          <l>Now is the earth a dreary place,</l>
+          <l>A troubled place, a weary place.</l>
+          <l>Peace has hidden her lovely face</l>
+          <l>And turned in tears away.</l>
+          <l>Yet the sun, through the war-cloud, see.</l>
+          <l>Babies asleep on their mother's knees.</l>
+           <l>While there are love and home--and these--</l>
+          <l>There shall be Christmas Day.</l>
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>A Summer Night</title>
+                <author>
+                    <persName>Elizabeth Stoddard</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- In the public domain. --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- https://soundcloud.com/user-511877528/a-summer-night?in=user-511877528/sets/poetry-assignment-->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="A Summer Night">
+                <interpGrp type="theme">
+                    <interp ana="#form" type="free">free</interp>
+                    <interp ana="#tone" type="sad">sad</interp>
+                    <interp ana="#topic" type="nature">nature</interp>
+                </interpGrp>
+                <p>I feel the breath of the summer night,</p>
+                <p> Aromatic fire:</p>
+                <p>The trees, the vines, the flowers are astir</p>
+                <p> With tender desire.</p>
+                <p/>
+                <p>The white moths flutter about the lamp,</p>
+                <p> Enamoured with light;</p>
+                <p>And a thousand creates softly sing</p>
+                <p> A song to the night!</p>
+                <p/>
+                <p>But I am alone, and how can I sing</p>
+                <p> Praises to thee?</p>
+                <p>Come, Night! unveil the beautiful soul</p>
+                <p> That waiteth for me.</p>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

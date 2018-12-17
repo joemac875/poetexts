@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>On the Threshold</title>
+        <author>
+          <persName>Amy Levy</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- Public Domain --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- https://soundcloud.com/user-38522460/on-the-threshold -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="OntheThreshold"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="FreeVerse"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="death"></interp>
+              </interpGrp>
+             <lg> 
+              <l>O God, my dream! I dreamed that you were dead;</l>
+          <l>Your mother hung above the couch and wept</l> 
+          <l>Whereon you lay all white, and garlanded</l>
+          <l>With blooms of waxen whiteness. I had crept</l>
+          <l>Up to your chamber-door, which stood ajar,</l>
+          <l>And in the doorway watched you from afar,</l>
+          <l>Nor dared advance to kiss your lips and brow.</l>
+          <l>I had no part nor lot in you, as now;,</l>
+          <l>Death had not broken between us the old bar;</l>
+          <l>Nor torn from out my heart the old, cold sense</l>
+          <l>Of your misprision and my impotence.</l>
+          
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

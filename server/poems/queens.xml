@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Queens</title>
+        <author>
+          <persName>Nikita Gil</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Queens"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+              <l>"What is a queen without her king?"</l>
+          <l>                                            </l> 
+          <l>I don't know, but let's ask</l>
+          <l>Cleopatra,</l>
+          <l>Nefertiti,</l>
+          <l>Hatshepsut,</l>
+          <l>Sammuramat,</l>
+          <l>Victoria,</l>
+          <l>Elizabeth,</l>
+          <l>Amina,</l>
+          <l>Tzu-hsi and</l>
+          <l>the countless other kingless queens</l>
+          <l>who turned mere kingdoms into</l>
+          <l>the greatest of Empires.</l>
+        <l>           Nikita Gil</l> 
+               <note><ref target="#Queens"></ref></note>
+               <!-- I just made this up here -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>The Mountain And The Squirrel </title>
+                <author>
+                    <persName>Ralph Waldo Emerson</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="The Mountain And The Squirrel"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="Squirrel"></interp>
+                    <interp ana="#tone" type="Mountain"></interp>
+                    <interp ana="#topic" type="nut"></interp>
+                </interpGrp>
+                <lg> 
+                    
+                    <l>The mountain and the squirrel</l>
+                    <l> Had a quarrel,</l>
+                        <l>  And the former called the latter</l>
+                        <l> "Little prig."</l>
+                        <l> Bun replied,</l>
+                        <l>"You are doubtless very big;</l>
+                        <l>But all sorts of things and weather</l>
+                        <l>  Must be taken in together</l>
+                    <l> To make up a year</l>
+                        <l> And a sphere.</l>
+                        <l>  And I think it no disgrace</l>
+                        <l>To occupy my place.</l>
+                        <l> If I'm not so large as you,</l>
+                        <l> You are not so small as I,</l>
+                    <l> And not half so spry:</l>
+                        <l>  I'll not deny you make</l>
+                        <l> A very pretty squirrel track.</l>
+                        <l> Talents differ; all is well and wisely put;</l>
+                        <l> If I cannot carry forests on my back,</l>
+                        <l>Neither can you crack a nut."</l>
+                    
+                        <l> Source: https://www.familyfriendpoems.com/poem/the-mountain-and-the-squirrel-by-ralph-waldo-emerson</l>
+                        
+                        <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

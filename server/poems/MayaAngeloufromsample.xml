@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Awakening In New York</title>
+        <author>
+          <persName>Maya Angelou</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>Maya Angelou, “Awaking in New York” from Shaker, Why Don’t You Sing? Copyright © 1983 by Maya Angelou. Used by permission of Random House, an imprint and division of Penguin Random House LLC. All rights reserved.</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="AwakeningInNewYork"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="other/negative"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+              <l>Curtains forcing their will</l>
+          <l>against the wind,</l> 
+          <l>Children sleep,</l>
+          <l>Exchanging dreams with seraphim.</l>
+          <l>And I,</l>
+          <l>An alarm,</l>
+          <l>Awake as a rumor of war,</l>
+          <l>lie stretching into dawn</l>
+          <l>Unasked and unheeded.</l>
+          
+          
+          
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

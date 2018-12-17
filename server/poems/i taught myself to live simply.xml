@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>I Taught Myself to Live Simply</title>
+        <author>
+          <persName>Anna Akhmatova</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="itaughtmyselftolivesimply"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="other"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+               <l>I taught myself to live simply and wisely,</l>
+               <l>to look at the sky and pray to God,</l> 
+               <l>and to wander long before evening</l>
+               <l>to tire my superfluous worries.</l>
+               <l>When the burdocks rustle in the ravine</l>
+               <l>and the yellow-red rowanberry cluster droops</l>
+               <l>I compose happy verses</l>
+               <l>about life's decay, decay and beauty.</l>
+               <l>I come back. The fluffy cat</l>
+               <l>licks my palm, purrs so sweetly</l>
+               <l>and the fire flares bright</l>
+               <l>on the saw-mill turret by the lake.</l>
+               <l>Only the cry of a stork landing on the roof</l>
+               <l>occasionally breaks the silence.</l>
+               <l>If you knock on my door</l>
+               <l>I may not even hear.</l>  
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

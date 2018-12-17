@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>The Ice-Cream Truck</title>
+                <author>
+                    <persName>Andrew Hudgins</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- https://www.poetryfoundation.org/poems/42982/the-pond-56d221a570f61
+                From Ecstatic in the Poison 2003 --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- Not in the public domain -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Short8"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="free"></interp>
+                    <interp ana="#tone" type="sad"></interp>
+                    <interp ana="#topic" type="society"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>From blocks away the music floats</l>
+                    <l>to my enchanted ears.</l>
+                    <l>It build. It's here! And then it fades-</l>
+                    <l>and I explode in tears.</l>
+                    <l></l>
+                    <l>I kick the TV set, and scream,</l>
+                    <l>sobbing to extort her,</l>
+                    <l>while Mom stares at One Life to Live,</l>
+                    <l>and won't give me a quarter.</l>
+                    <l></l>
+                    <l>I pause, change tactics, snatch a coin</l>
+                    <l>from the bottom of her purse,</l>
+                    <l>then race to catch the ice-cream truck,</l>
+                    <l>ignoring Mama's curse.</l>
+                    <l></l>
+                    <l>I stop the truck, I start to choose - </l>
+                    <l>then see I won't be eating.</l>
+                    <l>I stare down at a goddamn dime,</l>
+                    <l>and trudge home to my beating.</l>
+                    
+                    
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+
+

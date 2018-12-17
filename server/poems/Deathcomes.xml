@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>When Death Comes</title>
+                <author>
+                    <persName>Mary Oliver</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="https://soundcloud.com/user-509931528-773448690/when-death-comes"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="DeathComes"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="free"></interp>
+                    <interp ana="#tone" type="other"></interp>
+                    <interp ana="#topic" type="death"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>When death comes</l>
+                    <l>like the hungry bear in autumn;</l> 
+                    <l>when death comes and takes all the bright coins from his purse</l>
+                    <l></l>
+                    <l>to buy me, and snaps the purse shut;</l>
+                    <l>when death comes</l>
+                    <l>like the measle-pox</l>
+                    <l></l>
+                    <l>when death comes</l>
+                    <l>like an iceberg between the shoulder blades,</l>
+                    <l></l>
+                    <l>I want to step through the door full of curiosity, wondering:</l>
+                    <l>what is it going to be like, that cottage of darkness?</l>
+                    <l></l>
+                    <l>And therefor I look upon everything</l>
+                    <l>as a brotherhood and a sisterhood,</l>
+                    <l>and I look upon time as no more than an idea,</l>
+                    <l>and I consider eternity as another possibility,</l>
+                    <l></l>
+                    <l>and I think of each like as a flower, as common</l>
+                    <l>as a field daisy, and as singular,</l>
+                    <l></l>
+                    <l>and each body a lion of courage, and something</l>
+                    <l>precious to the earth.</l>
+                    <l></l>
+                    <l>When it's over, I want to say all my life</l>
+                    <l>I was a bride married to amazement.</l>
+                    <l>I was the bridegroom, taking the world into my arms.</l>
+                    <l></l>
+                    <l>When it's over, I don't want to wonder</l>
+                    <l>if I have made of my life something particular, and real.</l>
+                    <l></l>
+                    <l>I don't want to find myself sighing and frightened,</l>
+                    <l>or full of argument.</l>
+                    <l></l>
+                    <l>I don't want to end up simply having visited this world.</l>
+                        
+                    
+                
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+
+

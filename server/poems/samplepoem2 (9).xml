@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Schizophrenia</title>
+        <author>
+          <persName>Jim Stevens</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- Reprinted by permission and copywrited by Jim Stevens --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Schizophrenia"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="freeverse"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="society"></interp>
+              </interpGrp>
+             <lg> 
+              <l>It was a house that suffered most. </l>
+          <l>It had begun with slamming doors, angry feet scuffing the carpets,</l> 
+          <l>dishes slammed into the table,</l>
+          <l>greasy stains spreading on the cloth.</l>
+          <l>Certian doors were locked at night,</l>
+          <l>feet stood for hours outside them,</l>
+          <l>dishes were left unwashed, the cloth</l>
+          <l>disappeared under a hardened crust.</l>
+          <l>The house came to miss the shouting voices,</l>
+          <l>the threats, the half-apologies, noisy </l>
+          <l>reconciliations, the sobbing that followed.</l>
+          <l>Then lines were drawn, borders established,</l>
+          <l>some rooms declared their loyalties,</l>
+          <l>Keeping to themselves, keeping out the other.</l>     
+          <l>The house divided against themselves</l>    
+          <l>Seeing cracking paint, broken windows,</l>    
+          <l>the front door banging in the wind</l>     
+          <l>the roof tiles flying off, one by one,</l>    
+          <l>the neighbors said it was a madhouse</l>    
+          <l>It was the house that suffered the most.</l>     
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Theme in Yellow</title>
+        <author>
+          <persName>Carl Sandburg</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- Public Domain --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="ThemeinYellow"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="freeverse"></interp>
+                <interp ana="#tone" type="happy"></interp>
+                <interp ana="#topic" type="nature"></interp>
+              </interpGrp>
+             <lg> 
+              <l>I spot the hills</l>
+          <l>With yellow balls in autumn.</l> 
+          <l>I light the praire cornfields</l>
+          <l>Orange and twany gold clusters</l>
+          <l>And I am called pumpkins.</l>
+          <l>On the last of October</l>
+          <l>When dusk is fallen</l>
+          <l>Children join hands</l>
+          <l>And circle round me</l>
+          <l>Singing ghost songs</l>
+          <l>And love to the harvest moon;</l>
+          <l>I am a jack-o'-lantern</l>
+          <l>With terrible teeth</l>
+          <l>And the children know</l>    
+          <l>I am fooling.</l>     
+         
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

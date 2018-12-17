@@ -3,21 +3,24 @@ import pandas as pd
 from xml_parser import XML2DataFrame
 import os
 import random
-
+import configparser
+import configuration
 
 # Elastic Beanstalk looks for a flask app named 'application'
 application = Flask(__name__)
+# read in user configurations
+user_config = configparser.ConfigParser()
+user_config.read('pox.ini')
+
 
 application.config.update(dict(
     XML_PATH='poems/', # the directory containing the XML files
-    XML_NAMESPACE='http://www.tei-c.org/ns/1.0', # the namespace used in the XML files
+    XML_NAMESPACE=configuration.get_namespace(user_config), # the namespace used in the XML files
     csv='poems.csv',
     ERROR='errors.txt',
     # analysis tags are used to set bounds on the types of analysis that can be picked from and the
     # range of values for each tag that can be added
-    analysis_tags={'form': ['sonnet', 'free','haiku'], 'tone': ['happy', 'sad','indifferent'], \
-                   'topic': ['love', 'war','environment','education','history'],\
-                   }
+    analysis_tags=configuration.get_dial_values(user_config)
 ))
 
 
@@ -42,7 +45,7 @@ def base():
     # Craft an HTML table
     info = '<h1>Poem Box API<h2> <br> <table><tr><td>Parameter</td></tr>'
     for tag in application.config['analysis_tags'].keys():
-        info = info + '<tr>'
+        info = info + '<tr><td>' + tag + '</td>'
         for value in application.config['analysis_tags'][tag]:
             info = info + '<td>' + str(value) + '</td>'
         info = info + '</tr>'

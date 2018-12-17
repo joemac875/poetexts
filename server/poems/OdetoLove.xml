@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Ode to Love</title>
+                <author>
+                    <persName>Jennifer Militello</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab><!-- copyright or copyleft information here --></ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- URL audio file -->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="FuneralinmyBrain"> 
+                <interpGrp type="poembox">
+                    <interp ana="#form" type="enjamebed"></interp>
+                    <interp ana="#tone" type="sad"></interp>
+                    <interp ana="#topic" type="love"></interp>
+                </interpGrp>
+                <lg> 
+                    <l>Place its toothpicked pit in water, watch the grist</l>
+                    <l>of its insides grow. Witness its opopulous bloom,</l> 
+                    <l>honeycombed with rough. Its cobblestones grip</l>
+                    <l>the heart in its mitt, a closed fist thickened</l>
+                    <l>and gritty as silt. The swamp of the plumb beat</l>
+                    <l>adamant as weeds. The dish of which is salted-</l>
+                    <l>by complexities or cries. It is a house in which</l>
+                    <l>we cannot live, the quiver on the arrow</l>
+                    <l>we cannot launch. It grows late over Nevada</l>
+                    <l>as we watch. Strikes its gullies: we grow burnt</l>
+                    <l>as a moth. Mimics a sleep of archives and</l>
+                    <l>the small lies all forget. Mimics all laughter</l>
+                    <l>broken by the time it lwaves the mouth.</l>
+                    <l>With its moving parts, its chimes, its gleam</l>
+                    <l>it muddies our archways, lying low, gives off</l>
+                    <l>noise and steam; its mechanics clear the fence.</l>
+                    <l>It must be wooed. Must be quieted. Hush. It must</l>
+                    <l>be soothed. Has a snag. Has a bleed. A drape.</l>
+                    <l>Flaps awkwardly, at its edge, a heron. At</l>
+                    <l>its center, a wide bottom perfect with fish.</l>
+                    
+                    
+                    <!-- You can put comments or notes to yourself in like this -->
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>
+

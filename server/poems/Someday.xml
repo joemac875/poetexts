@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Someday</title>
+        <author>
+          <persName>Sarah</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab><!-- https://soundcloud.com/user-985298152/someday --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Someday"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="haiku"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+              <l>Someday you will cry for me</l>
+          <l>Like I cried for you.</l> 
+          <l>Someday you'll miss me</l>
+          <l>Like I missed you.</l>
+          <l>Someday you'll need me</l>
+          <l>Like I needed you.</l>
+          <l>Aomeday you'll love me</l>
+          <l>But I won't love you.</l>
+         
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

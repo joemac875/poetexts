@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>Never give all the heart</title>
+        <author>
+          <persName>W. B. Yeats</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- Public Domain --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="Nevergiveallheart"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="freeverse"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+              <l>Never give all the heart, for love</l>
+          <l>Will hardly seem worth thinking of</l> 
+          <l>To passionate women if it seem</l>
+          <l>Certian, and they never dream</l>
+          <l>That it fades out from kiss to kiss;</l>
+          <l>For everything that's lovely is</l>
+          <l>But a breif, dreamy, kind of delight.</l>
+          <l>O never give the hearts up to the play</l>
+          <l>And who could play it well enough</l>
+          <l>If deaf and dumb and blind with love?</l>
+          <l>He that made this knows all cost,</l>
+          <l>For he gave all his heart and lost.</l>
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

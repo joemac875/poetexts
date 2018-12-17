@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>On a Day, In the World</title>
+        <author>
+          <persName>Brenda Hillman</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>"On a Day, In the World" from Extra Hidden Life, among the Days © 2018 by Brenda Hillman.</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="https://soundcloud.com/paola-amaya-349175383/on-a-day-in-the-world/s-672Wp"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="DayInWorld"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="free"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="death"></interp>
+              </interpGrp>
+             <lg> 
+               <l>           We had a grief</l>
+               <l>we didn't understand while</l> 
+               <l>           standing at the edge of</l>
+               <l>   some low scrub hills as if</l>
+               <l>humans were extra</l>
+               <l>   or already gone;—</l>
+               <l>                         </l>
+               <l>what had been in us before?</l>
+               <l>          a life that asks for mostly</l>
+               <l>    wanting freedom to get things done</l>
+               <l>in order to feel less</l>
+               <l>          helpless about the end</l>
+               <l>of things alone—;</l>
+               <l>                          </l>
+               <l>when i think of time on earth,</l>
+               <l>   i feel the angle of gray minutes</l>
+               <l>          entering the medium days</l>
+               <l>    yet not "built-up":: our</l>
+               <l>work together: groups, the willing</l>
+               <l>    burden of an old belief,</l>
+               <l>                           </l>
+               <l>           and beyond them love, as of</l>
+               <l>    a great life going like fast</l>
+               <l>creatures peeling back marked</l>
+               <l>    seeds, gold-brown integuments</l>
+               <l>    the color time</l>
+               <l>  will be when we are gone—</l>
+        <l>           Brenda Hillman</l> 
+               <note><ref target="#DayInWorld"></ref></note>
+               <!-- I just made this up here -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

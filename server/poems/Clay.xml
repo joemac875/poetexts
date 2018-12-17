@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+    xmlns="http://www.tei-c.org/ns/1.0" >
+    <teiHeader>
+        <fileDesc >
+            <titleStmt>
+                <title>Clay</title>
+                <author>
+                    <persName>James Joyce</persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <ab>This poem is in the public domain.</ab>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <!--https://soundcloud.com/user-511877528/clay?in=user-511877528/sets/poetry-assignment-->
+                    <ref corresp="http://site.file"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+            <div xml:id="Clay"> 
+                <interpGrp type="theme">
+                    <interp ana="#form" type="narrative">narrative</interp>
+                    <interp ana="#tone" type="sad">sad</interp>
+                    <interp ana="#topic" type="society">society</interp>
+                    <interp ana="#topic" type="love">love</interp>
+                </interpGrp>
+                <lg> 
+                    <l>Those petty wrongs that liberty commits,</l>
+                    <l>When I am sometime absent from thy heart,</l> 
+                    <l>For still temptation follows where thou art.</l>
+                    <l/>
+                    <l>Gentle thou art and therefore to be won,</l>
+                    <l>Beauteous thou art, therefore to be assailed;</l>
+                    <l>And when a woman woos, what woman's son</l>
+                    <l>Will sourly leave her till she have prevailed?</l>
+                    <l/>
+                    <l>Ay me! but yet thou mightest my seat forbear,</l>
+                    <l>And chide try beauty and thy straying youth,</l>
+                    <l>Who lead thee in their riot even there</l>
+                    <l>Where thou art forced to break a twofold truth,</l>
+                    <l/>
+                    <l>Hers by thy beauty tempting her to thee,</l>
+                    <l>Thine, by thy beauty being false to me.</l>
+                </lg>
+            </div>
+            
+        </body>
+    </text>
+    
+</TEI>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>My November Guest</title>
+        <author>
+          <persName>Robert Frost</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab><!-- https://www.poets.org/poetsorg/poem/my-november-guest --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+      <div xml:id="Sonnet41">
+        <interpGrp type="poembox">
+          <interp ana="#form" type="sonnet"/>
+          <interp ana="#tone" type="other"/>
+          <interp ana="#topic" type="love"/>
+        </interpGrp>
+        <lg>
+          <l>My sorrow, when she's here with me,</l>
+            <l>Thinks these dark days of autumn rain</l>
+          <l>Are beautiful as days can be;</l>
+          <l>She loves the bare, the withered tree;</l>
+            <l>She walks the sodden pasture lane.</l>
+          
+          <l>Her pleasure will not let me stay.</l>
+            <l>She talks and i am fain to list:</l>
+          <l>She's glad the birds are gone away,</l>
+          <l>She;s glad her simple worsted grey</l>
+            <l>Is silver now with clinging mist.</l>
+          
+          <l>The desolate, desterted tress,</l>
+            <l>The faded earth, the heavy sky,</l>
+          <l>The beauties she so truly sees,</l>
+          <l>She thinks I have no eye for these,</l>
+            <l>And vexes me for reason why.</l>
+          
+          <l>Not yesterday I learned to know</l>
+            <l>The loveof bare November days</l>
+          <l>Before the coming of the snow,</l>
+          <l>Bit it were vain to tell her so,</l>
+            <l>And they are better for her praise.</l>
+
+          <!-- You can put comments or notes to yourself in like this -->
+        </lg>
+      </div>
+
+    </body>
+  </text>
+
+</TEI>

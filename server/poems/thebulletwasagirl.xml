@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>the bullet was a girl</title>
+        <author>
+          <persName>Danez Smith</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <ab>Copyright © 2015 by Danez Smith</ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- URL audio file -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="thebulletwasagirl"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="narrative"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="death"></interp>
+              </interpGrp>
+             <lg> 
+               <l>the bullet is his whole life.</l>
+               <l>his mother named him &amp; the bullet</l>
+               
+               <l>was on its way. in another life</l>
+               <l>the bullet was a girl &amp; his skin</l>
+               
+               <l>was a boy with a sad laugh.</l>
+               <l>they say he asked for it—</l>
+               
+               <l>must I define they? they are not</l>
+               <l>monsters, or hooded or hands black</l>
+               
+               <l>with cross smoke.</l>
+               <l>they teachers, they pay tithes</l>
+               
+               <l>they like rap, they police—good folks</l>
+               <l>gather around a boy’s body</l>
+               
+               <l>to take a picture, share a prayer.</l>
+               <l>oh da horror, oh what a shame</l>
+               
+               <l>why’d he do that to himself?</l>
+               <l>they really should stop</l>
+               <l>getting themselves killed</l>
+                 
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>

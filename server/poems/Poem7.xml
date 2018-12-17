@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" 
+     xmlns="http://www.tei-c.org/ns/1.0" >
+  <teiHeader>
+    <fileDesc >
+      <titleStmt>
+        <title>My Voice</title>
+        <author>
+          <persName>Oscar Wilde</persName>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+          <ab><!-- Public Domain --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- https://soundcloud.com/user-38522460/my-voice -->
+          <ref corresp="http://site.file"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        
+     
+      <div xml:id="MyVoice"> 
+              <interpGrp type="poembox">
+                <interp ana="#form" type="FreeVerse"></interp>
+                <interp ana="#tone" type="sad"></interp>
+                <interp ana="#topic" type="love"></interp>
+              </interpGrp>
+             <lg> 
+              <l>Within the restless, hurried, modern world</l>
+          <l>We took our hearts' full pleasure--You and I,</l> 
+          <l>And now the white sails of our ships are furled,</l>
+          <l>And spent the lading of our argosy.</l>
+          <l>Wherefore my cheeks before their time are wan,</l>
+          <l>For very weeping is my glasness fled,</l>
+          <l>Sorrow hath paled my lip's vermilion</l>
+          <l>And Ruin draws the curtains of my bed.</l>
+          <l>But all this crowded life has been to thee</l>
+          <l>No more than lyre, or lute, or subtle spell</l>
+          <l>Of viols, or the music of the sea</l>
+          <l>That Sleeps, a mimic echo, in the shell.</l>
+        
+                 
+               <!-- You can put comments or notes to yourself in like this -->
+             </lg>
+            </div>
+        
+      </body>
+  </text>
+  
+</TEI>
