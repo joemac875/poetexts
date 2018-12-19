@@ -27,6 +27,6 @@ The Arduino is solely responsible for handling analog input. It is connected to 
 2. Connect the Arduino to the Raspberry Pi with a USB cable
 3. Deploy the poem web service 
 4. Make sure the correct URL of the web service is in `main.py` of the client ( see the readme in client directory)
-5. Make sure legal Twilio credentials are in `pox.ini` 
+5. Make sure legal Twilio credentials are in `client/pox.ini` 
 6. Run the client/main.py on the Raspberry Pi 
 
