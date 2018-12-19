@@ -12,7 +12,7 @@ import configuration
 import sys
 # read in user configurations
 user_config = configparser.ConfigParser()
-user_config.read(os.path.join(os.getcwd(), '..') + '/server/pox.ini')
+user_config.read(getcwd() + '/pox.ini')
 
 # URL for Poem Server
 poem_server = configuration.get_server(user_config) 
