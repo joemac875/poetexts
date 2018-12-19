@@ -1,6 +1,6 @@
-# pox
+# Poetexts
 
-A poem box project that sends users a poem based on features they select using analog inputs on the box.
+A system to text users poems that match desired tags. Combination of a RESTful API implemented in Python to serve poems and a physical client comprising a box, dials, Raspberry Pi, Arduino, LEDs, LCD screen, keypad, and speakers. The client box requests poems from the RESTful web service and then sends the poem to users over SMS using the Twilio API.
 
 # Hardware
 
@@ -25,18 +25,8 @@ The Arduino is solely responsible for handling analog input. It is connected to 
 
 1. Upload the Arduino sketch to an Arduino
 2. Connect the Arduino to the Raspberry Pi with a USB cable
-3. Deploy the poem web service using the readme.md  in the server directory
+3. Deploy the poem web service 
 4. Make sure the correct URL of the web service is in `main.py` of the client ( see the readme in client directory)
-5. Make sure legal AWS credentials are in `main.py` ( see the readme in client directory)
-6. Run the client ( see readme in client directory)
-
-# Making Changes
-
-In order to add analysis tags or change them 
-
-1. Add inputs in the Arduino sketch (see the code for comments)
-2. Add inputs in the client `main.py` (see the readme)
-3. Edit the accepted tags and values on the web service (see the readme)
-
-
+5. Make sure legal Twilio credentials are in `pox.ini` 
+6. Run the client/main.py on the Raspberry Pi 
 
